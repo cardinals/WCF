@@ -1,0 +1,278 @@
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe.config
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\Build\SqlLib\main.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\Build\main.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\Build\log4db.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\Build\sqllib.ini
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\SqlLib\main.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\main.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\log4db.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\sqllib.ini
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe.config
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\SqlLib\main.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\main.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\log4db.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\sqllib.ini
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe.config
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\SqlLib\main.xml
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\main.xml
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\log4db.xml
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\sqllib.ini
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe.config
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\SqlLib\main.xml
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\main.xml
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\log4db.xml
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\sqllib.ini
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe.config
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.csprojResolveAssemblyReference.cache
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.csproj.GenerateResource.Cache
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe.config
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\Build\SqlLib\main.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\Build\main.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\Build\log4db.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\Build\sqllib.ini
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\Build\SqlLib\main.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\Build\main.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\Build\log4db.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\Build\sqllib.ini
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe.config
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\Build\SqlLib\main.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\Build\main.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\Build\log4db.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\Build\sqllib.ini
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe.config
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\Build\SqlLib\main.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\Build\main.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\Build\log4db.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\Build\sqllib.ini
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe.config
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe.config
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\Build\SqlLib\main.xml
+D:\2.服务平台(外地HIS1.0最新\HisWCF\Build\main.xml
+D:\2.服务平台(外地HIS1.0最新\HisWCF\Build\log4db.xml
+D:\2.服务平台(外地HIS1.0最新\HisWCF\Build\sqllib.ini
+D:\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe
+D:\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\2.服务平台(外地HIS1.0最新\HisWCF\Build\SqlLib\main.xml
+F:\2.服务平台(外地HIS1.0最新\HisWCF\Build\main.xml
+F:\2.服务平台(外地HIS1.0最新\HisWCF\Build\log4db.xml
+F:\2.服务平台(外地HIS1.0最新\HisWCF\Build\sqllib.ini
+F:\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe.config
+F:\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe
+F:\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe.config
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\Build\SqlLib\main.xml
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\Build\main.xml
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\Build\log4db.xml
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\Build\sqllib.ini
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.exe
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\Build\HisClient.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\SqlLib\main.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\main.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\log4db.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\sqllib.ini
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\HisClient.exe.config
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\HisClient.exe
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\HisClient.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\HisClient.exe.config
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\SqlLib\main.xml
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\main.xml
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\log4db.xml
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\sqllib.ini
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\HisClient.exe
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\Build\HisClient.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\HisClient.csprojResolveAssemblyReference.cache
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisClient\obj\x86\Debug\HisClient.csproj.GenerateResource.Cache
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\Build\HisClient.exe.config
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\Build\SqlLib\main.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\Build\main.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\Build\log4db.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\Build\sqllib.ini
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\Build\HisClient.exe
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\Build\HisClient.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\服务平台\HisWCF\Build\SqlLib\main.xml
+C:\Users\Administrator\Desktop\服务平台\HisWCF\Build\main.xml
+C:\Users\Administrator\Desktop\服务平台\HisWCF\Build\log4db.xml
+C:\Users\Administrator\Desktop\服务平台\HisWCF\Build\sqllib.ini
+C:\Users\Administrator\Desktop\服务平台\HisWCF\Build\HisClient.exe.config
+C:\Users\Administrator\Desktop\服务平台\HisWCF\Build\HisClient.exe
+C:\Users\Administrator\Desktop\服务平台\HisWCF\Build\HisClient.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\Build\HisClient.exe.config
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\Build\SqlLib\main.xml
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\Build\main.xml
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\Build\log4db.xml
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\Build\sqllib.ini
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\Build\HisClient.exe
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\Build\HisClient.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\Build\SqlLib\main.xml
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\Build\main.xml
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\Build\log4db.xml
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\Build\sqllib.ini
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\Build\HisClient.exe.config
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\Build\HisClient.exe
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\Build\HisClient.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\Build\HisClient.exe.config
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\吴盈栋\HisWCF\Build\HisClient.exe.config
+D:\吴盈栋\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+D:\吴盈栋\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+D:\吴盈栋\HisWCF\HisClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\吴盈栋\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+D:\吴盈栋\HisWCF\HisClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\吴盈栋\HisWCF\HisClient\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\main.xml
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\log4db.xml
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\sqllib.ini
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\HisClient.exe.config
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\HisClient.exe
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\HisClient.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.csproj.GenerateResource.Cache
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.csprojResolveAssemblyReference.cache
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Build\main.xml
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Build\log4db.xml
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Build\sqllib.ini
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Build\HisClient.exe.config
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Build\HisClient.exe
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Build\HisClient.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.csprojResolveAssemblyReference.cache
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.csproj.GenerateResource.Cache
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Build\main.xml
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Build\log4db.xml
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Build\sqllib.ini
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Build\HisClient.exe.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Build\HisClient.exe
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Build\HisClient.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.csprojResolveAssemblyReference.cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.FormDuKa.resources
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.csproj.GenerateResource.Cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.exe
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisClient\obj\x86\Debug\HisClient.pdb

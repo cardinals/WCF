@@ -1,0 +1,499 @@
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4db.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\sqllib.ini
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4net.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4db.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\sqllib.ini
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4net.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4db.xml
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\sqllib.ini
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4net.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4db.xml
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\sqllib.ini
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4net.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4db.xml
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\sqllib.ini
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.csprojResolveAssemblyReference.cache
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4db.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\sqllib.ini
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4net.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4db.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\sqllib.ini
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\log4net.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\Common.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4db.xml
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\sqllib.ini
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4net.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4db.xml
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\sqllib.ini
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4net.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4db.xml
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\sqllib.ini
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4net.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4db.xml
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\sqllib.ini
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4net.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4db.xml
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\sqllib.ini
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\log4net.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\Common.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\log4db.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\sqllib.ini
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\Common.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\log4net.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\Common.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\log4db.xml
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\sqllib.ini
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\Common.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\Common.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.csprojResolveAssemblyReference.cache
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\log4db.xml
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\sqllib.ini
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\Common.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\log4net.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\Common.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\log4db.xml
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\sqllib.ini
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\Common.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\Common.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\log4db.xml
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\sqllib.ini
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\Common.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\Common.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\HIS1.Schemas.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\log4db.xml
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\sqllib.ini
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\BASE.Schemas.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\Common.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\HIS1.Schemas.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\BASE.Schemas.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\Common.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\FSDYY.Schemas.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+D:\吴盈栋\HisWCF\HisWCFSVR\obj\Debug\ResolveAssemblyReference.cache
+D:\吴盈栋\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\log4db.xml
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\sqllib.ini
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\Common.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Biz.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Schemas.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC.Biz.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC.Schemas.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\Common.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Biz.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Schemas.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC.Biz.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC.Schemas.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.csprojResolveAssemblyReference.cache
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\log4db.xml
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\sqllib.ini
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\Common.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Biz.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Schemas.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HKC.Biz.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HKC.Schemas.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\Common.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Biz.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Schemas.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HKC.Biz.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HKC.Schemas.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.csprojResolveAssemblyReference.cache
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\log4db.xml
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\sqllib.ini
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HisWCFSVR.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\Common.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HKC.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HKC.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\ICSharpCode.SharpZipLib.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\SWSoft.Caller.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\Common.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Biz.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HIS4.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HKC.Biz.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HKC.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\JYCS.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.csprojResolveAssemblyReference.cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\obj\Debug\HisWCFSVR.pdb

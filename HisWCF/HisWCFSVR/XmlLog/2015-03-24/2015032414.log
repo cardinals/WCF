@@ -1,0 +1,19 @@
+2015-03-24 14:19:36,979 -[5B29CE0FA5514FE796F0F1793BF8B586][HKC.Biz.DISP_START].IN  <DISP_START_IN><pharmacyid>10890981*1000105532</pharmacyid><codekey>DISP_START</codekey></DISP_START_IN>
+2015-03-24 14:19:57,744 -[5B29CE0FA5514FE796F0F1793BF8B586][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><DISP_START_OUT><ResultCode>-1</ResultCode><ResultContent>ORA-12154: TNS: 无法解析指定的连接标识符
+</ResultContent></DISP_START_OUT>
+2015-03-24 14:21:58,571 -[EEBD0C848AB048CDA06939C56B58F1F2][HIS1.Biz.code].IN  <code><pharmacyid>10890981*1000105537#1000105538</pharmacyid><codekey>DISP_START</codekey></code>
+2015-03-24 14:21:58,641 -[EEBD0C848AB048CDA06939C56B58F1F2][HIS1.Biz.code].OUT <?xml version="1.0" encoding="utf-8"?><Biz_OUT><OUTMSG><ERRNO>-1</ERRNO><ERRMSG>E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HIS1\HIS1.Biz.dll</ERRMSG><ERRMSGEX>在 System.Diagnostics.FileVersionInfo.GetVersionInfo(String fileName)
+   在 HisWCFSVR.ToolUnity.LoadAssembly(String tradetype) 位置 E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\FUnity.cs:行号 21
+   在 HisWCFSVR.MediInfoHis.RunService(String TradeType, String TradeMsg, String& TradeMsgOut) 位置 E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\MediInfoHis.svc.cs:行号 33</ERRMSGEX></Biz_OUT>
+2015-03-24 14:22:00,360 -[BC841C2C2C2641CD92CC07F70A2379D4][HKC.Biz.DISP_START].IN  <DISP_START_IN><pharmacyid>10890981*1000105537#1000105538</pharmacyid><codekey>DISP_START</codekey></DISP_START_IN>
+2015-03-24 14:22:20,784 -[BC841C2C2C2641CD92CC07F70A2379D4][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><DISP_START_OUT><ResultCode>-1</ResultCode><ResultContent>ORA-12154: TNS: 无法解析指定的连接标识符
+</ResultContent></DISP_START_OUT>
+2015-03-24 14:23:21,714 -[C1745ECDE97943FB8EDAEAC49A208237][HKC.Biz.DISP_START].IN  <DISP_START_IN><pharmacyid>10890981*1000105537#1000105538</pharmacyid><codekey>DISP_START</codekey></DISP_START_IN>
+2015-03-24 14:23:21,715 -[C1745ECDE97943FB8EDAEAC49A208237][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><DISP_START_OUT><ResultCode>-1</ResultCode><ResultContent>ORA-12154: TNS: 无法解析指定的连接标识符
+</ResultContent></DISP_START_OUT>
+2015-03-24 14:23:43,354 -[1C2F2355F27C4D8787FBD9380938BB34][HKC.Biz.DISP_START].IN  <DISP_START_IN><pharmacyid>10890981*1000105537#1000105538</pharmacyid><codekey>DISP_START</codekey></DISP_START_IN>
+2015-03-24 14:24:03,886 -[1C2F2355F27C4D8787FBD9380938BB34][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><DISP_START_OUT><ResultCode>-1</ResultCode><ResultContent>ORA-12154: TNS: 无法解析指定的连接标识符
+</ResultContent></DISP_START_OUT>
+2015-03-24 14:29:00,653 -[4251B9B94E0840E8920DF960ED428A36][HKC.Biz.DISP_START].IN  <DISP_START_IN><pharmacyid>10890981*1000105537#1000105538</pharmacyid><codekey>DISP_START</codekey></DISP_START_IN>
+2015-03-24 14:29:23,120 -[4251B9B94E0840E8920DF960ED428A36][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><DISP_START_OUT><ResultCode>-1</ResultCode><ResultContent>ORA-12154: TNS: 无法解析指定的连接标识符
+</ResultContent></DISP_START_OUT>

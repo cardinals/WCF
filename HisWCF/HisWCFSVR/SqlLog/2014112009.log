@@ -1,0 +1,12 @@
+2014-11-20 09:44:01,896 -
+Select *
+  From Gh_Mzyyk
+ Where yyxh = '891811' and jzkh='18989475192' and checkid is null Or checkid='891811' 
+
+
+2014-11-20 09:44:20,548 -
+Update Gh_Mzyyk Set Zt = '-1',Jlxh = '',yyqrrq = decode('',null,null,To_date('','yyyy-mm-dd hh24:mi:ss')),cxgh = 'ZFB',yycxrq = decode('2014-11-19',null,null,To_date('2014-11-19','yyyy-mm-dd hh24:mi:ss'))
+ Where (yyxh = '891811' and  checkid is null Or checkid='891811')
+   And Nvl(Zt,0) = 0
+
+

@@ -1,0 +1,8 @@
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Schemas\bin\Release\HKC.Schemas.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Schemas\bin\Release\HKC.Schemas.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Schemas\obj\Release\HKC.Schemas.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Schemas\obj\Release\HKC.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Schemas\bin\Release\HKC.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Schemas\bin\Release\HKC.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Schemas\obj\Release\HKC.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Schemas\obj\Release\HKC.Schemas.pdb

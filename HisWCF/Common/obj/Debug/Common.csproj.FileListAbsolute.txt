@@ -1,0 +1,9 @@
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Common\bin\Debug\Common.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Common\bin\Debug\Common.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Common\obj\Debug\Common.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\Common\obj\Debug\Common.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Common\bin\Debug\Common.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Common\bin\Debug\Common.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Common\obj\Debug\Common.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Common\obj\Debug\Common.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

@@ -1,0 +1,404 @@
+2015-02-03 16:45:48,204 -
+    select * from wcf_yhdjjl where jzkh='00136257'
+  
+
+2015-02-03 16:46:55,063 -
+    select * from wcf_yhdjjl where jzkh='00136257'
+  
+
+2015-02-03 16:47:06,198 -
+    select * from wcf_yhdjjl where jzkh='00136257'
+  
+
+2015-02-03 16:50:18,304 -
+    select * from wcf_yhdjjl where jzkh='00136257'
+  
+
+2015-02-03 16:53:26,782 -
+   select * from  jr_jiaoyimx where yinhangkh=(select yinhangkh from gy_brjbxxk  where jzkh='00136257')  and  jiaoyilx=6 and jiaoyizt=0  and chongzhengzt=0
+
+
+
+2015-02-03 16:53:40,584 -
+   select * from  jr_jiaoyimx where yinhangkh=(select yinhangkh from gy_brjbxxk  where jzkh='00136257')  and  jiaoyilx=6 and jiaoyizt=0  and chongzhengzt=0
+
+
+
+2015-02-03 16:55:08,837 -
+   select * from  jr_jiaoyimx where yinhangkh=(select yinhangkh from gy_brjbxxk  where jzkh='00136257')  and  jiaoyilx=6 and jiaoyizt=0  and chongzhengzt=0
+
+
+
+2015-02-03 16:55:10,732 -select yydm from gy_hospital_v
+
+2015-02-03 16:55:10,765 -
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje,--医保报销金额
+           xtxh,--系统序号
+           qianyuebz,--签约标志
+           yinhanglsh,--银行流水号
+           yinhangje,--银行金额
+           jbmc) --疾病名称
+　　Values
+　　  ('8572167',--收费识别
+　　   '',--发票号码
+　　   sysdate,--收费日期
+　　   '00136257',--就诊卡号
+　　   '',--公费证号、个人编号
+　　   '孙浩然',--病人姓名
+　　   '0',--病人性质
+　　   '1',--单位编号
+　　   '0',--现金
+　　   '0',--支票金额
+　　   '16',--收费方式
+　　   '8.52',--收费金额
+　　   '',--支票号码
+　　   '0',--重症疾病代码
+　　   'ZFB',--操作工号
+　　   '',--不明
+　　   '',--规定单位名称
+　　   '1',--病人类别
+　　   '0',--收现金
+　　   '0',--找现金
+　　   '0',
+　　   '1',--挂号类别(指特殊收费、特病)
+　　   '',--取药窗口
+　　   '',--医保卡号
+　　   '0',--自负金额
+　　   '0',--自理金额
+　　   '0',--当年账户金额
+　　   '0',--历年账户余额
+　　   '0',--记账金额
+　　   '0',--统筹基金金额
+　　   '0',--重病补助金额
+　　   '0',--医保人员性质
+　　   '0',--医保单位编号
+　　   '0',--网卡地址
+　　   '0',--公费记账
+　　   '0',--Gy_Brjbxxk中的Brxzdm2
+　　   '',--就诊标志
+　　   '28054',--疾病代码
+　　   '',--审批编号
+　　   '0.00',--优惠金额
+　　   '0',--结算后账户金额
+　　   '0',--结算前历年账户金额
+　　   '',
+　　   '2014122301593079838020150203143144',
+　　   '',
+　　   '2',--特殊收费标志
+　　   '',
+　　   '0',
+     '0','0','0','70',--分院编号
+     0,--签约标志
+     '',--银行流水号
+     0,--银行金额
+     '') --疾病名称
+
+
+2015-02-03 16:55:48,753 -
+   select * from  jr_jiaoyimx where yinhangkh=(select yinhangkh from gy_brjbxxk  where jzkh='00136257')  and  jiaoyilx=6 and jiaoyizt=0  and chongzhengzt=0
+
+
+
+2015-02-03 16:55:52,111 -select yydm from gy_hospital_v
+
+2015-02-03 16:55:52,150 -
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje,--医保报销金额
+           xtxh,--系统序号
+           qianyuebz,--签约标志
+           yinhanglsh,--银行流水号
+           yinhangje,--银行金额
+           jbmc) --疾病名称
+　　Values
+　　  ('8572167',--收费识别
+　　   '',--发票号码
+　　   sysdate,--收费日期
+　　   '00136257',--就诊卡号
+　　   '',--公费证号、个人编号
+　　   '孙浩然',--病人姓名
+　　   '0',--病人性质
+　　   '1',--单位编号
+　　   '0',--现金
+　　   '0',--支票金额
+　　   '16',--收费方式
+　　   '8.52',--收费金额
+　　   '',--支票号码
+　　   '0',--重症疾病代码
+　　   'ZFB',--操作工号
+　　   '',--不明
+　　   '',--规定单位名称
+　　   '1',--病人类别
+　　   '0',--收现金
+　　   '0',--找现金
+　　   '0',
+　　   '1',--挂号类别(指特殊收费、特病)
+　　   '',--取药窗口
+　　   '',--医保卡号
+　　   '0',--自负金额
+　　   '0',--自理金额
+　　   '0',--当年账户金额
+　　   '0',--历年账户余额
+　　   '0',--记账金额
+　　   '0',--统筹基金金额
+　　   '0',--重病补助金额
+　　   '0',--医保人员性质
+　　   '0',--医保单位编号
+　　   '0',--网卡地址
+　　   '0',--公费记账
+　　   '0',--Gy_Brjbxxk中的Brxzdm2
+　　   '',--就诊标志
+　　   '28054',--疾病代码
+　　   '',--审批编号
+　　   '0.00',--优惠金额
+　　   '0',--结算后账户金额
+　　   '0',--结算前历年账户金额
+　　   '',
+　　   '2014122301593079838020150203143144',
+　　   '',
+　　   '2',--特殊收费标志
+　　   '',
+　　   '0',
+     '0','0','0','70',--分院编号
+     0,--签约标志
+     '',--银行流水号
+     0,--银行金额
+     '') --疾病名称
+
+
+2015-02-03 16:58:53,540 -
+   select * from  jr_jiaoyimx where yinhangkh=(select yinhangkh from gy_brjbxxk  where jzkh='00136257')  and  jiaoyilx=6 and jiaoyizt=0  and chongzhengzt=0
+
+
+
+2015-02-03 16:58:55,675 -select yydm from gy_hospital_v
+
+2015-02-03 16:58:55,687 -
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje,--医保报销金额
+           xtxh,--系统序号
+           qianyuebz,--签约标志
+           yinhanglsh,--银行流水号
+           yinhangje,--银行金额
+           jbmc) --疾病名称
+　　Values
+　　  ('8572167',--收费识别
+　　   '',--发票号码
+　　   sysdate,--收费日期
+　　   '00136257',--就诊卡号
+　　   '',--公费证号、个人编号
+　　   '孙浩然',--病人姓名
+　　   '0',--病人性质
+　　   '1',--单位编号
+　　   '0',--现金
+　　   '0',--支票金额
+　　   '16',--收费方式
+　　   '8.52',--收费金额
+　　   '',--支票号码
+　　   '0',--重症疾病代码
+　　   'ZFB',--操作工号
+　　   '',--不明
+　　   '',--规定单位名称
+　　   '1',--病人类别
+　　   '0',--收现金
+　　   '0',--找现金
+　　   '0',
+　　   '1',--挂号类别(指特殊收费、特病)
+　　   '',--取药窗口
+　　   '',--医保卡号
+　　   '0',--自负金额
+　　   '0',--自理金额
+　　   '0',--当年账户金额
+　　   '0',--历年账户余额
+　　   '0',--记账金额
+　　   '0',--统筹基金金额
+　　   '0',--重病补助金额
+　　   '0',--医保人员性质
+　　   '0',--医保单位编号
+　　   '0',--网卡地址
+　　   '0',--公费记账
+　　   '0',--Gy_Brjbxxk中的Brxzdm2
+　　   '',--就诊标志
+　　   '28054',--疾病代码
+　　   '',--审批编号
+　　   '0.00',--优惠金额
+　　   '0',--结算后账户金额
+　　   '0',--结算前历年账户金额
+　　   '',
+　　   '2014122301593079838020150203143144',
+　　   '',
+　　   '2',--特殊收费标志
+　　   '',
+　　   '0',
+     '0','0','0','70',--分院编号
+     0,--签约标志
+     '',--银行流水号
+     0,--银行金额
+     '') --疾病名称
+
+
+2015-02-03 16:59:19,611 -INSERT INTO MZ_MZSFK2(Sfsb,sfxm,zfje,Fyhj) 
+
+    --收费识别、收费项目、自费金额、费用合计
+    　　　　select 8572167,4,8.51,8.51 from dual 
+
+2015-02-03 16:59:27,984 -
+   Select Nvl(Jzyf,0) jzyf
+	  From Gy_Wkdz
+	 Where Wkdz = ''
+
+
+2015-02-03 16:59:27,998 -
+    Update Mz_Cfk1 Set Sfsb = '8572167', Jzyf = '0' Where sfsb is null and Cfsb in ('8047804','8047804')
+  
+

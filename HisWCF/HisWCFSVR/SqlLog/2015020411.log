@@ -1,0 +1,10 @@
+2015-02-04 11:11:13,445 -
+    select ylmc,ylxh from Gy_YLsf 
+    Where 1 =1  and sfxm=99 and SRM1 like '%%'
+  
+
+2015-02-04 11:12:57,620 -
+    select * from Gy_YLsf 
+    Where 1 =1  and sfxm=99 and SRM1 like '%%'
+  
+

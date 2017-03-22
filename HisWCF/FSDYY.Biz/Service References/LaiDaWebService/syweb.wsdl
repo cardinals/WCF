@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Test">
+        <s:complexType />
+      </s:element>
+      <s:element name="TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="APPOINTMENT_REGISTER">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="APPOINTMENT_REGISTERResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="APPOINTMENT_REGISTERResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CANCEL_APPOINTMENT_REGISTER">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CANCEL_APPOINTMENT_REGISTERResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CANCEL_APPOINTMENT_REGISTERResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HISYY_GetResource">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HISYY_GetResourceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HISYY_GetResourceResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HISYY_Submit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HISYY_SubmitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HISYY_SubmitResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HISYY_Cancel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HISYY_CancelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HISYY_CancelResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TestSoapIn">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="TestSoapOut">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="APPOINTMENT_REGISTERSoapIn">
+    <wsdl:part name="parameters" element="tns:APPOINTMENT_REGISTER" />
+  </wsdl:message>
+  <wsdl:message name="APPOINTMENT_REGISTERSoapOut">
+    <wsdl:part name="parameters" element="tns:APPOINTMENT_REGISTERResponse" />
+  </wsdl:message>
+  <wsdl:message name="CANCEL_APPOINTMENT_REGISTERSoapIn">
+    <wsdl:part name="parameters" element="tns:CANCEL_APPOINTMENT_REGISTER" />
+  </wsdl:message>
+  <wsdl:message name="CANCEL_APPOINTMENT_REGISTERSoapOut">
+    <wsdl:part name="parameters" element="tns:CANCEL_APPOINTMENT_REGISTERResponse" />
+  </wsdl:message>
+  <wsdl:message name="HISYY_GetResourceSoapIn">
+    <wsdl:part name="parameters" element="tns:HISYY_GetResource" />
+  </wsdl:message>
+  <wsdl:message name="HISYY_GetResourceSoapOut">
+    <wsdl:part name="parameters" element="tns:HISYY_GetResourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="HISYY_SubmitSoapIn">
+    <wsdl:part name="parameters" element="tns:HISYY_Submit" />
+  </wsdl:message>
+  <wsdl:message name="HISYY_SubmitSoapOut">
+    <wsdl:part name="parameters" element="tns:HISYY_SubmitResponse" />
+  </wsdl:message>
+  <wsdl:message name="HISYY_CancelSoapIn">
+    <wsdl:part name="parameters" element="tns:HISYY_Cancel" />
+  </wsdl:message>
+  <wsdl:message name="HISYY_CancelSoapOut">
+    <wsdl:part name="parameters" element="tns:HISYY_CancelResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSoap">
+    <wsdl:operation name="Test">
+      <wsdl:input message="tns:TestSoapIn" />
+      <wsdl:output message="tns:TestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="APPOINTMENT_REGISTER">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取预约时间，默认进行预约登记</wsdl:documentation>
+      <wsdl:input message="tns:APPOINTMENT_REGISTERSoapIn" />
+      <wsdl:output message="tns:APPOINTMENT_REGISTERSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CANCEL_APPOINTMENT_REGISTER">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">取消预约</wsdl:documentation>
+      <wsdl:input message="tns:CANCEL_APPOINTMENT_REGISTERSoapIn" />
+      <wsdl:output message="tns:CANCEL_APPOINTMENT_REGISTERSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HISYY_GetResource">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">HIS转诊查询预约</wsdl:documentation>
+      <wsdl:input message="tns:HISYY_GetResourceSoapIn" />
+      <wsdl:output message="tns:HISYY_GetResourceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HISYY_Submit">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">HIS转诊提交预约</wsdl:documentation>
+      <wsdl:input message="tns:HISYY_SubmitSoapIn" />
+      <wsdl:output message="tns:HISYY_SubmitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HISYY_Cancel">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">HIS转诊取消预约</wsdl:documentation>
+      <wsdl:input message="tns:HISYY_CancelSoapIn" />
+      <wsdl:output message="tns:HISYY_CancelSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSoap" type="tns:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Test">
+      <soap:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="APPOINTMENT_REGISTER">
+      <soap:operation soapAction="http://tempuri.org/APPOINTMENT_REGISTER" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CANCEL_APPOINTMENT_REGISTER">
+      <soap:operation soapAction="http://tempuri.org/CANCEL_APPOINTMENT_REGISTER" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HISYY_GetResource">
+      <soap:operation soapAction="http://tempuri.org/HISYY_GetResource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HISYY_Submit">
+      <soap:operation soapAction="http://tempuri.org/HISYY_Submit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HISYY_Cancel">
+      <soap:operation soapAction="http://tempuri.org/HISYY_Cancel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSoap12" type="tns:WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Test">
+      <soap12:operation soapAction="http://tempuri.org/Test" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="APPOINTMENT_REGISTER">
+      <soap12:operation soapAction="http://tempuri.org/APPOINTMENT_REGISTER" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CANCEL_APPOINTMENT_REGISTER">
+      <soap12:operation soapAction="http://tempuri.org/CANCEL_APPOINTMENT_REGISTER" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HISYY_GetResource">
+      <soap12:operation soapAction="http://tempuri.org/HISYY_GetResource" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HISYY_Submit">
+      <soap12:operation soapAction="http://tempuri.org/HISYY_Submit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HISYY_Cancel">
+      <soap12:operation soapAction="http://tempuri.org/HISYY_Cancel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="WebServiceSoap" binding="tns:WebServiceSoap">
+      <soap:address location="http://localhost:55934/eRadInfo.Web/WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSoap12" binding="tns:WebServiceSoap12">
+      <soap12:address location="http://localhost:55934/eRadInfo.Web/WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,11 @@
+2015-02-02 15:03:41,459 -select yydm from gy_hospital_v
+
+2015-02-02 15:03:45,185 -
+    Select *
+    From Zy_Patient_Information ¡¡¡¡
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+

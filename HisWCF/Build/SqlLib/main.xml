@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config namespace="AUTOSERVICES.wcf">
+  <sqi id="AUTO00001" tooltip="转诊病人信息">
+    <![CDATA[
+    SELECT * FROM zd_sxzz_zzsqd_v a where 1=1 {0}
+    ]]>
+  </sqi>
+  <sqi id="AUTO00002" tooltip="更新审核状态及时间">
+    <![CDATA[
+    update sxzz_zzxxfszt set shfszt = 1 , shfsrq = sysdate where zzsqdh = {0}
+    ]]>
+  </sqi>
+  <sqi id="AUTO00003" tooltip="更新待入院状态及时间">
+    <![CDATA[
+    update sxzz_zzxxfszt set dryfszt = 1 , dyrfsrq = sysdate where zzsqdh = {0}
+    ]]>
+  </sqi>
+  <sqi id="AUTO00004" tooltip="更新住院状态及时间">
+    <![CDATA[
+    update sxzz_zzxxfszt set zyfszt = 1 , zyfsrq = sysdate where zzsqdh = {0}
+    ]]>
+  </sqi>
+  <sqi id="AUTO00005" tooltip="更新离院状态及时间">
+    <![CDATA[
+    update sxzz_zzxxfszt set lyfszt = 1 , lyfsrq = sysdate where zzsqdh = {0}
+    ]]>
+  </sqi>
+  <sqi id="AUTO00006" tooltip="更新查房通知状态及时间">
+    <![CDATA[
+    update sxzz_zzxxfszt set cftzfszt = 1 , cftzfsrq = sysdate where zzsqdh = {0}
+    ]]>
+  </sqi>
+  <sqi id="AUTO00007" tooltip="更新审核未通过状态及时间">
+    <![CDATA[
+    update sxzz_zzxxfszt set shwtgfszt = 1 , shwtgfsrq = sysdate where zzsqdh = {0}
+    ]]>
+  </sqi>
+  <sqi id="AUTO00008" tooltip="更新下转申请状态及时间">
+    <![CDATA[
+    update sxzz_zzxxfszt set xzsqfszt = 1 , xzsqfsrq = sysdate where zzsqdh = {0}
+    ]]>
+  </sqi>
+  
+  <sqi id="AUTO00009" tooltip="检查项目分类">
+    <![CDATA[
+    select * from zd_jianchaxmfl order by id asc
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00010" tooltip="检查项目">
+    <![CDATA[
+    select * from zd_jianchaxm order by jcxmdm asc
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00011" tooltip="检查方向">
+    <![CDATA[
+    select * from zd_jianchafx where fxlx <> 2 order by id asc
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00012" tooltip="检查部位">
+    <![CDATA[
+    select * from zd_jianchabw order by id asc
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00013" tooltip="获取系统参数">
+    <![CDATA[
+    select * from gy_xtcs where 1=1 {0} order by id asc
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00014" tooltip="处方信息">
+    <![CDATA[
+    select * from zd_sxzz_mzcf where jzxh = {0} 
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00015" tooltip="处方明细信息">
+    <![CDATA[
+    select * from zd_sxzz_mzcfmx where cfid = {0} 
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00016" tooltip="检验信息">
+    <![CDATA[
+    select a.chinesename jyxm,
+    a.sign jyjgdx,
+    a.sampleno jydh,
+    a.testresult jyjg,
+    a.unit jldw,
+    '' ckgz,
+    a.fw ckdz,
+    '' jyzb
+    from view_his_lisresultitem a 
+    where a.inpatientid = '{0}'
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00017" tooltip="检验明细信息">
+    <![CDATA[
+    select a.sampleno jydh,
+    a.sampledescribe jylb,
+    a.examinaim jyxm,
+    a.requisition_time kdsj,
+    a.requisition_person kdys,
+    a.ksmc kdks,
+    '' jyff,
+    '' jyjg
+    from view_his_lisresult a 
+    where a.sampleno = '{0}'
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00018" tooltip="检查明细">
+    <![CDATA[
+    select * from zd_sxzz_mzjcmx where jzxh = {0}
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00019" tooltip="住院医嘱明细">
+    <![CDATA[
+    select * from zd_sxzz_zyyzxx where patient_no = {0}
+    ]]>
+  </sqi>
+
+  <sqi id="AUTO00020" tooltip="住院检查明细">
+    <![CDATA[
+    select * from zd_sxzz_zyjcmx where jzxh = {0}
+    ]]>
+  </sqi>
+</config>

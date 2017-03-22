@@ -1,0 +1,28 @@
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Biz.dll.config
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Biz.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Biz.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Schemas.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\JYCS.Schemas.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\log4net.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\SWSoft.Caller.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Schemas.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Release\JYCS.Schemas.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\obj\Release\HKC.Biz.csprojResolveAssemblyReference.cache
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\obj\Release\HKC.Biz.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\obj\Release\HKC.Biz.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Biz.dll.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Biz.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\JYCS.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\log4net.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\SWSoft.Caller.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\SWSoft.Caller.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\HKC.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\bin\Release\JYCS.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\obj\Release\HKC.Biz.csprojResolveAssemblyReference.cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\obj\Release\HKC.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\obj\Release\HKC.Biz.pdb

@@ -1,0 +1,17 @@
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\桐庐转诊客户端\bin\Debug\桐庐转诊客户端.exe.config
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\桐庐转诊客户端\bin\Debug\桐庐转诊客户端.exe
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\桐庐转诊客户端\bin\Debug\桐庐转诊客户端.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.Form1.resources
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.Properties.Resources.resources
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.csproj.GenerateResource.Cache
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.exe
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\桐庐转诊客户端\bin\Debug\桐庐转诊客户端.exe.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\桐庐转诊客户端\bin\Debug\桐庐转诊客户端.exe
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\桐庐转诊客户端\bin\Debug\桐庐转诊客户端.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.Form1.resources
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.Properties.Resources.resources
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.csproj.GenerateResource.Cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.exe
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\桐庐转诊客户端\obj\Debug\桐庐转诊客户端.csprojResolveAssemblyReference.cache

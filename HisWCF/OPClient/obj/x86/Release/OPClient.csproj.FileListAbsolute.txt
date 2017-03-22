@@ -1,0 +1,9 @@
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\bin\Release\OPClient.exe
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\bin\Release\OPClient.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\bin\Release\HisDllOp.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\bin\Release\HisDllOp.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\obj\x86\Release\OPClient.Form1.resources
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\obj\x86\Release\OPClient.Properties.Resources.resources
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\obj\x86\Release\OPClient.csproj.GenerateResource.Cache
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\obj\x86\Release\OPClient.exe
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\obj\x86\Release\OPClient.pdb

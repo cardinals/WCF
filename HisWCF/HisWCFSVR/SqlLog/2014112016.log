@@ -1,0 +1,6 @@
+2014-11-20 16:34:48,677 -
+Select *
+  From Gh_Mzyyk
+ Where yyxh = '538088' and jzkh='15869156441' and checkid is null Or checkid='538088' 
+
+

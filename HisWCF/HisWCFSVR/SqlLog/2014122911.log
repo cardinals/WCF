@@ -1,0 +1,11 @@
+2014-12-29 11:39:42,242 -
+    select * from wcf_yhdjjl where jzkh='00000000'
+  
+
+2014-12-29 11:39:45,011 -
+   select * from  jr_jiaoyimx where yinhangkh=(select yinhangkh from gy_brjbxxk  where jzkh='00000000')  and  jiaoyilx=6 and jiaoyizt=0  and chongzhengzt=0
+
+
+
+2014-12-29 11:39:47,771 -select yydm from gy_hospital_v
+

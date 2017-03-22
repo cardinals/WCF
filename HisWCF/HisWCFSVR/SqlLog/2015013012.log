@@ -1,0 +1,9 @@
+2015-01-30 12:55:54,695 -
+    Select *
+    From ZZ_Zy_Patient_Information_V ¡¡¡¡
+    Where ( (4 = 4 And BingAnHao = '00645491' ) 
+       Or (4 = 3 And JiuZhenKh = '00645491')
+       Or (4 = 2 And YiBaoKh = '00645491')
+       Or (DANGQIANBQ = '' And CHUANGWEIH = ''))
+
+

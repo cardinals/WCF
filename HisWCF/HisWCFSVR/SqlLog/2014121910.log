@@ -1,0 +1,44 @@
+2014-12-19 10:01:35,905 -
+Select a.Zgid Ysdm,
+       a.Xm Ysxm,
+       a.Ksdm Ksdm,
+       b.Ksmc Ksmc,
+       c.Mc Yszc,
+       (select yyyszc from WEB_GHYSXX where yyysdm = a.ysdm) Ystc,
+       '' Ysjs
+  From Gy_Zgxx a, Gy_Ksdm b, (Select Dm, Mc From Gy_Gydm Where Dmlb = 13) c
+ Where a.Zgid In (Select Distinct Ysgh
+                    From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-19'
+                          Union All
+                          Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-19'
+                          Union All
+                          Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1)
+                          Union All
+                          Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1))
+                   Where ('1' = '0' Or Yypb = '1')
+                     And ('1' = '0' Or Sjlb = '1')
+                     And ('40032' = '*' Or Ksdm = '40032')
+                      and mzlbxh > 3 and yypb=1 )
+                     --And (' and mzlbxh > 3 and yypb=1' = '0' Or Mzlbxh >= ' and mzlbxh > 3 and yypb=1'))
+   And a.Ksdm = b.Ksdm
+   And a.Zc = c.Dm(+)
+   Order By a.Zgid
+
+
+

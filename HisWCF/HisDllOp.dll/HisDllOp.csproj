@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A44934B2-F8A2-4A4A-91A6-62C9AB233EBE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HisDllOp</RootNamespace>
+    <AssemblyName>HisDllOp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\OPClient\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CallDll.cs" />
+    <Compile Include="Common\Escape.cs" />
+    <Compile Include="Common\MACmappingConfigurationSection.cs" />
+    <Compile Include="Common\MethodMappingConfigurationSection.cs" />
+    <Compile Include="Common\Step.cs" />
+    <Compile Include="Common\WCFServer.cs" />
+    <Compile Include="Common\WorkFlowConfigurationSection.cs" />
+    <Compile Include="Common\WSServer.cs" />
+    <Compile Include="Common\XMLServer.cs" />
+    <Compile Include="Entity\BaseEntity.cs" />
+    <Compile Include="Entity\BaseGroup.cs" />
+    <Compile Include="Entity\BaseInEntity.cs" />
+    <Compile Include="Entity\BASEINFO.cs" />
+    <Compile Include="Entity\BaseOutEntity.cs" />
+    <Compile Include="Entity\CaseBackGroup.cs" />
+    <Compile Include="Entity\CaseEntity.cs" />
+    <Compile Include="Entity\CaseGroup.cs" />
+    <Compile Include="Entity\CHONGFUJYXX.cs" />
+    <Compile Include="Entity\CHUFANGJL.cs" />
+    <Compile Include="Entity\FEIYONGMX.cs" />
+    <Compile Include="Entity\FEIYONGXX.cs" />
+    <Compile Include="Entity\GUAHAOCL_IN.cs" />
+    <Compile Include="Entity\GUAHAOCL_OUT.cs" />
+    <Compile Include="Entity\GUAHAOTH_IN.cs" />
+    <Compile Include="Entity\GUAHAOTH_OUT.cs" />
+    <Compile Include="Entity\GUAHAOYCL_IN.cs" />
+    <Compile Include="Entity\GUAHAOYCL_OUT.cs" />
+    <Compile Include="Entity\GUAHAOHYXX_IN.cs" />
+    <Compile Include="Entity\GUAHAOHYXX_OUT.cs" />
+    <Compile Include="Entity\GUAHAOKSXX_IN.cs" />
+    <Compile Include="Entity\GUAHAOKSXX_OUT.cs" />
+    <Compile Include="Entity\GUAHAOYSXX_IN.cs" />
+    <Compile Include="Entity\GUAHAOYSXX_OUT.cs" />
+    <Compile Include="Entity\GUAHAOYY_IN.cs" />
+    <Compile Include="Entity\GUAHAOYY_OUT.cs" />
+    <Compile Include="Entity\HAOYUANXX.cs" />
+    <Compile Include="Entity\JIBINGXX.cs" />
+    <Compile Include="Entity\JIESUANJG.cs" />
+    <Compile Include="Entity\JIESUANJGXX.cs" />
+    <Compile Include="Entity\KESHIXX.cs" />
+    <Compile Include="Entity\MENZHENCFJL_IN.cs" />
+    <Compile Include="Entity\MENZHENCFJL_OUT.cs" />
+    <Compile Include="Entity\MENZHENFYMX_IN.cs" />
+    <Compile Include="Entity\MENZHENFYMX_OUT.cs" />
+    <Compile Include="Entity\MENZHENFYXX.cs" />
+    <Compile Include="Entity\MENZHENFYZFXX.cs" />
+    <Compile Include="Entity\MENZHENYJS_IN.cs" />
+    <Compile Include="Entity\MENZHENYJS_OUT.cs" />
+    <Compile Include="Entity\OUTMSG.cs" />
+    <Compile Include="Entity\RENYUANXX_IN.cs" />
+    <Compile Include="Entity\RENYUANXX_OUT.cs" />
+    <Compile Include="Entity\RENYUANZC_IN.cs" />
+    <Compile Include="Entity\RENYUANZC_OUT.cs" />
+    <Compile Include="Entity\YISHENGXX.cs" />
+    <Compile Include="HisDllOp.cs" />
+    <Compile Include="INIClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unity.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

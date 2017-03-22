@@ -1,0 +1,2 @@
+本机IIS地址      http://localhost:8081/MediInfoHis.svc?wsdl  
+永康三院服务器IIS地址     http://192.168.1.89:8080/MediInfoHis.svc?wsdl

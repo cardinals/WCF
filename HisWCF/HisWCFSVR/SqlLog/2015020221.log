@@ -1,0 +1,240 @@
+2015-02-02 21:40:51,170 -select yydm from gy_hospital_v
+
+2015-02-02 21:40:53,914 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 21:40:53,945 -select yydm from gy_hospital_v
+
+2015-02-02 21:40:53,950 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 21:40:53,956 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:40:53,963 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:42:17,051 -select yydm from gy_hospital_v
+
+2015-02-02 21:42:17,474 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 21:42:17,487 -select yydm from gy_hospital_v
+
+2015-02-02 21:42:17,492 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 21:42:17,496 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:42:17,504 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:44:20,912 -select yydm from gy_hospital_v
+
+2015-02-02 21:44:21,397 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 21:44:21,409 -select yydm from gy_hospital_v
+
+2015-02-02 21:44:21,415 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 21:44:21,420 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:44:21,426 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:46:21,158 -select yydm from gy_hospital_v
+
+2015-02-02 21:46:21,636 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 21:46:21,649 -select yydm from gy_hospital_v
+
+2015-02-02 21:46:21,654 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 21:46:21,660 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:46:21,665 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:49:02,917 -select yydm from gy_hospital_v
+
+2015-02-02 21:49:03,376 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 21:49:03,389 -select yydm from gy_hospital_v
+
+2015-02-02 21:49:03,394 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 21:49:03,400 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:49:03,405 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:51:42,155 -select yydm from gy_hospital_v
+
+2015-02-02 21:51:42,633 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 21:51:42,646 -select yydm from gy_hospital_v
+
+2015-02-02 21:51:42,651 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 21:51:42,656 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:51:42,661 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:56:03,989 -select yydm from gy_hospital_v
+
+2015-02-02 21:56:04,401 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 21:56:04,415 -select yydm from gy_hospital_v
+
+2015-02-02 21:56:04,420 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 21:56:04,425 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:56:04,431 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:57:27,099 -select yydm from gy_hospital_v
+
+2015-02-02 21:57:27,107 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 21:57:27,117 -select yydm from gy_hospital_v
+
+2015-02-02 21:57:27,123 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 21:57:27,129 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 21:57:27,135 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+

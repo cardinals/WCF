@@ -1,0 +1,59 @@
+2015-01-30 16:25:59,185 -select yydm from gy_hospital_v
+
+2015-01-30 16:26:05,383 -
+    Select *
+    From Zy_Patient_Information °°°°
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 5189541))
+      And Out_Date Is Null
+
+
+2015-01-30 16:26:05,466 -select yydm from gy_hospital_v
+
+2015-01-30 16:26:05,471 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-01-30 16:26:05,477 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-01-30 16:26:05,486 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-01-30 16:26:05,492 -
+  select  Seq_gy_jrjymx_jlxh.NextVal  MAXID from dual
+
+
+2015-01-30 16:26:05,498 -
+      insert into zy_deposit_file(jlxh,       patient_no,   js_no,        name,       depo_date,
+                                  op_id,      amount,       receipt_no,   depo_type,  status,
+                                  cheque_no,  dept_code,    Bz,JRJYLSH)
+				                values (  '1266285',      '5189541',        '0',        '≤‚ ‘≤°»À',      to_date('2015-01-30 16:05:26','yyyy-mm-dd hh24:mi:ss'),
+                                  'ZYZZ',      '500',        '',        '4',      '1',  
+                                  '',     '267',       '','330280')
+
+
+2015-01-30 16:26:05,510 -
+ insert into gy_jrjymx(JLXH,SFLB,JRLX,JRZHLX,JYLX,ZXLSH,SHLSH,YHBH,YHKH,SQHM,SHBH,
+                       ZDBH,JYPCH,JYCKH,JSCKH,JYRZM,JYKLX,JYQYE,JYJE,JYSJ,CZSJ,YXSJ,CZGH,YJLXH,YJYLSH,CZBZ,JZSJ,SQQRBZ,KPYXSJ,YHPJH) 
+                values('330280','2','1','02','1','000001','','','622609******6468','','60000286','120451010101044','','','60000286','','','0','500',to_date('2014-06-10 10:30:38','yyyy-mm-dd hh24:mi:ss'),
+                       to_date('2015-01-30 16:26:05','yyyy-mm-dd hh24:mi:ss'),to_date('2015-01-30 23:59:59','yyyy-mm-dd hh24:mi:ss') ,'ZYZZ', '0' ,
+                       '0','0',to_date('2015-01-30 23:59:59','yyyy-mm-dd hh24:mi:ss'),'0','','')
+
+
+2015-01-30 16:26:08,656 -
+ select SUM(AMOUNT) JE FROM ZY_DEPOSIT_FILE WHERE PATIENT_NO='5189541' AND JS_NO=0
+    
+
+2015-01-30 16:26:08,667 -
+   select Nvl(sum(dj*sl),0) ZFY from zy_detail_charge where patient_no='5189541' and js_no=0
+    
+

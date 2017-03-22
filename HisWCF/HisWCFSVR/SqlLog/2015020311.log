@@ -1,0 +1,96 @@
+2015-02-03 11:08:04,532 -select yydm from gy_hospital_v
+
+2015-02-03 11:08:06,711 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 11:08:06,753 -select yydm from gy_hospital_v
+
+2015-02-03 11:08:06,760 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 11:08:06,767 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 11:08:06,774 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 11:08:24,913 -
+  select  seq_jr_JiaoYiMX.NextVal  MAXID from dual
+
+
+2015-02-03 11:08:25,932 -
+  insert into jr_jiaoyimx(
+  xuhao       ,  -- 1 '序号';
+  jinronglx   ,  -- 2'金融类型';
+  jiaoyilx    ,  -- 3'1:窗口挂号  2:费用冻结  3:缴款  -1:挂号取消,  -2: 取消费用冻结  -3:缴款退费 4:自助转帐 5:自助消费 6:预授权申请 -6:预授权撤销 7:预授权冻结 -7:预授权解冻 8:预授权确认
+  jiaoyifs    ,  -- 4'交易方式  1:实时交易  2:补录交易';
+  dengjixh    ,  -- 5'登记序号';
+  shoufeilb   ,  -- 6'收费类别   保存各系统序号';
+  yinhangkh   ,  -- 7'银行卡号';
+  jiaoyije    ,  -- 8'交易金额';
+  jiaoyirq    ,  -- 9'交易日期';
+  caozuorq    ,  -- 10'操作日期';
+  jiaoyilsh   ,  -- 11'交易流水号';
+  yiyuanlsh   ,  -- 12'医院流水号';
+  dongjiebh   ,  -- 13'冻结编号';
+  jiaokuanlsh ,  -- 14'缴款流水号';
+  yjiaoyilsh  ,  -- 15'原交易流水号';
+  shanghubh   ,  -- 16'商户编号';
+  zhongduanbh ,  -- 17'终端编号';
+  caozuogh    ,  -- 18'操作工号';
+  jiaoyizt    ,  -- 19'交易状态  1:已冻结且已交款（正常） 0：已冻结且未交款  -1：已解冻 -2：已冲正(挂号收费中发起的冲正) 注：银医平台上发起的冲正在jr_chongzhenmx表中';
+  jcfx_date   ,  -- 20'插入数据时的服务器时间';
+  chongzhengzt,  -- 21'冲正状态：0：未成功，1：已成功';
+  yuanshisj   ,  -- 22
+  yushouqh    ,  -- 23
+  posno          -- 24'POS编号';
+      )
+ values('781','0102','5','1','269677','11','6217856200017080867','0.01',  to_date('2015-02-03 11:08:25','yyyy-mm-dd hh24:mi:ss'),  to_date('2015-02-03 11:08:25','yyyy-mm-dd hh24:mi:ss'),'839586','2015020310002840','','','','330480620019','1856','AUT14','',to_date('2015-02-03 11:08:25','yyyy-mm-dd hh24:mi:ss'),
+                       '','020000025902031108130000105331000001050001', '' ,
+                       '100000259')
+               
+
+
+2015-02-03 11:08:26,727 -
+  select  Seq_gy_jrjymx_jlxh.NextVal  MAXID from dual
+
+
+2015-02-03 11:08:26,746 -
+      insert into zy_deposit_file(jlxh,       patient_no,   js_no,        name,       depo_date,
+                                  op_id,      amount,       receipt_no,   depo_type,  status,
+                                  cheque_no,  dept_code,    Bz,JRJYLSH)
+				                values (  '269677',      '67298',        '0',        'ceshi2',      to_date('2015-02-03 11:26:08','yyyy-mm-dd hh24:mi:ss'),
+                                  'AUT14',      '0.01',        '',        '4',      '1',  
+                                  '',     '50041',       '','61')
+
+
+2015-02-03 11:08:26,768 -
+ insert into gy_jrjymx(JLXH,SFLB,JRLX,JRZHLX,JYLX,ZXLSH,SHLSH,YHBH,YHKH,SQHM,SHBH,
+                       ZDBH,JYPCH,JYCKH,JSCKH,JYRZM,JYKLX,JYQYE,JYJE,JYSJ,CZSJ,YXSJ,CZGH,YJLXH,YJYLSH,CZBZ,JZSJ,SQQRBZ,KPYXSJ,YHPJH) 
+                values('61','2','1','02','1','100000259','','','6217856200017080867','','330480620019','1856','','','','','','0','0.01',to_date('','yyyy-mm-dd hh24:mi:ss'),
+                       to_date('2015-02-03 11:08:26','yyyy-mm-dd hh24:mi:ss'),to_date('2015-02-03 23:59:59','yyyy-mm-dd hh24:mi:ss') ,'AUT14', '0' ,
+                       '0','0',to_date('2015-02-03 23:59:59','yyyy-mm-dd hh24:mi:ss'),'0','','')
+
+
+2015-02-03 11:08:27,425 -
+ select SUM(AMOUNT) JE FROM ZY_DEPOSIT_FILE WHERE PATIENT_NO='67298' AND JS_NO=0
+    
+
+2015-02-03 11:08:27,436 -
+   select Nvl(sum(dj*sl),0) ZFY from zy_detail_charge where patient_no='67298' and js_no=0
+    
+

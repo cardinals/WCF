@@ -1,0 +1,80 @@
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\bin\Debug\HisDllOp.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\bin\Debug\HisDllOp.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\bin\Debug\HisDllOp.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\bin\Debug\HisDllOp.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+D:\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+F:\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+C:\Users\Administrator\Desktop\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+D:\吴盈栋\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+D:\吴盈栋\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+D:\吴盈栋\HisWCF\HisDllOp.dll\obj\Debug\ResolveAssemblyReference.cache
+D:\吴盈栋\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+D:\吴盈栋\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\OPClient\bin\Debug\HisDllOp.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisDllOp.dll\obj\Debug\HisDllOp.pdb

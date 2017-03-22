@@ -1,0 +1,472 @@
+2015-02-03 12:19:41,829 -select yydm from gy_hospital_v
+
+2015-02-03 12:19:48,864 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:19:48,956 -select yydm from gy_hospital_v
+
+2015-02-03 12:19:48,964 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:19:48,974 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:19:48,985 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:20:54,849 -select yydm from gy_hospital_v
+
+2015-02-03 12:20:55,231 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:20:55,243 -select yydm from gy_hospital_v
+
+2015-02-03 12:20:55,249 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:20:55,254 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:20:55,260 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:22:17,698 -select yydm from gy_hospital_v
+
+2015-02-03 12:22:18,133 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:22:18,145 -select yydm from gy_hospital_v
+
+2015-02-03 12:22:18,152 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:22:18,157 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:22:18,163 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:24:32,459 -select yydm from gy_hospital_v
+
+2015-02-03 12:24:32,467 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:24:32,479 -select yydm from gy_hospital_v
+
+2015-02-03 12:24:32,486 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:24:32,492 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:24:32,501 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:24:58,087 -
+  select  seq_jr_JiaoYiMX.NextVal  MAXID from dual
+
+
+2015-02-03 12:24:58,115 -
+  insert into jr_jiaoyimx(
+  xuhao       ,  -- 1 '序号';
+  jinronglx   ,  -- 2'金融类型';
+  jiaoyilx    ,  -- 3'1:窗口挂号  2:费用冻结  3:缴款  -1:挂号取消,  -2: 取消费用冻结  -3:缴款退费 4:自助转帐 5:自助消费 6:预授权申请 -6:预授权撤销 7:预授权冻结 -7:预授权解冻 8:预授权确认
+  jiaoyifs    ,  -- 4'交易方式  1:实时交易  2:补录交易';
+  dengjixh    ,  -- 5'登记序号';
+  shoufeilb   ,  -- 6'收费类别   保存各系统序号';
+  yinhangkh   ,  -- 7'银行卡号';
+  jiaoyije    ,  -- 8'交易金额';
+  jiaoyirq    ,  -- 9'交易日期';
+  caozuorq    ,  -- 10'操作日期';
+  jiaoyilsh   ,  -- 11'交易流水号';
+  yiyuanlsh   ,  -- 12'医院流水号';
+  dongjiebh   ,  -- 13'冻结编号';
+  jiaokuanlsh ,  -- 14'缴款流水号';
+  yjiaoyilsh  ,  -- 15'原交易流水号';
+  shanghubh   ,  -- 16'商户编号';
+  zhongduanbh ,  -- 17'终端编号';
+  caozuogh    ,  -- 18'操作工号';
+  jiaoyizt    ,  -- 19'交易状态  1:已冻结且已交款（正常） 0：已冻结且未交款  -1：已解冻 -2：已冲正(挂号收费中发起的冲正) 注：银医平台上发起的冲正在jr_chongzhenmx表中';
+  jcfx_date   ,  -- 20'插入数据时的服务器时间';
+  chongzhengzt,  -- 21'冲正状态：0：未成功，1：已成功';
+  yuanshisj   ,  -- 22
+  yushouqh    ,  -- 23
+  posno          -- 24'POS编号';
+      )
+ values('821','0102','5','1','269688','11','6217856200017080867','0.01',  to_date('2015-02-03 12:24:58','yyyy-mm-dd hh24:mi:ss'),  to_date('2015-02-03 12:24:58','yyyy-mm-dd hh24:mi:ss'),'839691','2015020310002880','','','','330480620019','1856','AUT14','',to_date('2015-02-03 12:24:58','yyyy-mm-dd hh24:mi:ss'),
+                       '','020000025902031224430000105331000001050001', '' ,
+                       'System.Data.OracleClient.OracleTransaction')
+               
+
+
+2015-02-03 12:28:36,528 -select yydm from gy_hospital_v
+
+2015-02-03 12:28:36,913 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:28:36,925 -select yydm from gy_hospital_v
+
+2015-02-03 12:28:36,930 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:28:36,936 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:28:36,941 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:30:08,723 -select yydm from gy_hospital_v
+
+2015-02-03 12:30:08,731 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:30:08,741 -select yydm from gy_hospital_v
+
+2015-02-03 12:30:08,748 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:30:08,753 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:30:08,760 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:30:56,761 -select yydm from gy_hospital_v
+
+2015-02-03 12:30:57,182 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:30:57,194 -select yydm from gy_hospital_v
+
+2015-02-03 12:30:57,200 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:30:57,206 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:30:57,211 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:34:53,106 -select yydm from gy_hospital_v
+
+2015-02-03 12:34:53,618 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:34:53,634 -select yydm from gy_hospital_v
+
+2015-02-03 12:34:53,640 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:34:53,645 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:34:53,652 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:35:44,721 -select yydm from gy_hospital_v
+
+2015-02-03 12:35:44,727 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:35:44,739 -select yydm from gy_hospital_v
+
+2015-02-03 12:35:44,744 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:35:44,750 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:35:44,755 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:35:57,780 -
+  select  seq_jr_JiaoYiMX.NextVal  MAXID from dual
+
+
+2015-02-03 12:35:57,791 -
+  insert into jr_jiaoyimx(
+  xuhao       ,  -- 1 '序号';
+  jinronglx   ,  -- 2'金融类型';
+  jiaoyilx    ,  -- 3'1:窗口挂号  2:费用冻结  3:缴款  -1:挂号取消,  -2: 取消费用冻结  -3:缴款退费 4:自助转帐 5:自助消费 6:预授权申请 -6:预授权撤销 7:预授权冻结 -7:预授权解冻 8:预授权确认
+  jiaoyifs    ,  -- 4'交易方式  1:实时交易  2:补录交易';
+  dengjixh    ,  -- 5'登记序号';
+  shoufeilb   ,  -- 6'收费类别   保存各系统序号';
+  yinhangkh   ,  -- 7'银行卡号';
+  jiaoyije    ,  -- 8'交易金额';
+  jiaoyirq    ,  -- 9'交易日期';
+  caozuorq    ,  -- 10'操作日期';
+  jiaoyilsh   ,  -- 11'交易流水号';
+  yiyuanlsh   ,  -- 12'医院流水号';
+  dongjiebh   ,  -- 13'冻结编号';
+  jiaokuanlsh ,  -- 14'缴款流水号';
+  yjiaoyilsh  ,  -- 15'原交易流水号';
+  shanghubh   ,  -- 16'商户编号';
+  zhongduanbh ,  -- 17'终端编号';
+  caozuogh    ,  -- 18'操作工号';
+  jiaoyizt    ,  -- 19'交易状态  1:已冻结且已交款（正常） 0：已冻结且未交款  -1：已解冻 -2：已冲正(挂号收费中发起的冲正) 注：银医平台上发起的冲正在jr_chongzhenmx表中';
+  jcfx_date   ,  -- 20'插入数据时的服务器时间';
+  chongzhengzt,  -- 21'冲正状态：0：未成功，1：已成功';
+  yuanshisj   ,  -- 22
+  yushouqh    ,  -- 23
+  posno          -- 24'POS编号';
+      )
+ values('841','0102','5','1','269694','11','6217856200017080867','0.01',  to_date('2015-02-03 12:35:57','yyyy-mm-dd hh24:mi:ss'),  to_date('2015-02-03 12:35:57','yyyy-mm-dd hh24:mi:ss'),'839705','2015020310002901','','','','330480620019','1856','AUT14','',to_date('2015-02-03 12:35:57','yyyy-mm-dd hh24:mi:ss'),
+                       '','020000025902031235510000105331000001050001', '' ,
+                       'System.Data.OracleClient.OracleTransaction')
+               
+
+
+2015-02-03 12:38:08,399 -select yydm from gy_hospital_v
+
+2015-02-03 12:38:08,870 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:38:08,884 -select yydm from gy_hospital_v
+
+2015-02-03 12:38:08,890 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:38:08,896 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:38:08,901 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:38:52,648 -select yydm from gy_hospital_v
+
+2015-02-03 12:38:52,655 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:38:52,665 -select yydm from gy_hospital_v
+
+2015-02-03 12:38:52,672 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:38:52,677 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:38:52,683 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:38:59,640 -
+  select  seq_jr_JiaoYiMX.NextVal  MAXID from dual
+
+
+2015-02-03 12:43:50,001 -select yydm from gy_hospital_v
+
+2015-02-03 12:43:50,415 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:43:50,428 -select yydm from gy_hospital_v
+
+2015-02-03 12:43:50,434 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:43:50,440 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:43:50,445 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:44:41,732 -select yydm from gy_hospital_v
+
+2015-02-03 12:44:42,139 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-03 12:44:42,152 -select yydm from gy_hospital_v
+
+2015-02-03 12:44:42,157 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-03 12:44:42,164 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:44:42,168 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-03 12:44:50,002 -
+  select  seq_jr_JiaoYiMX.NextVal  MAXID from dual
+
+

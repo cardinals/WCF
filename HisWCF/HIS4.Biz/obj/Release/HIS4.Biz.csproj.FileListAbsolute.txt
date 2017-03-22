@@ -1,0 +1,17 @@
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\SqlLib\main.xml
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\HIS4.Biz.dll.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\HIS4.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\HIS4.Biz.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\Common.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\HIS4.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\JYCS.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\log4net.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\SWSoft.Caller.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\SWSoft.Caller.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\Common.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\HIS4.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\bin\Release\JYCS.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\obj\Release\HIS4.Biz.csprojResolveAssemblyReference.cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\obj\Release\HIS4.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Biz\obj\Release\HIS4.Biz.pdb

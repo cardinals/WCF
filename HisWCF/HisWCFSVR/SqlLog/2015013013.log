@@ -1,0 +1,107 @@
+2015-01-30 13:13:07,401 -select yydm from gy_hospital_v
+
+2015-01-30 13:14:05,051 -select yydm from gy_hospital_v
+
+2015-01-30 13:14:07,154 -
+    Select *
+    From Zy_Patient_Information ¡¡¡¡
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 5189541))
+      And Out_Date Is Null
+
+
+2015-01-30 13:14:13,751 -select yydm from gy_hospital_v
+
+2015-01-30 13:14:13,759 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-01-30 13:14:13,765 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-01-30 13:14:13,774 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-01-30 13:14:17,704 -
+  select  Seq_gy_jrjymx_jlxh.NextVal  MAXID from dual
+
+
+2015-01-30 13:14:20,713 -
+      insert into zy_deposit_file(jlxh,       patient_no,   js_no,        name,       depo_date,
+                                  op_id,      amount,       receipt_no,   depo_type,  status,
+                                  cheque_no,  dept_code,    Bz,JRJYLSH)
+				                values (  '1266222',      '5189541',        '0',        '²âÊÔ²¡ÈË',      to_date('2015-01-30 13:20:14','yyyy-mm-dd hh24:mi:ss'),
+                                  'ZYZZ',      '500',        '',        '4',      '1',  
+                                  '',     '267',       '','330159')
+
+
+2015-01-30 13:14:21,407 -
+ insert into gy_jrjymx(JLXH,SFLB,JRLX,JRZHLX,JYLX,ZXLSH,SHLSH,YHBH,YHKH,SQHM,SHBH,
+                       ZDBH,JYPCH,JYCKH,JSCKH,JYRZM,JYKLX,JYQYE,JYJE,JYSJ,CZSJ,YXSJ,CZGH,YJLXH,YJYLSH,CZBZ,JZSJ,SQQRBZ,KPYXSJ,YHPJH) 
+                values('330159','2','1','02','1','000001','','','622609******6468','','60000286','120451010101044','','','60000286','','','0','500',to_date('2014-06-10 10:30:38','yyyy-mm-dd hh24:mi:ss'),
+                       to_date('2015-01-30 13:14:21','yyyy-mm-dd hh24:mi:ss'),to_date('2015-01-30 23:59:59','yyyy-mm-dd hh24:mi:ss') ,'ZYZZ', '0' ,
+                       '0','0',to_date('2015-01-30 23:59:59','yyyy-mm-dd hh24:mi:ss'),'0','','')
+
+
+2015-01-30 13:14:26,727 -
+ select SUM(AMOUNT) JE FROM ZY_DEPOSIT_FILE WHERE PATIENT_NO='5189541' AND JS_NO=0
+    
+
+2015-01-30 13:14:27,972 -
+   select Nvl(sum(dj*sl),0) ZFY from zy_detail_charge where patient_no='5189541' and js_no=0
+    
+
+2015-01-30 13:48:54,870 -
+    Select *
+    From ZZ_Zy_Patient_Information_V ¡¡¡¡
+    Where ( (4 = 4 And BingAnHao = '00529999' ) 
+       Or (4 = 3 And JiuZhenKh = '00529999')
+       Or (4 = 2 And YiBaoKh = '00529999')
+       Or (DANGQIANBQ = '' And CHUANGWEIH = ''))
+
+
+2015-01-30 13:49:12,366 -
+    Select *
+    From ZZ_Zy_Patient_Information_V ¡¡¡¡
+    Where ( (4 = 4 And BingAnHao = '00529999' ) 
+       Or (4 = 3 And JiuZhenKh = '00529999')
+       Or (4 = 2 And YiBaoKh = '00529999')
+       Or (DANGQIANBQ = '' And CHUANGWEIH = ''))
+
+
+2015-01-30 13:49:30,002 -
+    Select *
+    From ZZ_Zy_Patient_Information_V ¡¡¡¡
+    Where ( (4 = 4 And BingAnHao = '00529999' ) 
+       Or (4 = 3 And JiuZhenKh = '00529999')
+       Or (4 = 2 And YiBaoKh = '00529999')
+       Or (DANGQIANBQ = '' And CHUANGWEIH = ''))
+
+
+2015-01-30 13:50:14,835 -
+    Select *
+    From ZZ_Zy_Patient_Information_V ¡¡¡¡
+    Where ( (4 = 4 And BingAnHao = '00529999' ) 
+       Or (4 = 3 And JiuZhenKh = '00529999')
+       Or (4 = 2 And YiBaoKh = '00529999')
+       Or (DANGQIANBQ = '' And CHUANGWEIH = ''))
+
+
+2015-01-30 13:50:14,993 -select xzmc from gy_brxz where xzdm = 'HYHB'
+
+2015-01-30 13:50:15,022 -
+ select SUM(AMOUNT) JE FROM ZY_DEPOSIT_FILE WHERE PATIENT_NO='5189541' AND JS_NO=0
+    
+
+2015-01-30 13:50:15,028 -
+   select Nvl(sum(dj*sl),0) ZFY from zy_detail_charge where patient_no='5189541' and js_no=0
+    
+

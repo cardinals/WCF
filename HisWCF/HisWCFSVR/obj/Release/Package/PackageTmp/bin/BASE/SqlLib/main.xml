@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config namespace="BASE.wcf">
+  <sqi id="BASE00001" tooltip="职工信息">
+    select * from zd_zgxx_v where 1=1 {0} {1} {2}
+  </sqi>
+  <sqi id="BASE00002" tooltip="诊室信息">
+    select * from zd_zsxx_v where zfpb = 0 order by zsdm asc
+  </sqi>
+  <sqi id="BASE00003" tooltip="病区信息">
+    select * from zd_bqxx_v order by bingqudm asc
+  </sqi>
+  <sqi id="BASE00004" tooltip="床位信息">
+    select chuangweih,chuangweism from zd_cwxx_v Where curr_bq =  '{0}' order by chuangweih asc
+  </sqi>
+  <sqi id="BASE00005" tooltip="费用归类信息">
+    select * from zd_fygbxx_v order by xiangmugl asc
+  </sqi>
+  <sqi id="BASE00006" tooltip="药品信息">
+    select * from zd_ypxx_v Where ( '{0}' = '0' Or xiangmugl = '{0}' ) And Decode('{1}','0',pinyinm,'1',wubim,xiangmumc) like '%'||'{2}'||'%' order by xiangmumc asc
+  </sqi>
+  <sqi id="BASE00007" tooltip="诊疗信息">
+    select * from zd_zlxx_v Where ( '{0}' = '0' Or xiangmugl = '{0}' ) And Decode('{1}','0',pinyinm,'1',wubim,xiangmumc) like '%'||'{2}'||'%' {3} order by xiangmumc asc
+  </sqi>
+  <sqi id="BASE00008" tooltip="科室信息">
+    select * from zd_ksxx_v order by keshidm asc
+  </sqi>
+  <sqi id="BASE00009" tooltip="检查开单模版">
+    select * from zd_jianchakdmb
+  </sqi>
+  <sqi id="BASE00010" tooltip="检查开单明细">
+    select * from zd_jianchakdmx
+  </sqi>
+  <sqi id="BASE00011" tooltip="检验开单模版">
+    select * from zd_jianyankdmb
+  </sqi>
+  <sqi id="BASE00012" tooltip="检验开单明细">
+    select * from zd_jianyankdmx
+  </sqi>
+  <sqi id="BASE00013" tooltip="诊疗项目信息">
+    select * from Gy_YLsf 
+    Where 1 =1 {0}
+  </sqi>
+  <sqi id="BASE00014" tooltip=" 平湖医生排班信息">
+    select * from mz_yzpbcx
+    Where 1 =1 {0}
+  </sqi>
+  <sqi id="BASE00015" tooltip=" 查询套餐明细">
+    select * from zd_zlxx_v where Xiangmuxh in ( select ylxh from Gy_YLsf  where ylxh in (select ylxh from gy_ylsftc  where glxh={0} ) {1})
+  </sqi>
+ 
+</config>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:ns="http://ws.server.dr.bsoft.com" xmlns:ns1="http://org.apache.axis2/xsd" targetNamespace="http://ws.server.dr.bsoft.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>drService</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://ws.server.dr.bsoft.com">
+      <xs:element name="execute">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="arg" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="executeResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="executeRequest">
+    <wsdl:part name="parameters" element="ns:execute" />
+  </wsdl:message>
+  <wsdl:message name="executeResponse">
+    <wsdl:part name="parameters" element="ns:executeResponse" />
+  </wsdl:message>
+  <wsdl:message name="echoRequest" />
+  <wsdl:message name="echoResponse" />
+  <wsdl:portType name="drServicePortType">
+    <wsdl:operation name="execute">
+      <wsdl:input wsaw:Action="urn:execute" message="ns:executeRequest" />
+      <wsdl:output wsaw:Action="urn:executeResponse" message="ns:executeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="echo">
+      <wsdl:input wsaw:Action="urn:echo" message="ns:echoRequest" />
+      <wsdl:output wsaw:Action="urn:echoResponse" message="ns:echoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="drServiceSoap11Binding" type="ns:drServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="execute">
+      <soap:operation soapAction="urn:execute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="echo">
+      <soap:operation soapAction="urn:echo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="drServiceSoap12Binding" type="ns:drServicePortType">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="execute">
+      <soap12:operation soapAction="urn:execute" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="echo">
+      <soap12:operation soapAction="urn:echo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="drServiceHttpBinding" type="ns:drServicePortType">
+    <http:binding verb="POST" />
+    <wsdl:operation name="execute">
+      <http:operation location="drService/execute" />
+      <wsdl:input>
+        <mime:content part="execute" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="execute" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="echo">
+      <http:operation location="drService/echo" />
+      <wsdl:input>
+        <mime:content part="echo" type="text/xml" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="echo" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="drService">
+    <wsdl:port name="drServiceHttpSoap11Endpoint" binding="ns:drServiceSoap11Binding">
+      <soap:address location="http://192.168.1.100:8080/dr/services/drService.drServiceHttpSoap11Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="drServiceHttpSoap12Endpoint" binding="ns:drServiceSoap12Binding">
+      <soap12:address location="http://192.168.1.100:8080/dr/services/drService.drServiceHttpSoap12Endpoint/" />
+    </wsdl:port>
+    <wsdl:port name="drServiceHttpEndpoint" binding="ns:drServiceHttpBinding">
+      <http:address location="http://192.168.1.100:8080/dr/services/drService.drServiceHttpEndpoint/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

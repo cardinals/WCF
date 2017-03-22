@@ -1,0 +1,153 @@
+F:\嘉二\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+F:\嘉二\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+F:\嘉二\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+F:\嘉二\2.服务平台(外地HIS1.0)\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+E:\zjhis\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.csprojResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+D:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+D:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+D:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+D:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+D:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+D:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+F:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+F:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+F:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+F:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+F:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+F:\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+C:\Documents and Settings\Administrator\桌面\2.服务平台(外地HIS1.0最新\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\obj\Debug\SWSoft.Caller.csprojResolveAssemblyReference.cache
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+E:\zjhis\自助机系统\2.服务平台嘉二、嘉中、湖州 版本\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+F:\服务平台(银医)\2.服务平台嘉二、嘉中、湖州 版本\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+C:\Users\Administrator\Desktop\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台20150116 合杭州版本\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+F:\1.服务平台\1.HIS1\服务平台 通用版本\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+C:\Users\Administrator\Desktop\服务平台\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+C:\Users\Administrator\Desktop\服务平台\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\SWSoft.Caller\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\服务平台\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+C:\Users\Administrator\Desktop\服务平台\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.csprojResolveAssemblyReference.cache
+E:\05.服务平台\3.HIS4.0\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+E:\05.服务平台\3.HIS4.0\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+E:\05.服务平台\3.HIS4.0\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\05.服务平台\3.HIS4.0\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+E:\05.服务平台\3.HIS4.0\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\obj\Debug\SWSoft.Caller.csprojResolveAssemblyReference.cache

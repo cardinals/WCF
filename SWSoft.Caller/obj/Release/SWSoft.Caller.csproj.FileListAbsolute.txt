@@ -1,0 +1,20 @@
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Release\ResolveAssemblyReference.cache
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Release\SWSoft.Caller.dll
+C:\cyyxm\2.服务平台(外地HIS1.0)\SWSoft.Caller\obj\Release\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\obj\Release\SWSoft.Caller.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\SWSoft.Caller\obj\Release\SWSoft.Caller.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\bin\Debug\SWSoft.Caller.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\obj\Release\SWSoft.Caller.csprojResolveAssemblyReference.cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\obj\Release\SWSoft.Caller.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\SWSoft.Caller\obj\Release\SWSoft.Caller.pdb

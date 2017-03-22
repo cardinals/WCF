@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{84363149-249C-451D-B8B6-45CC299291DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BASE.Biz</RootNamespace>
+    <AssemblyName>BASE.Biz</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Nonshipping>true</Nonshipping>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\HisWCFSVR\bin\BASE\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQ.cs" />
+    <Compile Include="ZD_BINGQUXX.cs" />
+    <Compile Include="ZD_CHUANGWEIXX.cs" />
+    <Compile Include="ZD_JIANCHAJYMB.cs" />
+    <Compile Include="ZD_JIANCHAJYMX.cs" />
+    <Compile Include="ZD_KESHIXX.cs" />
+    <Compile Include="ZD_XIANGMUGLXX.cs" />
+    <Compile Include="ZD_YAOPINXX.cs" />
+    <Compile Include="ZD_YISHENGPBXX.cs" />
+    <Compile Include="ZD_ZHENLIAOXX.cs" />
+    <Compile Include="ZD_ZHENSHIXX.cs" />
+    <Compile Include="ZD_ZHIGONGXX.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SWSoft.Caller\SWSoft.Caller.csproj">
+      <Project>{034C6EBF-1E9A-4BF3-95B4-9750786D1BBF}</Project>
+      <Name>SWSoft.Caller</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\BASE.Schemas\BASE.Schemas.csproj">
+      <Project>{01A83ABD-7092-4443-8BEF-0A3BC179A924}</Project>
+      <Name>BASE.Schemas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JYCS.Schemas\JYCS.Schemas.csproj">
+      <Project>{C1D1BB70-4FB0-4104-B1F4-CAE116EBE285}</Project>
+      <Name>JYCS.Schemas</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlLib\main.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sqllib.ini" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

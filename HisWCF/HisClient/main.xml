@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config namespace="his1.wcf">
+  <sqi id="T00001" tooltip="取自费病人信息">
+    Select Jzkh,
+    Brlb,
+    Brxzdm,
+    Ybkh,
+    Zh,
+    Bah,
+    Xm,
+    Xb,
+    Mz,
+    Csrq,
+    '1' ZHENGJIANLX,
+    Sfzh,
+    '' DANWEILX,
+    Dwbh,
+    Dwmc,
+    Jtzz,
+    Ybryxz 　　
+    From gy_brjbxxk 　　
+    Where Jzkh = '{0}'
+  </sqi>
+  <sqi id="T00002" tooltip="取门诊处方库信息">
+    <![CDATA[
+   select  * From wcf_mzcfk a
+    Where  a.Jzkh = '{0}'--就诊卡号 　　　
+   And a.Fybh = '{1}' -- 分院代码
+   and a.gdbzbz='{2}' --规定病种标志
+]]>
+  </sqi>
+  <sqi id="T00003" tooltip="取门诊医技库信息">
+    <![CDATA[
+   select  * From wcf_mzyjk a
+    Where  a.Jzkh = '{0}'--就诊卡号 　　　
+   And a.Fybh = '{1}' -- 分院代码
+]]>
+  </sqi>
+  <sqi id="T00004" tooltip="获取病人就诊诊断信息">
+    <![CDATA[
+   select  * From wcf_zdxx a
+    Where  a.Jzkh = '{0}'--就诊卡号 　　　
+   And a.Fybh = '{1}' -- 分院代码
+]]>
+  </sqi>
+  <sqi id="T00005" tooltip="更新公用序号">
+    <![CDATA[
+　　　　UPDATE GY_xhb SET dqz = dqz + zz WHERE bm = '{0}'
+]]>
+  </sqi>
+  <sqi id="T00006" tooltip="获取公用序号">
+    <![CDATA[
+　　　　  select dqz from gy_xhb where bm = '{0}'
+]]>
+  </sqi>
+  <sqi id="T00007" tooltip="插入表数据Mz_Mzsfk1">
+    <![CDATA[
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje)--医保报销金额
+　　Values
+　　  ('{0}',--收费识别
+　　   '{1}',--发票号码
+　　   {2},--收费日期
+　　   '{3}',--就诊卡号
+　　   '{4}',--公费证号、个人编号
+　　   '{5}',--病人姓名
+　　   '{6}',--病人性质
+　　   '{7}',--单位编号
+　　   '{8}',--现金
+　　   '{9}',--支票金额
+　　   '{10}',--收费方式
+　　   '{11}',--收费金额
+　　   '{12}',--支票号码
+　　   '{13}',--重症疾病代码
+　　   '{14}',--操作工号
+　　   '{15}',--不明
+　　   '{16}',--规定单位名称
+　　   '{17}',--病人类别
+　　   '{18}',--收现金
+　　   '{19}',--找现金
+　　   '{20}',
+　　   '{21}',--挂号类别(指特殊收费、特病)
+　　   '{22}',--取药窗口
+　　   '{23}',--医保卡号
+　　   '{24}',--自负金额
+　　   '{25}',--自理金额
+　　   '{26}',--当年账户金额
+　　   '{27}',--历年账户余额
+　　   '{28}',--记账金额
+　　   '{29}',--统筹基金金额
+　　   '{30}',--重病补助金额
+　　   '{31}',--医保人员性质
+　　   '{31}',--医保单位编号
+　　   '{33}',--网卡地址
+　　   '{34}',--公费记账
+　　   '{35}',--Gy_Brjbxxk中的Brxzdm2
+　　   '{36}',--就诊标志
+　　   '{37}',--疾病代码
+　　   '{38}',--审批编号
+　　   '{39}',--优惠金额
+　　   '{40}',--结算后账户金额
+　　   '{41}',--结算前历年账户金额
+　　   '{42}',
+　　   '{43}',
+　　   '{44}',
+　　   '{45}',
+　　   '{46}',
+　　   '{47}',
+     '{48}','{49}','{50}')--分院编号
+]]>
+  </sqi>
+  <sqi id="T00008" tooltip="插入表数据Mz_Mzsfk2">
+    --收费识别、收费项目、自费金额、费用合计
+    　　　　select {0},{1},{2},{3},null,null,null from dual union all
+  </sqi>
+  <sqi id="T00009" tooltip="更新Yj_Yjk1">
+    Update Yj_Yjk1 Set Sfsb = '{0}' --收费识别
+    Where Yjsb in ({1}) --医技识别
+  </sqi>
+  <sqi id="T00010" tooltip="更新mz_cfk1">
+    Update Mz_Cfk1 Set Sfsb = '{0}', Jzyf = '0' Where sfsb is null and Cfsb in ({1})
+  </sqi>
+  <sqi id="T00011" tooltip="更新Yj_Yjk2">
+    Update Yj_Yjk2
+    Set  ybzfbl = '{0}', Zfbl = '{1}',
+    Brxz = '{2}'
+    Where Yjsb = '{3}'
+    And Ylxh = '{4}'
+  </sqi>
+  <sqi id="T00012" tooltip="更新mz_cfk2">
+    Update Mz_Cfk2
+    Set Ybzfbl ={0}, Zfbl = {1},
+    　　   Brxz = '{2}'
+    Where Cfsb = '{3}'
+    And Cfxh = '{4}'
+    And Ypxh = '{5}'
+    And Ypcddm = '{6}'
+  </sqi>
+  <sqi id="T00013" tooltip="电子开单的需要更新">
+    　　--电子开单的需要更新YxsqdId部分内容
+    　　  Update Gy_Yxsqd Set Sfsb = '{0}', Sfsj = SysDate Where Id in (select YXSQDID from yj_yjk1 where yjsb in ({1}) and  nvl(YXSQDID,0)>0)
+  </sqi>
+  <sqi id="T00014" tooltip="更新医保基金">
+    　　Update Mz_mzsfk1
+    Set Xj1      = '{0}',--56:AKC711本次门诊起付标准
+    Xj2          = '{1}',
+    Lnzhje1      = '{2}',--16:公务员门诊起伏线历年账户支付
+    Lnzhje2      = '{3}',
+    Dnzhsylj     = '{4}',--16|56:公务员本次进入门诊起伏线|AKC712
+    Zdxslb       = '{5}',
+    Jshzhje      = '{6}', --结算后本年帐户余额= 结算前本年帐户余额 - 当前帐户支付金额
+    Jsqlnzhje    = '{7}', --结算后历年帐户余额= 结算前历年帐户余额 - 往年帐户支付金额
+    Tcjjje       = '{8}', --15|55|16|56:统筹基金金额|统筹基金支付|统筹基金支付|AKC260
+    Gwyje        = '{9}', --55|16:离休基金支付|离休人员基金
+    Tcjjj        = '{10}', --16:两费基金
+    Zntcje       = '{11}', --16:子女统筹基金
+    Lxjsje       = '{12}', --55|16:二乙基金支付|离休家属基金
+    Knbzje       = '{13}', --16|56:困难救助基金|AKC707
+    Ickje        = '{14}', --15|55|16|56:当年账户支付|当年账户支付|本年帐户支出金额|AKC255
+    Lnzhje       = '{15}', --15|55|16|56:历年账户支付|历年账户支付|历年帐户支出金额|AKC703
+    Jzje         = '{16}', --15|55|16|56:公务员补助支付|公务员补助支付|公务员补助支付金额|AKC708
+    Zbbzje       = '{17}', --15|55|16|56:大病救助支付|大病救助支付|救助金支付金额|AKC706
+    Ybzje        = '{18}', --15|55|16|56:费用总额|费用总额|医疗费总额|AKC264
+    Ybxjzf       = '{19}', --15|55|16:个人现金支付|个人现金支付|个人现金支付金额|AKC261
+    YbBxje       = '{20}', --15|55|16:医保报销金额|医保报销金额|医保报销金额
+    Zfje         = '{21}', --15|55|16|56:自费总额|自费总额|个人自费金额|AKC253
+    Zlje         = '{22}', --15|55|16|56:自理总额|自理总额|乙类药品自理+特检自理+特治自理|AKC228
+    Ybryxz       = '{23}', --15:人员性质
+    Ybdwbh       = '{24}', --15:单位编号
+    Bjdybz       = '{25}', --15:保健待遇标志
+    Ybkh         = '{26}', --15:医保卡号
+    Qytxbz       = '{27}',--企业退休标志
+    Qytxpb       = '{28}',--16:城区号
+    TxTcjjje     = '{29}',--16:退休门诊统筹基金
+    ZzTcjjje     = '{30}',--16|56:企业在职门诊统筹基金|AKC709
+    LnjmTcjjje   = '{31}', --16|56:老居民基金|AKC710
+    SnetTcjjje   = '{32}', --16:少年儿童基金
+    NmgTcjjje    = '{33}', --16:农民工基金支付
+    Tail         = '{34}',
+    Fzzf_1       = '{35}',--55|56:个人自费现金支付|AKC741
+    Fzzf_2       = '{36}',--55|56:个人自理现金支付|AKC742
+    Fzzf_3       = '{37}',--55|56:个人自付现金支付|AKC743
+    Fzzf_4       = '{38}',--56:AKC702
+    Fzzf_5       = '{39}',--55|56:转外就医先个人自理比例|AKC744
+    Fzzf_6       = '{40}',--55|56:转外就医先个人自理费用|AKC745
+    Jylsh        = '{41}',--医保流水号
+    GFKZPOTCJJJE = '{42}', --55|16:劳模基金支付|公费抗战配偶基金
+    GFJFPOTCJJJE = '{43}', --55|16:补助基金支付|公费解放配偶基金
+    LFKZPOTCJJJE = '{44}', --55|16:民政补助基金支付|两费抗战配偶基金
+    LFJFPOTCJJJE = '{45}', --16:两费解放配偶基金
+    Fsjtcjjje    = '{46}', --16:副省级基金
+    Fhjtcjjje    = '{47}', --16:副市级基金
+    Ftjtcjjje    = '{48}', --55|16:预留5|副厅级基金
+    Fjjtcjjje    = '{49}', --55|16:预留6|副局级基金
+    Fcjtcjjje    = '{50}', --55|16:预留7|副处以下基金
+    CqZnJj       = '{51}', --16:城区子女基金
+    CqGfLxjj     = '{52}', --16:城区公费离休基金
+    CqLfLxjj     = '{53}', --16:城区两费离休基金
+    Xnhjj        = '{54}', --55|16:预留8|新农合基金
+    Tjjj         = '{55}', --55|16:预留9|体检基金
+    Dysjj        = '{56}', --55|16:预留10|大学生基金
+    Bjzfje       = '{57}', --16:职工医保二级保健干部自负金额
+    FJXX         = '{58}', --56:AKC200
+    LMJJ         = '{59}', --16:劳模基金
+    Lnzhzfzl     = '{60}', --16:历年账户支付自理
+    Scjjzfxj     = '{61}', --16:伤残基金支付自负现金
+    Scjjzlxj     = '{62}', --16:伤残基金支付自理现金
+    Dbzyycdje    = '{63}', --16:单病种医院承担费用
+    Dbzbz        = '{64}', --16:单病种标志
+    CxjmddBZ     = '{65}', --16:城乡居民定点标志
+    scdj         = '{66}', --伤残等级
+    scgsbz       = '{67}', --伤残工伤标志
+    Qfxzf        = '{68}' --16:起付标准帐户支付金额+起付标准现金支付金额
+    Where Sfsb = '{69}'
+  </sqi>
+  <sqi id="T00015" tooltip="获取门诊处方冻结金额">
+    select * from wcf_yhdjjl where jzkh='{0}'
+  </sqi>
+  <proc id="T00016" tooltip="更新His的mz_ybjsxx下医保流水号">
+    <name>Pkg_Siim.Prc_SyncMzYbjsxx</name>
+    <param name="a_yyjyid" type="String" Direction="Input"></param>
+  </proc>
+  <sqi id="T00017" tooltip="插入gy_brjbxxk">
+    Insert Into Gy_Brjbxxk (Jzkh,Xm,Xb,Csrq,
+    Brxzdm,TsBrbz,Sfzh,Zh,
+    Dwbh,Dwmc,Ybryxz,Ybkh,
+    Lxdz,Lxdh,Zydm,SqGrbh,
+    Gdbzpb,Brlb,Bmtj,Jzcs,
+    Xzqhmc,Cjqhmc,Mpqhmc,Sfqhxh,
+    Sdqhxh,Xqqhxh,Qytxbz,Ldrq,
+    Jmbz,MM,Ybqtbz,Bah,
+    Brzzbz,Bxh,Xzqydm,jtzz,
+    SCGSBZ,Yhlb,Ybkxx)
+    values(
+    '{0}',
+    '{1}',
+    '{2}',
+    to_date('{3}','yyyy-MM-dd'),
+    '{4}',
+    '{5}',
+    '{6}',
+    '{7}',
+    '{8}',
+    '{9}',
+    '{10}',
+    '{11}',
+    '{12}',
+    '{13}',
+    '{14}',
+    '{15}',
+    '{16}',
+    '{17}',
+    '{18}',
+    '{19}',
+    '{20}',
+    '{21}',
+    '{22}',
+    '{23}',
+    '{24}',
+    '{25}',
+    '{26}',
+    to_date('{27}','yyyy-MM-dd HH24:mi:ss'),
+    '{28}',
+    '{29}',
+    '{30}',
+    '{31}',
+    '{32}',
+    '{33}',
+    '{34}',
+    '{35}',
+    '{36}',
+    '{37}',
+    '{38}')
+  </sqi>
+  <proc id="T00018" tooltip="更新病案信息">
+    <name>zjhis.Prc_Update_Bah</name>
+    <param name="Prm_Jzkh" type="String" Direction="Input"></param>
+    <param name="Prm_AppCode" type="Decimal" Direction="Output"></param>
+    <param name="Prm_OutData" type="String" Direction="Output"></param>
+  </proc>
+  <sqi id="T00019" tooltip="获取规定病种标志">
+    select  Nvl(f_zj_get_gdbzpb((select jzxh from zj_jzxx where jzkh='{0}')),0) from dual
+  </sqi>
+  <sqi id="T00020" tooltip="插表mb_ybjsxx">
+    insert into mz_ybjsxx(jylsh,jylx,sfsb)
+    values (0,1,'{0}','{1}')
+  </sqi>
+  <proc id="T00021" tooltip="更新mz_ybjsxx">
+    <name>pkg_siim.prc_syncmzybjsxx</name>
+    <param name="a_yyjyid" type="String" Direction="Input"></param>
+  </proc>
+  <sqi id="T00022" tooltip="获得是否包含规定病种处方标志">
+    <![CDATA[
+    select sum(c) from (select count(1) c
+    from mz_cfk1
+    where sfsb is null
+    and jzkh = '{0}'
+    and Nvl(f_zj_get_gdbzpb(jzxh), 0) <> 0
+    union all
+    select count(1) c
+    from yj_yjk1
+    where sfsb is null
+    and jzkh = '{0}'
+    and Nvl(f_zj_get_gdbzpb(jzxh), 0) <> 0
+    )
+    ]]>
+  </sqi>
+  <proc id="T00023" tooltip="获的取药窗口">
+    <name>pkg_siim.p_trade</name>
+    <param name="Prm_TradeType" type="String" Direction="Input"></param>
+    <param name="Prm_Indata" type="String" Direction="Input"></param>
+    <param name="Prm_Appcode" type="Decimal" Direction="Output"></param>
+    <param name="Prm_Outdata" type="String" Direction="Output"></param>
+  </proc>
+</config>

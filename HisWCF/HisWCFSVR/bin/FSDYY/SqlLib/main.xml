@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config namespace="fsdyy.wcf">
+  <sqi id="FSD00001" tooltip="获取项目对应设备">
+    <![CDATA[
+   select distinct jcsbdm From FSDYY_XMSBDY a
+    Where  a.jcxmdm in ({0}) {1} --检查项目代码 
+]]>
+  </sqi>
+  <sqi id="FSD00002" tooltip="取设备对应的排班信息">
+    <![CDATA[
+   select a.jcsbdm,a.pbrq,a.pbr,a.kssj,a.jssj,a.yyzs,a.kyys,a.xcyls,a.yyys,a.yyjcbw,a.jcyylx,a.yyhxx,b.jcsbmc,b.jcsbdd,a.zykyys,a.zyyyys,a.mzkyys,a.mzyyys,a.sqkyys,a.sqyyys
+   from FSDYY_JCSBYYPB a,fsdyy_jcsb b
+   where a.jcsbdm = b.jcsbdm
+   and a.jcsbdm = '{0}'--检查设备代码 　　　
+   And a.pbrq = '{1}' -- 排班日期
+   and (a.kssj<='{2}' --预约时间
+   and a.jssj>'{2}' and {3} = 0 or a.jssj>'{2}' and {3} = 1)
+]]>
+  </sqi>
+  <sqi id="FSD00003" tooltip="取设备排班预约号信息">
+    <![CDATA[
+   select * from fsdyy_jcsbyyhxx a 
+   where a.yyhxx = {0} --预约号信息
+   and (yyhlx = {1} or {1} <> 0 ) --判断是取非当天预约号还是所有预约号
+   order by to_number(yyh)
+]]>
+  </sqi>
+  <sqi id="FSD00004" tooltip="查询有无预约信息">
+    <![CDATA[
+select * from fsdyy_sq a where a.yysqdbh = {0}  --预约申请单信息
+]]>
+  </sqi>
+  <sqi id="FSD00005" tooltip="更新预约状态信息">
+    <![CDATA[
+　　　　update fsdyy_sq a set a.yysqdzt = {1} where a.yysqdbh = {0}
+]]>
+  </sqi>
+  <sqi id="FSD00006" tooltip="预约信息查询">
+    <![CDATA[
+    select a.* 
+      from fsdyy_sq a 
+      where (a.jcrq = '{1}' and 0 = {2} or a.jcrq >= '{1}' and 0 <> {2}) 
+      and a.yysqdzt = 0 and a.brlx = 2 {0} --预约日期
+  union all
+   select a.*
+    from fsdyy_sq a 
+   where exists (select 1 from zd_jianchaxmmx b where a.JCSQDBH = b.jcsqdbh and b.brlx = 1 and 
+b.BRFPH is not null) and (a.jcrq = '{1}' and 0 = {2} or a.jcrq >= '{1}' and 0 <> {2}) and 
+a.yysqdzt = 0 and a.brlx = 1   {0} --预约日期
+　　　　  --select * 
+     -- from fsdyy_sq a 
+     -- where (a.jcrq = '{1}' and 0 = {2} or a.jcrq >= '{1}' and 0 <> {2}) and a.yysqdzt = 0     
+     -- {0} --预约日期
+]]>
+  </sqi>
+  <sqi id="FSD00007" tooltip="获取检查设备信息">
+    <![CDATA[
+　　　　select * from fsdyy_jcsb a where a.jcsbdm = {0} --检查设置代码
+]]>
+  </sqi>
+  <sqi id="FSD00008" tooltip="更新fsdyy_jcsbyypb.yyys住院">
+    <![CDATA[
+    update fsdyy_jcsbyypb a set a.yyys = {1}, --可预约数
+                                a.zyyyys = {2}-- 住院已预约数
+    where a.yyhxx = {0}
+]]>
+  </sqi>
+  <sqi id="FSD00009" tooltip="更新fsdyy_jcsbyyhxx.yyzt">
+    <![CDATA[
+    update fsdyy_jcsbyyhxx a set a.yyzt = {2} --预约状态
+    where a.yyhxx = {0} --预约号信息
+    and a.yyh = '{1}' --预约号
+]]>
+  </sqi>
+  <sqi id="FSD00010" tooltip="获取具体预约号的预约状态">
+    <![CDATA[
+    select * from fsdyy_jcsbyyhxx a
+    where a.yyhxx = {0} --预约号信息
+    and a.yyh = '{1}' --预约号
+]]>
+  </sqi>
+  <sqi id="FSD00011" tooltip="插入预约申请信息fdsyy_sq">
+    <![CDATA[
+    Insert into fsdyy_sq (yysqlsh,yysqdbh,yysqdmc,yysqdzt,jcksdm,jcksmc,brfph,brlx,brlxmc,brkh,brmzh,brzyh,brbqdm,brbqmc,brcwh,brxm,
+    brxb,brnl,brcsrq,brlxdz,brlxdh,sqysgh,sqysmc,sqksdm,sqksmc,sqyydm,sqyymc,sqsj,jch,jcrq,jcsj,jcxmdm,jcxmmc
+    ,jcxmlx,jcbwdm,jcbwmc,jcsbdm,jcsbmc,jcsbdd,yyh,sfzh,yysf,jcsqdbh,yxfx,yysjd,xxapsj,yyly,ywlx,sfzq,sfjz,sfls)
+    values({42}, --预约申请流水号
+           {43},     --预约申请单编号
+           '{0}',     --预约申请单名称
+           {1},     --预约申请单状态(0未确认,1已确认,9作废)
+           '{2}',     --检查科室代码
+           '{3}',     --检查科室名称
+           '{4}',     --病人发票号
+           {5},     --病人类型
+           '{6}',     --病人类型名称
+           '{7}',     --病人卡号
+           '{8}',     --病人门诊号
+           '{9}',     --病人住院号
+           '{10}',     --病人病区代码
+           '{11}',     --病人病区名称
+           '{12}',     --病人床位号
+           '{13}',     --病人姓名
+           {14},     --病人性别
+           '{15}',     --病人年龄
+           to_date('{16}','yyyy-MM-dd'),     --病人出生日期
+           '{17}',     --病人联系地址
+           '{18}',     --病人联系电话
+           '{19}',     --申请医生工号
+           '{20}',     --申请医生姓名
+           '{21}',     --申请科室代码
+           '{22}',     --申请科室名称
+           '{23}',     --申请医院代码
+           '{24}',     --申请医院名称
+           sysdate,     --申请时间
+           '{25}',     --检查号
+           '{26}',     --检查日期
+           '{27}',     --检查时间
+           '{28}',     --检查项目代码
+           '{29}',     --检查项目名称
+           '{30}',     --检查项目类型
+           '{31}',     --检查部位代码
+           '{32}',     --检查部位名称
+           '{33}',     --检查设备代码
+           '{34}',     --检查设备名称
+           '{35}',     --检查设备地点
+           '{36}',     --预约号
+           '{37}',     --身份证号
+           {38},     --预约收费(0未收费，1已收费)
+           '{39}',     --检查申请单编号
+           '{40}',      --影像方向
+           '{41}',      --预约时间段
+           '{44}',      --详细安排时间
+           '{45}',        --预约来源
+           '{46}',       --业务类型
+           '{47}',      --是否增强
+           '{48}',      --是否急诊
+           '{49}')      --是否临时
+]]>
+  </sqi>
+  <sqi id="FSD00012" tooltip="获取检查项目详细信息">
+    <![CDATA[
+    select * from zd_jianchaxm a
+    where a.jcxmdm in ({0}) --检查项目代码
+]]>
+  </sqi>
+  <sqi id="FSD00013" tooltip="取最小预约号">
+    　 <![CDATA[
+    select min(yyh) yyh from fsdyy_jcsbyyhxx a
+    where a.yyhxx = {0} --预约号信息
+     and a.yyzt = 0 
+     and (yyhlx = {1} or {1} <> 0 ) --判断是取非当天预约号还是所有预约号
+]]>
+  </sqi>
+  <sqi id="FSD00014" tooltip="取预约排班信息">
+    　　 <![CDATA[
+    select *
+  from fsdyy_jcsbyypb a
+ where a.jcsbdm = {0}
+   and a.pbrq = '{1}'
+   and a.kssj <= '{2}' --预约时间
+   and a.jssj > '{2}'
+]]>
+  </sqi>
+  <sqi id="FSD00015" tooltip="取预约号信息">
+    <![CDATA[
+　　　　update fsdyy_sq a set a.yysf = {1} where a.yysqdbh = {0}
+]]>
+  </sqi>
+  <sqi id="FSD00016" tooltip="取预约号信息">
+    <![CDATA[
+　　　　update fsdyy_sq a set a.yysf = {1},a.yysqdzt = {1} where a.yysqdbh = {0}
+]]>
+  </sqi>
+  <sqi id="FSD00017" tooltip="取得预约申请流水号">
+    <![CDATA[
+      select seq_fsdyy_sq_yysqlsh.nextval yysqlsh from dual
+]]>
+  </sqi>
+  <sqi id="FSD00018" tooltip="取得预约申请单编号">
+    <![CDATA[
+      select seq_fsdyy_sq_yysqdbh.nextval yysqdbh from dual
+]]>
+  </sqi>
+  <sqi id="FSD00019" tooltip="取未预约信息">
+    <![CDATA[
+　　　　  select * 
+      from zd_jianchaxmwyymx a 
+      where yybz = 0     
+      {0} --预约日期
+]]>
+  </sqi>
+  <sqi id="FSD00020" tooltip="更新fsdyy_jcsbyypb.yyys门诊">
+    <![CDATA[
+    update fsdyy_jcsbyypb a set a.yyys = {1}, --可预约数
+                                a.mzyyys = {2}-- 门诊已预约数
+    where a.yyhxx = {0}
+]]>
+  </sqi>
+  <sqi id="FSD00021" tooltip="更新fsdyy_jcsbyypb.yyys社区">
+    <![CDATA[
+    update fsdyy_jcsbyypb a set a.yyys = {1}, --可预约数
+                                a.sqyyys = {2} --社区已预约数
+    where a.yyhxx = {0}
+]]>
+  </sqi>
+
+  <sqi id="FSD00022" tooltip="插入临时检查单">
+    <![CDATA[
+  insert into sxzz_jianchad(JIANCHADXH,JIUZHENKLX,JIUZHENKH,BINGRENXM,
+  BINGRENSFZH,SONGJIANYS,SONGJIANKS,SHOUFEISB,
+  BINGQINGMS,ZHENDUAN,BINGRENTZ,QITAJC,
+  BINGRENZS,JIANCHALY,JIESHOUFS,JIESOURQ,
+  JIESHOUBZ,JIANCHASQDH,JIANCHARQ,BINGRENXB,BINGRENNL,YYSQDBH)
+  values({0},'{1}','{2}','{3}',
+        '{4}','{5}','{6}','{7}',
+        '{8}','{9}','{10}','{11}',
+        '{12}','{13}','{14}',sysdate,
+        0,'{15}','{16}','{17}','{18}','{19}')
+]]>
+  </sqi>
+
+  <sqi id="FSD00023" tooltip="插入临时检查单明细">
+    <![CDATA[
+  insert into sxzz_jianchadxm (JIANCHADXH,JIANCHADMXXH,JIANCHAXMBH,
+  JIANCHAXMMC,JIANCHAFLBM,JIANCHASTBW,
+  JIANCHAFXDM,JIANCHAZYDM,JIANCHATS)
+  values({0},{1},'{2}',
+  '{3}','{4}','{5}',
+  '{6}','{7}','{8}')
+]]>
+  </sqi>
+  <sqi id="FSD00024" tooltip="取序列">
+    <![CDATA[
+  select {0} MAXID from dual
+]]>
+  </sqi>
+  <sqi id="FSD00025" tooltip="插入诊断临时表">
+    <![CDATA[
+    insert into sxzz_jianchadzd (jianchadxh,jianchadzdxh,icd10,zhenduanmc)
+    values({0},{1},'{2}','{3}')
+    ]]>
+  </sqi>
+  <sqi id="FSD00026" tooltip="检查项目与医疗序号对应关系">
+    <![CDATA[
+    select * from ZD_JIANCHAMXDZ Where lbxh = '{0}'
+    ]]>
+  </sqi>
+  <sqi id="FSD00027" tooltip="检查单明细信息">
+    <![CDATA[
+    select * from ZD_JIANCHAKDMX  Where lbxh IN ({0})
+    ]]>
+  </sqi>
+  <sqi id="FSD00028" tooltip="获取科室信息">
+    <![CDATA[
+    Select * From gy_ksdm Where ksdm = '{0}'
+    ]]>
+  </sqi>
+  <sqi id="FSD00029" tooltip="计算检查套餐内价格">
+    <![CDATA[
+     select Sum(dj) from ZD_JIANCHAMXDZ t Where lbxh = '{0}'
+    ]]>
+  </sqi>
+  <proc id="FSD00030" tooltip="检查开单">
+    <name>pkg_sxzz_jckd.prc_jsjcd</name>
+    <param name="ywlx" type="Decimal" Direction="Input"></param>
+    <param name="jyjcdxx" type="String" Direction="Input"></param>
+    <param name="jyjcmx" type="String" Direction="Input"></param>
+    <param name="zdmx" type="String" Direction="Input"></param>
+    <param name="jylx" type="Decimal" Direction="Input"></param>
+    <param name="errno" type="Decimal" Direction="Output"></param>
+    <param name="errmsg" type="String" Direction="Output"></param>
+    <param name="outdata" type="String" Direction="Output"></param>
+  </proc>
+  <sqi id="FSD00031" tooltip="更新检查申请单状态">
+    <![CDATA[
+    update sxzz_jianchad set JIESHOUBZ = '{1}',SHOUFEISB = '{2}' where yysqdbh = '{0}'
+    ]]>
+  </sqi>
+</config>

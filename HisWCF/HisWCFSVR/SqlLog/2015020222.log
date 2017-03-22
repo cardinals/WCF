@@ -1,0 +1,179 @@
+2015-02-02 22:00:00,663 -select yydm from gy_hospital_v
+
+2015-02-02 22:00:01,186 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 22:00:01,200 -select yydm from gy_hospital_v
+
+2015-02-02 22:00:01,206 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 22:00:01,213 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:00:01,219 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:15:12,002 -select yydm from gy_hospital_v
+
+2015-02-02 22:15:12,433 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 22:15:12,447 -select yydm from gy_hospital_v
+
+2015-02-02 22:15:12,452 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 22:15:12,458 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:15:12,465 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:38:35,162 -select yydm from gy_hospital_v
+
+2015-02-02 22:38:35,555 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 22:38:35,567 -select yydm from gy_hospital_v
+
+2015-02-02 22:38:35,572 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 22:38:35,578 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:38:35,583 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:39:39,166 -select yydm from gy_hospital_v
+
+2015-02-02 22:39:39,181 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 22:39:39,192 -select yydm from gy_hospital_v
+
+2015-02-02 22:39:39,198 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 22:39:39,204 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:39:39,209 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:47:33,258 -select yydm from gy_hospital_v
+
+2015-02-02 22:47:33,681 -
+    Select *
+    From Zy_Patient_Information 　　
+    Where ( (3 = 1 And Bah = ' ' ) 
+       Or (3 = 2 And  Curr_Bq = ' ' And Curr_Bed = ' ') 
+       Or (3 = 3 And  Patient_no = 67298))
+      And Out_Date Is Null
+
+
+2015-02-02 22:47:33,693 -select yydm from gy_hospital_v
+
+2015-02-02 22:47:33,699 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2015-02-02 22:47:33,704 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:47:33,710 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'ZY_DEPOSIT_FILE'
+
+
+2015-02-02 22:48:48,922 -
+  select  Seq_gy_jrjymx_jlxh.NextVal  MAXID from dual
+
+
+2015-02-02 22:48:48,927 -
+      insert into zy_deposit_file(jlxh,       patient_no,   js_no,        name,       depo_date,
+                                  op_id,      amount,       receipt_no,   depo_type,  status,
+                                  cheque_no,  dept_code,    Bz,JRJYLSH)
+				                values (  '269609',      '67298',        '0',        'ceshi2',      to_date('2015-02-02 22:48:48','yyyy-mm-dd hh24:mi:ss'),
+                                  'AUT14',      '0.01',        '',        '4',      '1',  
+                                  '',     '50041',       '','1')
+
+
+2015-02-02 22:48:48,932 -
+ insert into gy_jrjymx(JLXH,SFLB,JRLX,JRZHLX,JYLX,ZXLSH,SHLSH,YHBH,YHKH,SQHM,SHBH,
+                       ZDBH,JYPCH,JYCKH,JSCKH,JYRZM,JYKLX,JYQYE,JYJE,JYSJ,CZSJ,YXSJ,CZGH,YJLXH,YJYLSH,CZBZ,JZSJ,SQQRBZ,KPYXSJ,YHPJH) 
+                values('1','2','1','02','1','100000256','','','6217856200017080867','','330480620019','1856','','','','','','0','0.01',to_date('','yyyy-mm-dd hh24:mi:ss'),
+                       to_date('2015-02-02 22:48:48','yyyy-mm-dd hh24:mi:ss'),to_date('2015-02-02 23:59:59','yyyy-mm-dd hh24:mi:ss') ,'AUT14', '0' ,
+                       '0','0',to_date('2015-02-02 23:59:59','yyyy-mm-dd hh24:mi:ss'),'0','','')
+
+
+2015-02-02 22:48:48,973 -
+ select SUM(AMOUNT) JE FROM ZY_DEPOSIT_FILE WHERE PATIENT_NO='67298' AND JS_NO=0
+    
+
+2015-02-02 22:48:48,978 -
+   select Nvl(sum(dj*sl),0) ZFY from zy_detail_charge where patient_no='67298' and js_no=0
+    
+

@@ -1,0 +1,7 @@
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Schemas\bin\Release\HIS4.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Schemas\bin\Release\HIS4.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Schemas\bin\Release\JYCS.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Schemas\bin\Release\JYCS.Schemas.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Schemas\obj\Release\HIS4.Schemas.csprojResolveAssemblyReference.cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Schemas\obj\Release\HIS4.Schemas.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HIS4.Schemas\obj\Release\HIS4.Schemas.pdb

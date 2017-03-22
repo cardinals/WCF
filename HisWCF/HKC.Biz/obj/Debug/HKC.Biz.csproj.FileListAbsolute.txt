@@ -1,0 +1,26 @@
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Debug\HKC.Biz.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Debug\HKC.Biz.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Debug\HKC.Schemas.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Debug\JYCS.Schemas.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Debug\HKC.Schemas.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\bin\Debug\JYCS.Schemas.pdb
+D:\吴盈栋\HisWCF\HKC.Biz\obj\Debug\ResolveAssemblyReference.cache
+D:\吴盈栋\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.dll.config
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.csprojResolveAssemblyReference.cache
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.dll.config
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.csprojResolveAssemblyReference.cache
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.dll.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.csprojResolveAssemblyReference.cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HKC.Biz\obj\Debug\HKC.Biz.pdb

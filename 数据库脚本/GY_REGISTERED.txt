@@ -1,0 +1,37 @@
+-- Create table
+create table GY_REGISTERED
+(
+  key VARCHAR2(100),
+  mac VARCHAR2(20) not null
+)
+tablespace TS_HIS4
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64
+    next 8
+    minextents 1
+    maxextents unlimited
+  );
+-- Add comments to the columns 
+comment on column GY_REGISTERED.key
+  is '交易安全检验码';
+comment on column GY_REGISTERED.mac
+  is 'MAC地址';
+-- Create/Recreate primary, unique and foreign key constraints 
+alter table GY_REGISTERED
+  add constraint REGISTERED_MAC primary key (MAC)
+  using index 
+  tablespace TS_HIS4
+  pctfree 10
+  initrans 2
+  maxtrans 255
+  storage
+  (
+    initial 64K
+    next 1M
+    minextents 1
+    maxextents unlimited
+  );

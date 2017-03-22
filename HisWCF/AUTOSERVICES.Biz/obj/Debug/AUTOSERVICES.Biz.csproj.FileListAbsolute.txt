@@ -1,0 +1,14 @@
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll.config
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\AUTOSERVICES.Biz\obj\Debug\AUTOSERVICES.Biz.csprojResolveAssemblyReference.cache
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\AUTOSERVICES.Biz\obj\Debug\AUTOSERVICES.Biz.dll
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\AUTOSERVICES.Biz\obj\Debug\AUTOSERVICES.Biz.pdb
+E:\05.服务平台\3.HIS4.0\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\SqlLib\main.xml
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll.config
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\HisWCFSVR\bin\AUTOSERVICES.Biz.pdb
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\AUTOSERVICES.Biz\obj\Debug\AUTOSERVICES.Biz.csprojResolveAssemblyReference.cache
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\AUTOSERVICES.Biz\obj\Debug\AUTOSERVICES.Biz.dll
+E:\桐庐县第二人民医院\桐庐县第二人民医院自助机\桐庐中医院\服务平台\HisWCF\AUTOSERVICES.Biz\obj\Debug\AUTOSERVICES.Biz.pdb

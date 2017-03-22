@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7D04D61C-227B-4971-94B4-20C47DFDC938}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HIS4.Schemas</RootNamespace>
+    <AssemblyName>HIS4.Schemas</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BINGANSY.cs" />
+    <Compile Include="BINGQINGZS.cs" />
+    <Compile Include="CAOZUORIJL.cs" />
+    <Compile Include="CHONGZHI.cs" />
+    <Compile Include="CHUYUANXJ.cs" />
+    <Compile Include="DANGANGX.cs" />
+    <Compile Include="DATAENTITY\BINGZHONGXX.cs" />
+    <Compile Include="DATAENTITY\CHONGFUJYXX.cs" />
+    <Compile Include="DATAENTITY\DIANZIZHXFMX.cs" />
+    <Compile Include="DATAENTITY\FEIYONGXX.cs" />
+    <Compile Include="DATAENTITY\FEIYONGXX_ZY.cs" />
+    <Compile Include="DATAENTITY\GUAHAOBRXX.cs" />
+    <Compile Include="DATAENTITY\GUAHAOXX.cs" />
+    <Compile Include="DATAENTITY\HAOYUANXX.cs" />
+    <Compile Include="DATAENTITY\JIANCHAJGXX.cs" />
+    <Compile Include="DATAENTITY\JIBINGXX.cs" />
+    <Compile Include="DATAENTITY\JIESUANJG.cs" />
+    <Compile Include="DATAENTITY\KESHIXX.cs" />
+    <Compile Include="DATAENTITY\MENZHENFYXX.cs" />
+    <Compile Include="DATAENTITY\MENZHENFYZFXX.cs" />
+    <Compile Include="DATAENTITY\MENZHENJSXX.cs" />
+    <Compile Include="DATAENTITY\PAIBANXX.cs" />
+    <Compile Include="DATAENTITY\TESHUBZXX.cs" />
+    <Compile Include="DATAENTITY\XIANGXIJSJGXX.cs" />
+    <Compile Include="DATAENTITY\YISHENGXX.cs" />
+    <Compile Include="DATAENTITY\YUYUEXX.cs" />
+    <Compile Include="DATAENTITY\ZHIFUBAOMX.cs" />
+    <Compile Include="DATAENTITY\ZHIFUBAOZDMX.cs" />
+    <Compile Include="DATAENTITY\ZHIFUXX.cs" />
+    <Compile Include="DATAENTITY\ZHUYUANXX.cs" />
+    <Compile Include="DATAENTITY\FEIYONGGLXX.cs" />
+    <Compile Include="GUAHAOBRXXCX.cs" />
+    <Compile Include="GUAHAOHYXX.cs" />
+    <Compile Include="GUAHAOKSXX.cs" />
+    <Compile Include="GUAHAOXXCX.cs" />
+    <Compile Include="GUAHAOCL.cs" />
+    <Compile Include="GUAHAOYSXX.cs" />
+    <Compile Include="GUAHAOYY.cs" />
+    <Compile Include="GUAHAOYYQH.cs" />
+    <Compile Include="GUAHAOYYTH.cs" />
+    <Compile Include="HUANZHEJHCX.cs" />
+    <Compile Include="JIANCHAJGCX.cs" />
+    <Compile Include="JIANCHAJGXX.cs" />
+    <Compile Include="JIANCHAJLCX.cs" />
+    <Compile Include="DATAENTITY\JIANCHAJLXX.cs" />
+    <Compile Include="JIANYANJGCX.cs" />
+    <Compile Include="DATAENTITY\JIANYANJGXX.cs" />
+    <Compile Include="JIANYANJLCX.cs" />
+    <Compile Include="DATAENTITY\JIANYANJLXX.cs" />
+    <Compile Include="DATAENTITY\JIANYANXMXX.cs" />
+    <Compile Include="JIAOYIZF.cs" />
+    <Compile Include="JIESHOUSZSQ.cs" />
+    <Compile Include="JIUZHENXXCX.cs" />
+    <Compile Include="JIUZHENXXXZ.cs" />
+    <Compile Include="MENZHENFYMX.cs" />
+    <Compile Include="MENZHENJS.cs" />
+    <Compile Include="MENZHENJSJL.cs" />
+    <Compile Include="MENZHENJSMX.cs" />
+    <Compile Include="MENZHENYJS.cs" />
+    <Compile Include="PAIBANTZXX.cs" />
+    <Compile Include="PAIDUIJHCX.cs" />
+    <Compile Include="DATAENTITY\PAIDUIJHXX.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RENYUANXX.cs" />
+    <Compile Include="RENYUANXXXG.cs" />
+    <Compile Include="RENYUANZC.cs" />
+    <Compile Include="DATAENTITY\YAOPINXX.cs" />
+    <Compile Include="TIJIANCXSQ.cs" />
+    <Compile Include="TIJIANCXSQCX.cs" />
+    <Compile Include="TIJIANJGCX.cs" />
+    <Compile Include="TIJIANJLCX.cs" />
+    <Compile Include="YIYUANPAIBANXX.cs" />
+    <Compile Include="YIZHUXX.cs" />
+    <Compile Include="YUANQUXX.cs" />
+    <Compile Include="YUJIAOKCZ.cs" />
+    <Compile Include="DATAENTITY\YUJIAOKXX.cs" />
+    <Compile Include="YUYUEJLCX.cs" />
+    <Compile Include="ZD_KESHIXX.cs" />
+    <Compile Include="ZD_YAOPINXX.cs" />
+    <Compile Include="ZD_YISHENGXX.cs" />
+    <Compile Include="ZD_YIYUANXX.cs" />
+    <Compile Include="ZD_ZHENLIAOXX.cs" />
+    <Compile Include="ZHANGHUKT.cs" />
+    <Compile Include="DATAENTITY\ZHENLIAOXX.cs" />
+    <Compile Include="ZHIFUBAOBDCX.cs" />
+    <Compile Include="ZHIFUBAOCANCLE.cs" />
+    <Compile Include="ZHIFUBAOCX.cs" />
+    <Compile Include="ZHIFUBAODZ.cs" />
+    <Compile Include="ZHIFUBAOJS.cs" />
+    <Compile Include="ZHIFUBAOJSMXXZ.cs" />
+    <Compile Include="ZHIFUBAOQY.cs" />
+    <Compile Include="ZHIFUBAOTF.cs" />
+    <Compile Include="ZHIFUBBDJB.cs" />
+    <Compile Include="ZHUYUANFYMX.cs" />
+    <Compile Include="ZHUYUANFYXX.cs" />
+    <Compile Include="ZHUYUANRYXX.cs" />
+    <Compile Include="GUAHAOYCL.cs" />
+    <Compile Include="DIANZIZHXX.cs" />
+    <Compile Include="ZD_JIANCHAXMLX.cs" />
+    <Compile Include="ZD_JIANCHAXMXX.cs" />
+    <Compile Include="ZD_JIANCHAXMBW.cs" />
+    <Compile Include="SHEBEIYYZTCX.cs" />
+    <Compile Include="SHEBEIYY.cs" />
+    <Compile Include="SHEBEIYYQX.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JYCS.Schemas\JYCS.Schemas.csproj">
+      <Project>{C1D1BB70-4FB0-4104-B1F4-CAE116EBE285}</Project>
+      <Name>JYCS.Schemas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

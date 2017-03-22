@@ -1,0 +1,4 @@
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisDllOp.dll\bin\Release\HisDllOp.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisDllOp.dll\bin\Release\HisDllOp.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisDllOp.dll\obj\Release\HisDllOp.dll
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisDllOp.dll\obj\Release\HisDllOp.pdb

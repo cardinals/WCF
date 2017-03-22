@@ -1,0 +1,2437 @@
+2014-11-21 14:09:39,519 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:14:03,751 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:14:08,730 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:14:28,088 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '101'
+
+
+2014-11-21 14:14:33,434 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-21 14:14:33,445 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-21 14:14:33,623 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:14:33,631 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-21 14:14:38,273 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21')
+  Where ('1' = '0' Or Sjlb = '1')
+  And ('101' = '*' Or Ksdm = '101')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-21 14:14:42,762 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '101'
+   And (nvl(Ysgh,'*') = '*')
+   And (('1' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('1' = '1' And Nvl(Swjsh, 0) < 0) Or ('1' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-21 14:14:43,193 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:14:43,200 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:14:43,206 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:14:43,212 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:14:43,219 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:14:43,231 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:14:43,237 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:14:43,829 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-21','yyyy-mm-dd') and to_date('2014-11-21 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '101'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-21 14:14:51,079 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 242264
+
+
+2014-11-21 14:14:51,088 -
+　update gh_mzpbk set swdqh=swdqh+1 where jlxh = 242264
+
+
+2014-11-21 14:14:51,097 -
+    select swdqh dqh,swjsh sxwjsh,swjsh-swdqh+swths sxwdqh from gh_mzpbk where jlxh=242264
+
+
+2014-11-21 14:14:51,102 -
+Select *
+  From gy_xtcs
+ Where xtxh = '24'
+ and csmc = 'GHXHMS'
+
+
+2014-11-21 14:14:51,110 -
+    select * 
+    FROM GH_MZYYK
+  WHERE to_char(yyrq1,'yyyy-MM-dd') = to_char(sysdate,'yyyy-MM-dd')
+    and nvl(zt,0) <> -1
+    and nvl(ysgh,'*') = '*'
+    and mzlbxh = 1
+    and ('101' = '*' or ksdm = '101')
+    and ghxh = 83
+    
+
+
+2014-11-21 14:14:51,252 -select yydm from gy_hospital_v
+
+2014-11-21 14:14:51,269 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:14:51,281 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:14:51,294 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:14:51,306 -
+ UPDATE GY_xhb SET dqz = dqz + 1  where BM='YJ_YJK1'
+
+
+2014-11-21 14:14:51,314 -
+    Select dqz from GY_xhb where BM='YJ_YJK1'
+
+
+2014-11-21 14:14:51,322 -select yydm from gy_hospital_v
+
+2014-11-21 14:14:51,333 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:14:51,338 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:14:51,348 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:14:55,433 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:14:55,444 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:14:55,449 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:14:55,453 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:14:55,458 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:14:55,464 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:14:55,469 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:14:59,197 -
+Insert Into Yj_Yjk1(Yjsb,   Jzkh,   Brxm,   Sjysgh,  Sjksdm,  Kdsj,     Sjsj,   Mzpb,     Ghxh,   Jzxh,   czgh,
+                    Fybh)
+            values ('100279002',  '00000400',  '王红娟',  '',  '101',    to_date('2014-11-21','yyyy-mm-dd hh24:mi:ss'),    to_date('2014-11-21 02-14-59','yyyy-mm-dd hh24:mi:ss'),  '1',    '9283403',  '-1',  'ZFB',
+                    '0')
+
+
+2014-11-21 14:15:00,935 -
+Insert Into Yj_Yjk2(Yjsb,   Ylxh,   Dj,     Sl,     Fygb,     Zfbl,     Zxysgh, Zxksdm,   Brxz,   requestmode,Fybh)
+            values ('100279002',  '36233',  '10',  '1',  '15',    '1',    '',  '101',    '0',  '0',      '0')
+
+
+2014-11-21 14:15:04,428 -
+Insert Into Gh_Ghk( Jlxh,   Jzkh,   Brxm,   Jzcs,   Brlb,   Brxz,     Dwbh,   Mzlbxh,   Ksdm,   Ghrq,   Pbxh,
+							      Ghxh,   Ysgh,   Sjlb,   Ghf,    Zlf,    Zlfds,    Czgh,   Thbz,     Czrq,   Ybkh,   Jzje,
+                    Ickje,  Lnzhje, Tcjjje, Zbbzje, Gfzh,   Blkh,     Fsjbz,   Fsjjzje, Fphm,   Ghlb,   Bjdybz,
+							      ybryxz, ybdwbh, jzsjqy, Fybh,   yylb,   yhkje,    FYZE,    JGBM)
+            values ('9283403',  '00000400',  '王红娟',  '496',  '1',  '0',    '',  '1',    '101',  to_date('2014-11-21 14:15:04','yyyy-mm-dd hh24:mi:ss'),  '242264',
+                    '83', '', '1', '0', '0', '1',   'ZFB', '0',   sysdate, '', '0',
+                    '0', '0', '0', '0', '', '',   '0', '0',   '', '1', '0',
+                    '', '', '', '0', '12', '',   '10',  '')
+
+
+2014-11-21 14:15:18,272 -select yydm from gy_hospital_v
+
+2014-11-21 14:15:18,296 -
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje,--医保报销金额
+           xtxh,--系统序号
+           qianyuebz,--签约标志
+           yinhanglsh,--银行流水号
+           yinhangje,--银行金额
+           jbmc) --疾病名称
+　　Values
+　　  ('10296950',--收费识别
+　　   '',--发票号码
+　　   sysdate,--收费日期
+　　   '00000400',--就诊卡号
+　　   '',--公费证号、个人编号
+　　   '王红娟',--病人姓名
+　　   '0',--病人性质
+　　   '1',--单位编号
+　　   '0',--现金
+　　   '0',--支票金额
+　　   '16',--收费方式
+　　   '10',--收费金额
+　　   '',--支票号码
+　　   '0',--重症疾病代码
+　　   'ZFB',--操作工号
+　　   '',--不明
+　　   '',--规定单位名称
+　　   '1',--病人类别
+　　   '0',--收现金
+　　   '0',--找现金
+　　   '0',
+　　   '1',--挂号类别(指特殊收费、特病)
+　　   '',--取药窗口
+　　   '',--医保卡号
+　　   '0',--自负金额
+　　   '0',--自理金额
+　　   '0',--当年账户金额
+　　   '0',--历年账户余额
+　　   '0',--记账金额
+　　   '0',--统筹基金金额
+　　   '0',--重病补助金额
+　　   '0',--医保人员性质
+　　   '0',--医保单位编号
+　　   '0',--网卡地址
+　　   '0',--公费记账
+　　   '0',--Gy_Brjbxxk中的Brxzdm2
+　　   '',--就诊标志
+　　   '',--疾病代码
+　　   '',--审批编号
+　　   '0',--优惠金额
+　　   '0',--结算后账户金额
+　　   '0',--结算前历年账户金额
+　　   '',
+　　   '2014112101393725619020141121140511',
+　　   '',
+　　   '2',--特殊收费标志
+　　   '',
+　　   '0',
+     '0','0','0','70',--分院编号
+     0,--签约标志
+     '',--银行流水号
+     0,--银行金额
+     '') --疾病名称
+
+
+2014-11-21 14:15:30,354 -
+    Update Yj_Yjk1 Set Sfsb = '-10296950' --收费识别
+    Where Yjsb in (100279002) --医技识别
+  
+
+2014-11-21 14:19:10,697 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:19:10,705 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:19:10,713 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '101'
+
+
+2014-11-21 14:19:10,720 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-21 14:19:10,728 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-21 14:19:10,734 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:19:10,739 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-21 14:19:10,748 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21')
+  Where ('1' = '0' Or Sjlb = '1')
+  And ('101' = '*' Or Ksdm = '101')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-21 14:19:10,760 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '101'
+   And (nvl(Ysgh,'*') = '*')
+   And (('1' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('1' = '1' And Nvl(Swjsh, 0) < 0) Or ('1' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-21 14:19:10,771 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:19:10,777 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:19:10,782 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:19:10,790 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:19:10,795 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:19:10,803 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:19:10,809 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:19:10,814 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-21','yyyy-mm-dd') and to_date('2014-11-21 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '101'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-21 14:19:10,889 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 242264
+
+
+2014-11-21 14:19:10,896 -
+　update gh_mzpbk set swdqh=swdqh+1 where jlxh = 242264
+
+
+2014-11-21 14:19:10,904 -
+    select swdqh dqh,swjsh sxwjsh,swjsh-swdqh+swths sxwdqh from gh_mzpbk where jlxh=242264
+
+
+2014-11-21 14:19:10,910 -
+Select *
+  From gy_xtcs
+ Where xtxh = '24'
+ and csmc = 'GHXHMS'
+
+
+2014-11-21 14:19:10,915 -
+    select * 
+    FROM GH_MZYYK
+  WHERE to_char(yyrq1,'yyyy-MM-dd') = to_char(sysdate,'yyyy-MM-dd')
+    and nvl(zt,0) <> -1
+    and nvl(ysgh,'*') = '*'
+    and mzlbxh = 1
+    and ('101' = '*' or ksdm = '101')
+    and ghxh = 84
+    
+
+
+2014-11-21 14:19:11,064 -select yydm from gy_hospital_v
+
+2014-11-21 14:19:11,069 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:19:11,074 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:19:11,082 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:19:11,087 -
+ UPDATE GY_xhb SET dqz = dqz + 1  where BM='YJ_YJK1'
+
+
+2014-11-21 14:19:11,093 -
+    Select dqz from GY_xhb where BM='YJ_YJK1'
+
+
+2014-11-21 14:19:11,098 -select yydm from gy_hospital_v
+
+2014-11-21 14:19:11,103 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:19:11,107 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:19:11,113 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:19:17,223 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:19:17,232 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:19:17,238 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:19:17,245 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:19:17,251 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:19:17,269 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:19:17,274 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:19:17,277 -
+Insert Into Yj_Yjk1(Yjsb,   Jzkh,   Brxm,   Sjysgh,  Sjksdm,  Kdsj,     Sjsj,   Mzpb,     Ghxh,   Jzxh,   czgh,
+                    Fybh)
+            values ('100279003',  '00000400',  '王红娟',  '',  '101',    to_date('2014-11-21','yyyy-mm-dd hh24:mi:ss'),    to_date('2014-11-21 02-19-17','yyyy-mm-dd hh24:mi:ss'),  '1',    '9283432',  '-1',  'ZFB',
+                    '0')
+
+
+2014-11-21 14:19:17,286 -
+Insert Into Yj_Yjk2(Yjsb,   Ylxh,   Dj,     Sl,     Fygb,     Zfbl,     Zxysgh, Zxksdm,   Brxz,   requestmode,Fybh)
+            values ('100279003',  '36233',  '10',  '1',  '15',    '1',    '',  '101',    '0',  '0',      '0')
+
+
+2014-11-21 14:19:17,294 -
+Insert Into Gh_Ghk( Jlxh,   Jzkh,   Brxm,   Jzcs,   Brlb,   Brxz,     Dwbh,   Mzlbxh,   Ksdm,   Ghrq,   Pbxh,
+							      Ghxh,   Ysgh,   Sjlb,   Ghf,    Zlf,    Zlfds,    Czgh,   Thbz,     Czrq,   Ybkh,   Jzje,
+                    Ickje,  Lnzhje, Tcjjje, Zbbzje, Gfzh,   Blkh,     Fsjbz,   Fsjjzje, Fphm,   Ghlb,   Bjdybz,
+							      ybryxz, ybdwbh, jzsjqy, Fybh,   yylb,   yhkje,    FYZE,    JGBM)
+            values ('9283432',  '00000400',  '王红娟',  '496',  '1',  '0',    '',  '1',    '101',  to_date('2014-11-21 14:19:17','yyyy-mm-dd hh24:mi:ss'),  '242264',
+                    '84', '', '1', '0', '0', '1',   'ZFB', '0',   sysdate, '', '0',
+                    '0', '0', '0', '0', '', '',   '0', '0',   '', '1', '0',
+                    '', '', '', '0', '12', '',   '10',  '')
+
+
+2014-11-21 14:19:18,119 -select yydm from gy_hospital_v
+
+2014-11-21 14:19:18,127 -
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje,--医保报销金额
+           xtxh,--系统序号
+           qianyuebz,--签约标志
+           yinhanglsh,--银行流水号
+           yinhangje,--银行金额
+           jbmc) --疾病名称
+　　Values
+　　  ('10296950',--收费识别
+　　   '',--发票号码
+　　   sysdate,--收费日期
+　　   '00000400',--就诊卡号
+　　   '',--公费证号、个人编号
+　　   '王红娟',--病人姓名
+　　   '0',--病人性质
+　　   '1',--单位编号
+　　   '0',--现金
+　　   '0',--支票金额
+　　   '16',--收费方式
+　　   '10',--收费金额
+　　   '',--支票号码
+　　   '0',--重症疾病代码
+　　   'ZFB',--操作工号
+　　   '',--不明
+　　   '',--规定单位名称
+　　   '1',--病人类别
+　　   '0',--收现金
+　　   '0',--找现金
+　　   '0',
+　　   '1',--挂号类别(指特殊收费、特病)
+　　   '',--取药窗口
+　　   '',--医保卡号
+　　   '0',--自负金额
+　　   '0',--自理金额
+　　   '0',--当年账户金额
+　　   '0',--历年账户余额
+　　   '0',--记账金额
+　　   '0',--统筹基金金额
+　　   '0',--重病补助金额
+　　   '0',--医保人员性质
+　　   '0',--医保单位编号
+　　   '0',--网卡地址
+　　   '0',--公费记账
+　　   '0',--Gy_Brjbxxk中的Brxzdm2
+　　   '',--就诊标志
+　　   '',--疾病代码
+　　   '',--审批编号
+　　   '0',--优惠金额
+　　   '0',--结算后账户金额
+　　   '0',--结算前历年账户金额
+　　   '',
+　　   '2014112101393725619020141121140511',
+　　   '',
+　　   '2',--特殊收费标志
+　　   '',
+　　   '0',
+     '0','0','0','70',--分院编号
+     0,--签约标志
+     '',--银行流水号
+     0,--银行金额
+     '') --疾病名称
+
+
+2014-11-21 14:19:18,141 -INSERT INTO MZ_MZSFK2(Sfsb,sfxm,zfje,Fyhj) 
+
+    --收费识别、收费项目、自费金额、费用合计
+    　　　　select 10296950,31,10,10 from dual 
+
+2014-11-21 14:19:18,172 -
+    Update Yj_Yjk1 Set Sfsb = '10296950' --收费识别
+    Where Yjsb in (100279003) --医技识别
+  
+
+2014-11-21 14:19:18,200 -
+    　　--电子开单的需要更新YxsqdId部分内容
+    　　  Update Gy_Yxsqd Set Sfsb = '10296950', Sfsj = SysDate Where Id in (select YXSQDID from yj_yjk1 where yjsb in (100279003) and  nvl(YXSQDID,0)>0)
+  
+
+2014-11-21 14:19:18,329 -
+    Update Yj_Yjk1 Set Sfsb = '-10296950' --收费识别
+    Where Yjsb in (100279003) --医技识别
+  
+
+2014-11-21 14:19:59,800 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:19:59,807 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:19:59,814 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '101'
+
+
+2014-11-21 14:19:59,820 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-21 14:19:59,824 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-21 14:19:59,828 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:19:59,832 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-21 14:19:59,836 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21')
+  Where ('1' = '0' Or Sjlb = '1')
+  And ('101' = '*' Or Ksdm = '101')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-21 14:19:59,847 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '101'
+   And (nvl(Ysgh,'*') = '*')
+   And (('1' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('1' = '1' And Nvl(Swjsh, 0) < 0) Or ('1' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-21 14:19:59,852 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:19:59,855 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:19:59,859 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:19:59,863 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:19:59,867 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:19:59,874 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:19:59,880 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:19:59,888 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-21','yyyy-mm-dd') and to_date('2014-11-21 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '101'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-21 14:19:59,947 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 242264
+
+
+2014-11-21 14:19:59,953 -
+　update gh_mzpbk set swdqh=swdqh+1 where jlxh = 242264
+
+
+2014-11-21 14:19:59,962 -
+    select swdqh dqh,swjsh sxwjsh,swjsh-swdqh+swths sxwdqh from gh_mzpbk where jlxh=242264
+
+
+2014-11-21 14:19:59,966 -
+Select *
+  From gy_xtcs
+ Where xtxh = '24'
+ and csmc = 'GHXHMS'
+
+
+2014-11-21 14:19:59,970 -
+    select * 
+    FROM GH_MZYYK
+  WHERE to_char(yyrq1,'yyyy-MM-dd') = to_char(sysdate,'yyyy-MM-dd')
+    and nvl(zt,0) <> -1
+    and nvl(ysgh,'*') = '*'
+    and mzlbxh = 1
+    and ('101' = '*' or ksdm = '101')
+    and ghxh = 85
+    
+
+
+2014-11-21 14:20:00,128 -select yydm from gy_hospital_v
+
+2014-11-21 14:20:00,140 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:20:00,151 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:20:00,159 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:20:00,165 -
+ UPDATE GY_xhb SET dqz = dqz + 1  where BM='YJ_YJK1'
+
+
+2014-11-21 14:20:00,172 -
+    Select dqz from GY_xhb where BM='YJ_YJK1'
+
+
+2014-11-21 14:20:00,177 -select yydm from gy_hospital_v
+
+2014-11-21 14:20:00,182 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:20:00,185 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:20:00,191 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:20:03,251 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:20:03,265 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:20:03,270 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:20:03,276 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:20:03,282 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:20:03,290 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:20:03,297 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:20:04,691 -
+Insert Into Yj_Yjk1(Yjsb,   Jzkh,   Brxm,   Sjysgh,  Sjksdm,  Kdsj,     Sjsj,   Mzpb,     Ghxh,   Jzxh,   czgh,
+                    Fybh)
+            values ('100279004',  '00000400',  '王红娟',  '',  '101',    to_date('2014-11-21','yyyy-mm-dd hh24:mi:ss'),    to_date('2014-11-21 02-20-04','yyyy-mm-dd hh24:mi:ss'),  '1',    '9283437',  '-1',  'ZFB',
+                    '0')
+
+
+2014-11-21 14:20:06,101 -
+Insert Into Yj_Yjk2(Yjsb,   Ylxh,   Dj,     Sl,     Fygb,     Zfbl,     Zxysgh, Zxksdm,   Brxz,   requestmode,Fybh)
+            values ('100279004',  '36233',  '10',  '1',  '15',    '1',    '',  '101',    '0',  '0',      '0')
+
+
+2014-11-21 14:20:07,891 -
+Insert Into Gh_Ghk( Jlxh,   Jzkh,   Brxm,   Jzcs,   Brlb,   Brxz,     Dwbh,   Mzlbxh,   Ksdm,   Ghrq,   Pbxh,
+							      Ghxh,   Ysgh,   Sjlb,   Ghf,    Zlf,    Zlfds,    Czgh,   Thbz,     Czrq,   Ybkh,   Jzje,
+                    Ickje,  Lnzhje, Tcjjje, Zbbzje, Gfzh,   Blkh,     Fsjbz,   Fsjjzje, Fphm,   Ghlb,   Bjdybz,
+							      ybryxz, ybdwbh, jzsjqy, Fybh,   yylb,   yhkje,    FYZE,    JGBM)
+            values ('9283437',  '00000400',  '王红娟',  '496',  '1',  '0',    '',  '1',    '101',  to_date('2014-11-21 14:20:07','yyyy-mm-dd hh24:mi:ss'),  '242264',
+                    '85', '', '1', '0', '0', '1',   'ZFB', '0',   sysdate, '', '0',
+                    '0', '0', '0', '0', '', '',   '0', '0',   '', '1', '0',
+                    '', '', '', '0', '12', '',   '10',  '')
+
+
+2014-11-21 14:20:21,197 -select yydm from gy_hospital_v
+
+2014-11-21 14:20:21,228 -
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje,--医保报销金额
+           xtxh,--系统序号
+           qianyuebz,--签约标志
+           yinhanglsh,--银行流水号
+           yinhangje,--银行金额
+           jbmc) --疾病名称
+　　Values
+　　  ('10296950',--收费识别
+　　   '',--发票号码
+　　   sysdate,--收费日期
+　　   '00000400',--就诊卡号
+　　   '',--公费证号、个人编号
+　　   '王红娟',--病人姓名
+　　   '0',--病人性质
+　　   '1',--单位编号
+　　   '0',--现金
+　　   '0',--支票金额
+　　   '16',--收费方式
+　　   '10',--收费金额
+　　   '',--支票号码
+　　   '0',--重症疾病代码
+　　   'ZFB',--操作工号
+　　   '',--不明
+　　   '',--规定单位名称
+　　   '1',--病人类别
+　　   '0',--收现金
+　　   '0',--找现金
+　　   '0',
+　　   '1',--挂号类别(指特殊收费、特病)
+　　   '',--取药窗口
+　　   '',--医保卡号
+　　   '0',--自负金额
+　　   '0',--自理金额
+　　   '0',--当年账户金额
+　　   '0',--历年账户余额
+　　   '0',--记账金额
+　　   '0',--统筹基金金额
+　　   '0',--重病补助金额
+　　   '0',--医保人员性质
+　　   '0',--医保单位编号
+　　   '0',--网卡地址
+　　   '0',--公费记账
+　　   '0',--Gy_Brjbxxk中的Brxzdm2
+　　   '',--就诊标志
+　　   '',--疾病代码
+　　   '',--审批编号
+　　   '0',--优惠金额
+　　   '0',--结算后账户金额
+　　   '0',--结算前历年账户金额
+　　   '',
+　　   '2014112101393725619020141121140511',
+　　   '',
+　　   '2',--特殊收费标志
+　　   '',
+　　   '0',
+     '0','0','0','70',--分院编号
+     0,--签约标志
+     '',--银行流水号
+     0,--银行金额
+     '') --疾病名称
+
+
+2014-11-21 14:20:28,781 -INSERT INTO MZ_MZSFK2(Sfsb,sfxm,zfje,Fyhj) 
+
+    --收费识别、收费项目、自费金额、费用合计
+    　　　　select 10296950,31,10,10 from dual 
+
+2014-11-21 14:20:32,823 -
+    Update Yj_Yjk1 Set Sfsb = '10296950' --收费识别
+    Where Yjsb in (100279004) --医技识别
+  
+
+2014-11-21 14:20:34,284 -
+    　　--电子开单的需要更新YxsqdId部分内容
+    　　  Update Gy_Yxsqd Set Sfsb = '10296950', Sfsj = SysDate Where Id in (select YXSQDID from yj_yjk1 where yjsb in (100279004) and  nvl(YXSQDID,0)>0)
+  
+
+2014-11-21 14:20:44,100 -
+    Update Yj_Yjk1 Set Sfsb = '-10296950' --收费识别
+    Where Yjsb in (100279004) --医技识别
+  
+
+2014-11-21 14:22:44,920 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:22:44,934 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:22:44,945 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '101'
+
+
+2014-11-21 14:22:44,958 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-21 14:22:44,966 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-21 14:22:44,977 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:22:44,986 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-21 14:22:44,996 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21')
+  Where ('1' = '0' Or Sjlb = '1')
+  And ('101' = '*' Or Ksdm = '101')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-21 14:22:45,009 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '101'
+   And (nvl(Ysgh,'*') = '*')
+   And (('1' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('1' = '1' And Nvl(Swjsh, 0) < 0) Or ('1' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-21 14:22:45,029 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:22:45,037 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:22:45,045 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:22:45,052 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:22:45,062 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:22:45,075 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:22:45,084 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:22:45,094 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-21','yyyy-mm-dd') and to_date('2014-11-21 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '101'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-21 14:22:45,175 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 242264
+
+
+2014-11-21 14:22:45,183 -
+　update gh_mzpbk set swdqh=swdqh+1 where jlxh = 242264
+
+
+2014-11-21 14:22:45,191 -
+    select swdqh dqh,swjsh sxwjsh,swjsh-swdqh+swths sxwdqh from gh_mzpbk where jlxh=242264
+
+
+2014-11-21 14:22:45,199 -
+Select *
+  From gy_xtcs
+ Where xtxh = '24'
+ and csmc = 'GHXHMS'
+
+
+2014-11-21 14:22:45,207 -
+    select * 
+    FROM GH_MZYYK
+  WHERE to_char(yyrq1,'yyyy-MM-dd') = to_char(sysdate,'yyyy-MM-dd')
+    and nvl(zt,0) <> -1
+    and nvl(ysgh,'*') = '*'
+    and mzlbxh = 1
+    and ('101' = '*' or ksdm = '101')
+    and ghxh = 86
+    
+
+
+2014-11-21 14:22:45,357 -select yydm from gy_hospital_v
+
+2014-11-21 14:22:45,364 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:22:45,370 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:22:45,379 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:22:45,385 -
+ UPDATE GY_xhb SET dqz = dqz + 1  where BM='YJ_YJK1'
+
+
+2014-11-21 14:22:45,392 -
+    Select dqz from GY_xhb where BM='YJ_YJK1'
+
+
+2014-11-21 14:22:45,398 -select yydm from gy_hospital_v
+
+2014-11-21 14:22:45,403 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:22:45,409 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:22:45,417 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:22:45,431 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:22:45,437 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:22:45,442 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:22:45,448 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:22:45,452 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:22:45,460 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:22:45,465 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:22:45,471 -
+Insert Into Yj_Yjk1(Yjsb,   Jzkh,   Brxm,   Sjysgh,  Sjksdm,  Kdsj,     Sjsj,   Mzpb,     Ghxh,   Jzxh,   czgh,
+                    Fybh)
+            values ('100279005',  '00000400',  '王红娟',  '',  '101',    to_date('2014-11-21','yyyy-mm-dd hh24:mi:ss'),    to_date('2014-11-21 02-22-45','yyyy-mm-dd hh24:mi:ss'),  '1',    '9283447',  '-1',  'ZFB',
+                    '0')
+
+
+2014-11-21 14:22:45,480 -
+Insert Into Yj_Yjk2(Yjsb,   Ylxh,   Dj,     Sl,     Fygb,     Zfbl,     Zxysgh, Zxksdm,   Brxz,   requestmode,Fybh)
+            values ('100279005',  '36233',  '10',  '1',  '15',    '1',    '',  '101',    '0',  '0',      '0')
+
+
+2014-11-21 14:22:45,487 -
+Insert Into Gh_Ghk( Jlxh,   Jzkh,   Brxm,   Jzcs,   Brlb,   Brxz,     Dwbh,   Mzlbxh,   Ksdm,   Ghrq,   Pbxh,
+							      Ghxh,   Ysgh,   Sjlb,   Ghf,    Zlf,    Zlfds,    Czgh,   Thbz,     Czrq,   Ybkh,   Jzje,
+                    Ickje,  Lnzhje, Tcjjje, Zbbzje, Gfzh,   Blkh,     Fsjbz,   Fsjjzje, Fphm,   Ghlb,   Bjdybz,
+							      ybryxz, ybdwbh, jzsjqy, Fybh,   yylb,   yhkje,    FYZE,    JGBM)
+            values ('9283447',  '00000400',  '王红娟',  '496',  '1',  '0',    '',  '1',    '101',  to_date('2014-11-21 14:22:45','yyyy-mm-dd hh24:mi:ss'),  '242264',
+                    '86', '', '1', '0', '0', '1',   'ZFB', '0',   sysdate, '', '0',
+                    '0', '0', '0', '0', '', '',   '0', '0',   '', '1', '0',
+                    '', '', '', '0', '12', '',   '10',  '')
+
+
+2014-11-21 14:22:45,515 -select yydm from gy_hospital_v
+
+2014-11-21 14:22:45,523 -
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje,--医保报销金额
+           xtxh,--系统序号
+           qianyuebz,--签约标志
+           yinhanglsh,--银行流水号
+           yinhangje,--银行金额
+           jbmc) --疾病名称
+　　Values
+　　  ('10296950',--收费识别
+　　   '',--发票号码
+　　   sysdate,--收费日期
+　　   '00000400',--就诊卡号
+　　   '',--公费证号、个人编号
+　　   '王红娟',--病人姓名
+　　   '0',--病人性质
+　　   '1',--单位编号
+　　   '0',--现金
+　　   '0',--支票金额
+　　   '16',--收费方式
+　　   '10',--收费金额
+　　   '',--支票号码
+　　   '0',--重症疾病代码
+　　   'ZFB',--操作工号
+　　   '',--不明
+　　   '',--规定单位名称
+　　   '1',--病人类别
+　　   '0',--收现金
+　　   '0',--找现金
+　　   '0',
+　　   '1',--挂号类别(指特殊收费、特病)
+　　   '',--取药窗口
+　　   '',--医保卡号
+　　   '0',--自负金额
+　　   '0',--自理金额
+　　   '0',--当年账户金额
+　　   '0',--历年账户余额
+　　   '0',--记账金额
+　　   '0',--统筹基金金额
+　　   '0',--重病补助金额
+　　   '0',--医保人员性质
+　　   '0',--医保单位编号
+　　   '0',--网卡地址
+　　   '0',--公费记账
+　　   '0',--Gy_Brjbxxk中的Brxzdm2
+　　   '',--就诊标志
+　　   '',--疾病代码
+　　   '',--审批编号
+　　   '0',--优惠金额
+　　   '0',--结算后账户金额
+　　   '0',--结算前历年账户金额
+　　   '',
+　　   '2014112101393725619020141121140511',
+　　   '',
+　　   '2',--特殊收费标志
+　　   '',
+　　   '0',
+     '0','0','0','70',--分院编号
+     0,--签约标志
+     '',--银行流水号
+     0,--银行金额
+     '') --疾病名称
+
+
+2014-11-21 14:22:45,532 -INSERT INTO MZ_MZSFK2(Sfsb,sfxm,zfje,Fyhj) 
+
+    --收费识别、收费项目、自费金额、费用合计
+    　　　　select 10296950,31,10,10 from dual 
+
+2014-11-21 14:22:47,702 -
+    Update Yj_Yjk1 Set Sfsb = '10296950' --收费识别
+    Where Yjsb in (100279005) --医技识别
+  
+
+2014-11-21 14:22:49,841 -
+    　　--电子开单的需要更新YxsqdId部分内容
+    　　  Update Gy_Yxsqd Set Sfsb = '10296950', Sfsj = SysDate Where Id in (select YXSQDID from yj_yjk1 where yjsb in (100279005) and  nvl(YXSQDID,0)>0)
+  
+
+2014-11-21 14:22:53,200 -
+    Update Yj_Yjk1 Set Sfsb = '-10296950' --收费识别
+    Where Yjsb in (100279005) --医技识别
+  
+
+2014-11-21 14:25:26,022 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:25:26,068 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '00000400'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:25:26,095 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '101'
+
+
+2014-11-21 14:25:26,105 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-21 14:25:26,110 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-21 14:25:26,115 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:25:26,119 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-21 14:25:26,123 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21')
+  Where ('1' = '0' Or Sjlb = '1')
+  And ('101' = '*' Or Ksdm = '101')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-21 14:25:26,133 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '101'
+   And (nvl(Ysgh,'*') = '*')
+   And (('1' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('1' = '1' And Nvl(Swjsh, 0) < 0) Or ('1' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-21 14:25:26,145 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:25:26,150 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:25:26,154 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:25:26,159 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:25:26,163 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:25:26,172 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:25:26,177 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:25:26,182 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-21','yyyy-mm-dd') and to_date('2014-11-21 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '101'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-21 14:25:26,248 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 242264
+
+
+2014-11-21 14:25:26,256 -
+　update gh_mzpbk set swdqh=swdqh+1 where jlxh = 242264
+
+
+2014-11-21 14:25:26,264 -
+    select swdqh dqh,swjsh sxwjsh,swjsh-swdqh+swths sxwdqh from gh_mzpbk where jlxh=242264
+
+
+2014-11-21 14:25:26,270 -
+Select *
+  From gy_xtcs
+ Where xtxh = '24'
+ and csmc = 'GHXHMS'
+
+
+2014-11-21 14:25:26,275 -
+    select * 
+    FROM GH_MZYYK
+  WHERE to_char(yyrq1,'yyyy-MM-dd') = to_char(sysdate,'yyyy-MM-dd')
+    and nvl(zt,0) <> -1
+    and nvl(ysgh,'*') = '*'
+    and mzlbxh = 1
+    and ('101' = '*' or ksdm = '101')
+    and ghxh = 87
+    
+
+
+2014-11-21 14:25:26,445 -select yydm from gy_hospital_v
+
+2014-11-21 14:25:26,453 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:25:26,460 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:25:26,468 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:25:26,474 -
+ UPDATE GY_xhb SET dqz = dqz + 1  where BM='YJ_YJK1'
+
+
+2014-11-21 14:25:26,482 -
+    Select dqz from GY_xhb where BM='YJ_YJK1'
+
+
+2014-11-21 14:25:26,488 -select yydm from gy_hospital_v
+
+2014-11-21 14:25:26,493 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:25:26,499 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:25:26,505 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-21 14:25:26,519 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:25:26,524 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:25:26,528 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:25:26,532 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:25:26,536 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:25:26,543 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:25:26,547 -
+    Select Nvl(Ghf,1) ghf,Nvl(Zlf,1) zlf From Gh_Yhlb Where Yhlb=6 and Mzlbxh=1
+
+
+2014-11-21 14:25:26,551 -
+Insert Into Yj_Yjk1(Yjsb,   Jzkh,   Brxm,   Sjysgh,  Sjksdm,  Kdsj,     Sjsj,   Mzpb,     Ghxh,   Jzxh,   czgh,
+                    Fybh)
+            values ('100279006',  '00000400',  '王红娟',  '',  '101',    to_date('2014-11-21','yyyy-mm-dd hh24:mi:ss'),    to_date('2014-11-21 02-25-26','yyyy-mm-dd hh24:mi:ss'),  '1',    '9283470',  '-1',  'ZFB',
+                    '0')
+
+
+2014-11-21 14:25:26,562 -
+Insert Into Yj_Yjk2(Yjsb,   Ylxh,   Dj,     Sl,     Fygb,     Zfbl,     Zxysgh, Zxksdm,   Brxz,   requestmode,Fybh)
+            values ('100279006',  '36233',  '10',  '1',  '15',    '1',    '',  '101',    '0',  '0',      '0')
+
+
+2014-11-21 14:25:26,567 -
+Insert Into Gh_Ghk( Jlxh,   Jzkh,   Brxm,   Jzcs,   Brlb,   Brxz,     Dwbh,   Mzlbxh,   Ksdm,   Ghrq,   Pbxh,
+							      Ghxh,   Ysgh,   Sjlb,   Ghf,    Zlf,    Zlfds,    Czgh,   Thbz,     Czrq,   Ybkh,   Jzje,
+                    Ickje,  Lnzhje, Tcjjje, Zbbzje, Gfzh,   Blkh,     Fsjbz,   Fsjjzje, Fphm,   Ghlb,   Bjdybz,
+							      ybryxz, ybdwbh, jzsjqy, Fybh,   yylb,   yhkje,    FYZE,    JGBM)
+            values ('9283470',  '00000400',  '王红娟',  '496',  '1',  '0',    '',  '1',    '101',  to_date('2014-11-21 14:25:26','yyyy-mm-dd hh24:mi:ss'),  '242264',
+                    '87', '', '1', '0', '0', '1',   'ZFB', '0',   sysdate, '', '0',
+                    '0', '0', '0', '0', '', '',   '0', '0',   '', '1', '0',
+                    '', '', '', '0', '12', '',   '10',  '')
+
+
+2014-11-21 14:25:26,592 -select yydm from gy_hospital_v
+
+2014-11-21 14:25:26,601 -
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje,--医保报销金额
+           xtxh,--系统序号
+           qianyuebz,--签约标志
+           yinhanglsh,--银行流水号
+           yinhangje,--银行金额
+           jbmc) --疾病名称
+　　Values
+　　  ('10296950',--收费识别
+　　   '',--发票号码
+　　   sysdate,--收费日期
+　　   '00000400',--就诊卡号
+　　   '',--公费证号、个人编号
+　　   '王红娟',--病人姓名
+　　   '0',--病人性质
+　　   '1',--单位编号
+　　   '0',--现金
+　　   '0',--支票金额
+　　   '16',--收费方式
+　　   '10',--收费金额
+　　   '',--支票号码
+　　   '0',--重症疾病代码
+　　   'ZFB',--操作工号
+　　   '',--不明
+　　   '',--规定单位名称
+　　   '1',--病人类别
+　　   '0',--收现金
+　　   '0',--找现金
+　　   '0',
+　　   '1',--挂号类别(指特殊收费、特病)
+　　   '',--取药窗口
+　　   '',--医保卡号
+　　   '0',--自负金额
+　　   '0',--自理金额
+　　   '0',--当年账户金额
+　　   '0',--历年账户余额
+　　   '0',--记账金额
+　　   '0',--统筹基金金额
+　　   '0',--重病补助金额
+　　   '0',--医保人员性质
+　　   '0',--医保单位编号
+　　   '0',--网卡地址
+　　   '0',--公费记账
+　　   '0',--Gy_Brjbxxk中的Brxzdm2
+　　   '',--就诊标志
+　　   '',--疾病代码
+　　   '',--审批编号
+　　   '0',--优惠金额
+　　   '0',--结算后账户金额
+　　   '0',--结算前历年账户金额
+　　   '',
+　　   '2014112101393725619020141121140511',
+　　   '',
+　　   '2',--特殊收费标志
+　　   '',
+　　   '0',
+     '0','0','0','70',--分院编号
+     0,--签约标志
+     '',--银行流水号
+     0,--银行金额
+     '') --疾病名称
+
+
+2014-11-21 14:25:26,610 -INSERT INTO MZ_MZSFK2(Sfsb,sfxm,zfje,Fyhj) 
+
+    --收费识别、收费项目、自费金额、费用合计
+    　　　　select 10296950,31,10,10 from dual 
+
+2014-11-21 14:25:28,722 -
+    Update Yj_Yjk1 Set Sfsb = '10296950' --收费识别
+    Where Yjsb in (100279006) --医技识别
+  
+
+2014-11-21 14:25:28,744 -
+    　　--电子开单的需要更新YxsqdId部分内容
+    　　  Update Gy_Yxsqd Set Sfsb = '10296950', Sfsj = SysDate Where Id in (select YXSQDID from yj_yjk1 where yjsb in (100279006) and  nvl(YXSQDID,0)>0)
+  
+
+2014-11-21 14:25:28,752 -
+    Update Yj_Yjk2
+    Set  ybzfbl = '', Zfbl = '1',
+    Brxz = '0'
+    Where Yjsb = '100279006'
+    And Ylxh = ''
+  
+
+2014-11-21 14:25:28,757 -
+   update gy_brjbxxk set jzcs =jzcs + 1 where jzkh ='00000400'
+
+
+2014-11-21 14:25:28,794 -
+   select  * From WCF_MZYJK_QGHFMX a
+    Where  a.Jzkh = '00000400'--就诊卡号 　　　
+   And a.Fybh = '0' -- 分院代码
+   And a.ghxh='9283470'--挂号序号
+
+
+2014-11-21 14:46:49,332 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '15869156441'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:46:52,499 -
+Select *
+  From Gh_Mzyyk
+ Where yyxh = '538098' and jzkh='15869156441' and checkid is null Or checkid='538098' 
+
+
+2014-11-21 14:48:47,480 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '15869156441'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:48:47,490 -
+Select *
+  From Gh_Mzyyk
+ Where yyxh = '538098' and jzkh='15869156441' and checkid is null Or checkid='538098' 
+
+
+2014-11-21 14:49:20,290 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '15869156441'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:49:29,037 -
+Select *
+  From Gh_Mzyyk
+ Where yyxh = '538098' and jzkh='15869156441' and checkid is null Or checkid='538098' 
+
+
+2014-11-21 14:51:50,846 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '15869156441'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:51:52,223 -
+Select *
+  From Gh_Mzyyk
+ Where yyxh = '891829' and jzkh='15869156441' and checkid is null Or checkid='891829' 
+
+
+2014-11-21 14:52:40,283 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '15869156441'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-21 14:52:43,031 -
+Select *
+  From Gh_Mzyyk
+ Where yyxh = '891829' and jzkh='15869156441' and checkid is null Or checkid='891829' 
+
+
+2014-11-21 14:52:50,617 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-21','yyyy-mm-dd') and to_date('2014-11-21 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '111'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-21 14:52:52,364 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '111'
+
+
+2014-11-21 14:52:53,835 -
+Select *      
+  From Gy_Zgxx
+ Where Zgid = '*'
+
+
+2014-11-21 14:52:56,697 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-21', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '111'
+   And (nvl(Ysgh,'*') = '*')
+   And (('1' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('1' = '1' And Nvl(Swjsh, 0) < 0) Or ('1' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-21 14:52:57,882 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:52:57,898 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:52:57,903 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:52:57,913 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:52:57,923 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:52:57,992 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:52:58,028 -
+　　　　UPDATE GY_xhb SET dqz = dqz + zz WHERE bm = 'MZ_MZSFK1'
+
+
+2014-11-21 14:52:58,069 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-21 14:52:58,076 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-21 14:52:58,083 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:52:58,088 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-21 14:52:58,094 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-21')
+  Where ('1' = '0' Or Sjlb = '1')
+  And ('111' = '*' Or Ksdm = '111')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-21 14:52:58,137 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-21 14:52:58,144 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-21 14:52:58,150 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-21'
+
+
+2014-11-21 14:52:58,154 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-21 14:52:58,160 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-21 14:52:58,167 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-21 14:52:58,178 -select yydm from gy_hospital_v
+
+2014-11-21 14:52:58,230 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-21 14:52:58,237 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:52:58,246 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-21 14:52:58,253 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-21','yyyy-mm-dd') and to_date('2014-11-21 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '111'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-21 14:52:58,261 -
+    Select seq_yj_yjk1_yjsb.nextval GHXH From Dual
+
+
+2014-11-21 14:52:58,282 -
+Insert Into Yj_Yjk1(Yjsb,   Jzkh,   Brxm,   Sjysgh,  Sjksdm,  Kdsj,     Sjsj,   Mzpb,     Ghxh,   Jzxh,   czgh,
+                    Fybh)
+            values ('17871081',  '15869156441',  '杨林',  '*',  '111',    to_date('2014-11-21','yyyy-mm-dd hh24:mi:ss'),    to_date('2014-11-21 14:52:58','yyyy-mm-dd hh24:mi:ss'),  '1',    '8761658',  '-1',  'ZFB',
+                    '0')
+
+
+2014-11-21 14:52:58,395 -
+Insert Into Yj_Yjk2(Yjsb,   Ylxh,   Dj,     Sl,     Fygb,     Zfbl,     Zxysgh, Zxksdm,   Brxz,   requestmode,Fybh)
+            values ('17871081',  '36233',  '10',  '1',  '15',    '1',    '*',  '111',    '0',  '0',      '0')
+
+
+2014-11-21 14:52:58,446 -
+Insert Into Gh_Ghk( Jlxh,   Jzkh,   Brxm,   Jzcs,   Brlb,   Brxz,     Dwbh,   Mzlbxh,   Ksdm,   Ghrq,   Pbxh,
+							      Ghxh,   Ysgh,   Sjlb,   Ghf,    Zlf,    Zlfds,    Czgh,   Thbz,     Czrq,   Ybkh,   Jzje,
+                    Ickje,  Lnzhje, Tcjjje, Zbbzje, Gfzh,   Blkh,     Fsjbz,   Fsjjzje, Fphm,   Ghlb,   Bjdybz,
+							      ybryxz, ybdwbh, jzsjqy, Fybh,   yylb,   yhkje,    FYZE,    JGBM)
+            values ('8761658',  '15869156441',  '杨林',  '0',  '1',  '0',    '',  '1',    '111',  to_date('2014-11-21 14:52:58','yyyy-mm-dd hh24:mi:ss'),  '234390',
+                    '4', '', '1', '0', '0', '1',   'ZFB', '0',   sysdate, '', '0',
+                    '0', '0', '0', '0', '', '',   '0', '0',   '', '1', '0',
+                    '', '', '', '0', '12', '',   '10',  '')
+
+
+2014-11-21 14:52:58,717 -
+Update Gh_Mzyyk Set Zt = '1',Jlxh = '8761658',yyqrrq = decode('2014-11-21',null,null,To_date('2014-11-21','yyyy-mm-dd hh24:mi:ss')),cxgh = '',yycxrq = decode('',null,null,To_date('','yyyy-mm-dd hh24:mi:ss'))
+ Where (yyxh = '891829' and  checkid is null Or checkid='891829')
+   And Nvl(Zt,0) = 0
+
+
+2014-11-21 14:52:58,753 -select yydm from gy_hospital_v
+
+2014-11-21 14:52:58,767 -
+　　　　Insert Into Mz_Mzsfk1
+　　  (Sfsb,--收费识别
+　　   Fphm,--发票号码
+　　   Sfrq,--收费日期
+　　   Jzkh,--就诊卡号
+　　   Fyzh,--费用证号(即个人编号)
+　　   Brxm,--病人姓名
+　　   Brxzdm,--病人性质代码
+　　   Fydw,--即单位编号
+　　   Xj,--现金
+　　   Zpje,--支票金额
+　　   Qtsffs,--收费方式
+　　   Qtsfje,--收费金额
+　　   Zphm,--支票号码
+　　   Bzdm,--重症疾病代码(可为0)
+　　   Czgh,--操作工号
+　　   Zydhm,--【目前不明】
+　　   Gzdwmc,--规定单位名称
+　　   Brlb,--病人类别
+　　   Sxj,--收现金(可为0)
+　　   Zxj,--找现金(可为0)
+　　   Yjje,--
+　　   Ghlb,--挂号类别(指特殊收费、特病等)
+　　   Qyck,--取药窗口
+　　   Ybkh,--医保卡号
+　　   Zfje,--自负金额
+　　   Zlje,--自理金额
+　　   Ickje,--当年账户金额
+　　   Lnzhje,--历年账户金额
+　　   Jzje,--记账金额
+　　   Tcjjje,--统筹基金金额
+　　   Zbbzje,--重病补助金额
+　　   Ybryxz,--医保人员性质
+　　   Ybdwbh,--医保单位编号
+　　   Wkdz,--网卡地址
+　　   Gfjz,--公费记账(可为0)
+　　   Brxzdm2,--Gy_Brjbxxk中的Brxzdm2
+　　   Jzbz,--就诊标志(可能是指某种优惠)
+　　   Diseaseid,--疾病代码
+　　   Spbh,--审批编号(指特殊疾病的)
+　　   Yhje,--优惠金额
+　　   Jshzhje,--结算后账户金额
+　　   Jsqlnzhje,--结算前历年账户金额
+　　   NewFphm,--【指重保可不插入】
+　　   Bz,--【可不插入】
+　　   Xzqydm,--行政区域代码
+　　   Tssfbz,--特殊收费标志
+　　   Byzgjzlb,--优惠病人记账标志
+　　   Fybh,--分院编号
+           Ybzje,--医保总金额(指进入报销范围的)
+        Ybxjzf,--医保返回的现金支付
+           YbBxje,--医保报销金额
+           xtxh,--系统序号
+           qianyuebz,--签约标志
+           yinhanglsh,--银行流水号
+           yinhangje,--银行金额
+           jbmc) --疾病名称
+　　Values
+　　  ('9759023',--收费识别
+　　   '',--发票号码
+　　   sysdate,--收费日期
+　　   '15869156441',--就诊卡号
+　　   '',--公费证号、个人编号
+　　   '杨林',--病人姓名
+　　   '0',--病人性质
+　　   '1',--单位编号
+　　   '0',--现金
+　　   '0',--支票金额
+　　   '16',--收费方式
+　　   '10.00',--收费金额
+　　   '',--支票号码
+　　   '0',--重症疾病代码
+　　   'ZFB',--操作工号
+　　   '',--不明
+　　   '',--规定单位名称
+　　   '1',--病人类别
+　　   '0',--收现金
+　　   '0',--找现金
+　　   '0',
+　　   '1',--挂号类别(指特殊收费、特病)
+　　   '',--取药窗口
+　　   '',--医保卡号
+　　   '0',--自负金额
+　　   '0',--自理金额
+　　   '0',--当年账户金额
+　　   '0',--历年账户余额
+　　   '0',--记账金额
+　　   '0',--统筹基金金额
+　　   '0',--重病补助金额
+　　   '0',--医保人员性质
+　　   '0',--医保单位编号
+　　   '0',--网卡地址
+　　   '0',--公费记账
+　　   '0',--Gy_Brjbxxk中的Brxzdm2
+　　   '',--就诊标志
+　　   '',--疾病代码
+　　   '',--审批编号
+　　   '0',--优惠金额
+　　   '0',--结算后账户金额
+　　   '0',--结算前历年账户金额
+　　   '',
+　　   '2014112001392645109620141121144130',
+　　   '',
+　　   '2',--特殊收费标志
+　　   '',
+　　   '0',
+     '0','0','0','70',--分院编号
+     0,--签约标志
+     '',--银行流水号
+     0,--银行金额
+     '') --疾病名称
+
+
+2014-11-21 14:52:58,844 -INSERT INTO MZ_MZSFK2(Sfsb,sfxm,zfje,Fyhj) 
+
+    --收费识别、收费项目、自费金额、费用合计
+    　　　　select 9759023,15,10,10 from dual 
+
+2014-11-21 14:52:58,885 -
+    Update Yj_Yjk1 Set Sfsb = '9759023' --收费识别
+    Where Yjsb in (17871081) --医技识别
+  
+
+2014-11-21 14:52:58,934 -
+   update gy_brjbxxk set jzcs =jzcs + 1 where jzkh ='15869156441'
+
+

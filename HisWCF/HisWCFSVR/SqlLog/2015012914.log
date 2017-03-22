@@ -1,0 +1,7 @@
+2015-01-29 14:10:59,025 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '6200003686244'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+

@@ -1,0 +1,314 @@
+2014-12-17 16:42:51,678 -
+Select a.Zgid Ysdm,
+       a.Xm Ysxm,
+       a.Ksdm Ksdm,
+       b.Ksmc Ksmc,
+       c.Mc Yszc,
+       '' Ystc,
+       '' Ysjs
+  From Gy_Zgxx a, Gy_Ksdm b, (Select Dm, Mc From Gy_Gydm Where Dmlb = 13) c
+ Where a.Zgid In (Select Distinct Ysgh
+                    From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1)
+                          Union All
+                          Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1))
+                   Where ('1' = '0' Or Yypb = '1')
+                     And ('0' = '0' Or Sjlb = '0')
+                     And ('2020000' = '*' Or Ksdm = '2020000')
+                      and mzlbxh > 3 and yypb=1 )
+                     --And (' and mzlbxh > 3 and yypb=1' = '0' Or Mzlbxh >= ' and mzlbxh > 3 and yypb=1'))
+   And a.Ksdm = b.Ksdm
+   And a.Zc = c.Dm(+)
+   Order By a.Zgid
+
+
+
+2014-12-17 16:44:48,887 -
+Select a.Zgid Ysdm,
+       a.Xm Ysxm,
+       a.Ksdm Ksdm,
+       b.Ksmc Ksmc,
+       c.Mc Yszc,
+       '' Ystc,
+       '' Ysjs
+  From Gy_Zgxx a, Gy_Ksdm b, (Select Dm, Mc From Gy_Gydm Where Dmlb = 13) c
+ Where a.Zgid In (Select Distinct Ysgh
+                    From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1)
+                          Union All
+                          Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1))
+                   Where ('1' = '0' Or Yypb = '1')
+                     And ('0' = '0' Or Sjlb = '0')
+                     And ('2020000' = '*' Or Ksdm = '2020000')
+                      and mzlbxh > 3 and yypb=1 )
+                     --And (' and mzlbxh > 3 and yypb=1' = '0' Or Mzlbxh >= ' and mzlbxh > 3 and yypb=1'))
+   And a.Ksdm = b.Ksdm
+   And a.Zc = c.Dm(+)
+   Order By a.Zgid
+
+
+
+2014-12-17 16:50:15,562 -
+Select a.Zgid Ysdm,
+       a.Xm Ysxm,
+       a.Ksdm Ksdm,
+       b.Ksmc Ksmc,
+       c.Mc Yszc,
+       '' Ystc,
+       '' Ysjs
+  From Gy_Zgxx a, Gy_Ksdm b, (Select Dm, Mc From Gy_Gydm Where Dmlb = 13) c
+ Where a.Zgid In (Select Distinct Ysgh
+                    From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1)
+                          Union All
+                          Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1))
+                   Where ('1' = '0' Or Yypb = '1')
+                     And ('0' = '0' Or Sjlb = '0')
+                     And ('2020000' = '*' Or Ksdm = '2020000')
+                      and mzlbxh > 3 and yypb=1 )
+                     --And (' and mzlbxh > 3 and yypb=1' = '0' Or Mzlbxh >= ' and mzlbxh > 3 and yypb=1'))
+   And a.Ksdm = b.Ksdm
+   And a.Zc = c.Dm(+)
+   Order By a.Zgid
+
+
+
+2014-12-17 16:53:31,493 -
+Select a.Zgid Ysdm,
+       a.Xm Ysxm,
+       a.Ksdm Ksdm,
+       b.Ksmc Ksmc,
+       c.Mc Yszc,
+       '' Ystc,
+       '' Ysjs
+  From Gy_Zgxx a, Gy_Ksdm b, (Select Dm, Mc From Gy_Gydm Where Dmlb = 13) c
+ Where a.Zgid In (Select Distinct Ysgh
+                    From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1)
+                          Union All
+                          Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1))
+                   Where ('1' = '0' Or Yypb = '1')
+                     And ('0' = '0' Or Sjlb = '0')
+                     And ('2560800' = '*' Or Ksdm = '2560800')
+                      and mzlbxh > 3 and yypb=1 )
+                     --And (' and mzlbxh > 3 and yypb=1' = '0' Or Mzlbxh >= ' and mzlbxh > 3 and yypb=1'))
+   And a.Ksdm = b.Ksdm
+   And a.Zc = c.Dm(+)
+   Order By a.Zgid
+
+
+
+2014-12-17 16:54:03,346 -
+Select a.Zgid Ysdm,
+       a.Xm Ysxm,
+       a.Ksdm Ksdm,
+       b.Ksmc Ksmc,
+       c.Mc Yszc,
+       '' Ystc,
+       '' Ysjs
+  From Gy_Zgxx a, Gy_Ksdm b, (Select Dm, Mc From Gy_Gydm Where Dmlb = 13) c
+ Where a.Zgid In (Select Distinct Ysgh
+                    From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1)
+                          Union All
+                          Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1))
+                   Where ('1' = '0' Or Yypb = '1')
+                     And ('0' = '0' Or Sjlb = '0')
+                     And ('2560800' = '*' Or Ksdm = '2560800')
+                      and mzlbxh > 3 and yypb=1 )
+                     --And (' and mzlbxh > 3 and yypb=1' = '0' Or Mzlbxh >= ' and mzlbxh > 3 and yypb=1'))
+   And a.Ksdm = b.Ksdm
+   And a.Zc = c.Dm(+)
+   Order By a.Zgid
+
+
+
+2014-12-17 16:54:55,510 -
+Select a.Zgid Ysdm,
+       a.Xm Ysxm,
+       a.Ksdm Ksdm,
+       b.Ksmc Ksmc,
+       c.Mc Yszc,
+       '' Ystc,
+       '' Ysjs
+  From Gy_Zgxx a, Gy_Ksdm b, (Select Dm, Mc From Gy_Gydm Where Dmlb = 13) c
+ Where a.Zgid In (Select Distinct Ysgh
+                    From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1)
+                          Union All
+                          Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1))
+                   Where ('1' = '0' Or Yypb = '1')
+                     And ('0' = '0' Or Sjlb = '0')
+                     And ('2560800' = '*' Or Ksdm = '2560800')
+                      and mzlbxh > 3 and yypb=1 )
+                     --And (' and mzlbxh > 3 and yypb=1' = '0' Or Mzlbxh >= ' and mzlbxh > 3 and yypb=1'))
+   And a.Ksdm = b.Ksdm
+   And a.Zc = c.Dm(+)
+   Order By a.Zgid
+
+
+
+2014-12-17 16:54:55,701 -
+Select *      
+  From Gy_Zgxx
+ Where Zgid = '1437'
+
+
+2014-12-17 16:59:55,095 -
+Select a.Zgid Ysdm,
+       a.Xm Ysxm,
+       a.Ksdm Ksdm,
+       b.Ksmc Ksmc,
+       c.Mc Yszc,
+       '' Ystc,
+       '' Ysjs
+  From Gy_Zgxx a, Gy_Ksdm b, (Select Dm, Mc From Gy_Gydm Where Dmlb = 13) c
+ Where a.Zgid In (Select Distinct Ysgh
+                    From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Mzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-17'
+                          Union All
+                          Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Swjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1)
+                          Union All
+                          Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+                            From Gh_Yzpbk
+                           Where Nvl(Xwjsh, 0) >= 0
+                             And Ysgh Is Not Null
+                             And Xq = decode(to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-17','yyyy-mm-dd'),'d')) - 1))
+                   Where ('1' = '0' Or Yypb = '1')
+                     And ('0' = '0' Or Sjlb = '0')
+                     And ('2560800' = '*' Or Ksdm = '2560800')
+                      and mzlbxh > 3 and yypb=1 )
+                     --And (' and mzlbxh > 3 and yypb=1' = '0' Or Mzlbxh >= ' and mzlbxh > 3 and yypb=1'))
+   And a.Ksdm = b.Ksdm
+   And a.Zc = c.Dm(+)
+   Order By a.Zgid
+
+
+

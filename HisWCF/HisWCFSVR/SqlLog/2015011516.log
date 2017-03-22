@@ -1,0 +1,155 @@
+2015-01-15 16:36:24,769 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '005050602'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:38:18,437 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:38:18,499 -select yydm from gy_hospital_v
+
+2015-01-15 16:38:18,515 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:38:36,780 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:38:36,780 -select yydm from gy_hospital_v
+
+2015-01-15 16:38:36,795 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:39:05,736 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:39:11,197 -select yydm from gy_hospital_v
+
+2015-01-15 16:39:17,229 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:40:20,743 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:40:20,774 -select yydm from gy_hospital_v
+
+2015-01-15 16:40:20,774 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:40:32,889 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '2001072'
+
+
+2015-01-15 16:43:35,724 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:43:35,859 -select yydm from gy_hospital_v
+
+2015-01-15 16:43:35,867 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '123456789'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-15 16:43:38,046 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '102000015'
+
+
+2015-01-15 16:43:40,049 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2015-01-15 16:43:40,070 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2015-01-15 16:43:40,682 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2015-01-15'
+
+
+2015-01-15 16:43:40,705 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2015-01-15 16:43:45,641 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2015-01-15 16:43:45,656 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2015-01-15 16:43:47,186 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2015-01-15'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2015-01-15')
+  Where ('2' = '0' Or Sjlb = '2')
+  And ('102000015' = '*' Or Ksdm = '102000015')
+  And ( '*' = '*' and mzlbxh = 2 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+

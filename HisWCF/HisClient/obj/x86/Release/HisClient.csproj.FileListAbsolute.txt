@@ -1,0 +1,25 @@
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe.config
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\SqlLib\main.xml
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\main.xml
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\log4db.xml
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\sqllib.ini
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.exe
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\Build\HisClient.pdb
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Release\ResolveAssemblyReference.cache
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Release\HisClient.FormDuKa.resources
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Release\GenerateResource.read.1.tlog
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Release\GenerateResource.write.1.tlog
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Release\HisClient.exe
+C:\cyyxm\2.服务平台(外地HIS1.0)\HisWCF\HisClient\obj\x86\Release\HisClient.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\HisClient.exe.config
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Release\HisClient.exe
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Release\HisClient.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\SqlLib\main.xml
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\main.xml
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\log4db.xml
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\sqllib.ini
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\HisClient.exe
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\Build\HisClient.pdb
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Release\HisClient.csprojResolveAssemblyReference.cache
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Release\HisClient.FormDuKa.resources
+E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisClient\obj\x86\Release\HisClient.csproj.GenerateResource.Cache

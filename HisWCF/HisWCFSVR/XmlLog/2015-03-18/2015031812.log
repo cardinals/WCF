@@ -1,0 +1,46 @@
+2015-03-18 12:29:27,243 -[280E70F30E204AD6947B67DED64661EF][BASE.Biz.code].IN  <code>
+<pharmacyid></pharmacyid>
+<codekey>DISP_START</codekey>
+</code>
+
+2015-03-18 12:29:41,598 -[539E71DA29DE4DE3B23B2F608F78085E][BASE.Biz.code].IN  <code>
+<pharmacyid></pharmacyid>
+<codekey>DISP_START</codekey>
+</code>
+
+2015-03-18 12:30:15,220 -[424B0A1B4D384509BECCC7DED3550B53][HKC.Biz.DISP_START].IN  <DISP_START_IN>
+<pharmacyid></pharmacyid>
+<DISP_START_INkey>DISP_START</DISP_START_INkey>
+</DISP_START_IN>
+
+2015-03-18 12:30:15,248 -[424B0A1B4D384509BECCC7DED3550B53][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><Biz_OUT><OUTMSG><ERRNO>-1</ERRNO><ERRMSG>E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.dll</ERRMSG><ERRMSGEX>在 System.Diagnostics.FileVersionInfo.GetVersionInfo(String fileName)
+   在 HisWCFSVR.ToolUnity.LoadAssembly(String tradetype) 位置 E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\FUnity.cs:行号 23
+   在 HisWCFSVR.MediInfoHis.RunService(String TradeType, String TradeMsg, String& TradeMsgOut) 位置 E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\MediInfoHis.svc.cs:行号 33</ERRMSGEX></Biz_OUT>
+2015-03-18 12:30:57,134 -[16ADD9AC4C9140F5BE41906C711A662D][HKC.Biz.DISP_START].IN  <DISP_START_IN>
+<pharmacyid></pharmacyid>
+<DISP_START_INkey>DISP_START</DISP_START_INkey>
+</DISP_START_IN>
+
+2015-03-18 12:30:57,167 -[16ADD9AC4C9140F5BE41906C711A662D][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><Biz_OUT><OUTMSG><ERRNO>-1</ERRNO><ERRMSG>E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.dll</ERRMSG><ERRMSGEX>在 System.Diagnostics.FileVersionInfo.GetVersionInfo(String fileName)
+   在 HisWCFSVR.ToolUnity.LoadAssembly(String tradetype) 位置 E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\FUnity.cs:行号 23
+   在 HisWCFSVR.MediInfoHis.RunService(String TradeType, String TradeMsg, String& TradeMsgOut) 位置 E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\MediInfoHis.svc.cs:行号 33</ERRMSGEX></Biz_OUT>
+2015-03-18 12:39:06,026 -[AECA9CC85B3E44948BF4426D9CD9E196][HKC.Biz.DISP_START].IN  <DISP_START_IN>
+<pharmacyid></pharmacyid>
+<DISP_START_INkey>DISP_START</DISP_START_INkey>
+</DISP_START_IN>
+
+2015-03-18 12:39:06,036 -[AECA9CC85B3E44948BF4426D9CD9E196][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><Biz_OUT><OUTMSG><ERRNO>-1</ERRNO><ERRMSG>E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\bin\HKC\HKC.Biz.dll</ERRMSG><ERRMSGEX>在 System.Diagnostics.FileVersionInfo.GetVersionInfo(String fileName)
+   在 HisWCFSVR.ToolUnity.LoadAssembly(String tradetype) 位置 E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\FUnity.cs:行号 23
+   在 HisWCFSVR.MediInfoHis.RunService(String TradeType, String TradeMsg, String& TradeMsgOut) 位置 E:\zjhis\自助机系统\HIS4WCF HIS1框架版本\服务平台\HisWCF\HisWCFSVR\MediInfoHis.svc.cs:行号 33</ERRMSGEX></Biz_OUT>
+2015-03-18 12:40:58,667 -[8B9265B77AAF42C4AEC1E62D7D0C0C00][HKC.Biz.DISP_START].IN  <DISP_START_IN>
+<pharmacyid></pharmacyid>
+<DISP_START_INkey>DISP_START</DISP_START_INkey>
+</DISP_START_IN>
+
+2015-03-18 12:40:58,958 -[8B9265B77AAF42C4AEC1E62D7D0C0C00][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><DISP_START_OUT><ResultCode>0</ResultCode><ResultContent>成功</ResultContent></DISP_START_OUT>
+2015-03-18 12:42:09,268 -[B9B3DC63A8304C9EA1F5EC0411D17D7A][HKC.Biz.DISP_START].IN  <DISP_START_IN>
+<pharmacyid></pharmacyid>
+<DISP_START_INkey>DISP_START</DISP_START_INkey>
+</DISP_START_IN>
+
+2015-03-18 12:42:09,307 -[B9B3DC63A8304C9EA1F5EC0411D17D7A][HKC.Biz.DISP_START].OUT <?xml version="1.0" encoding="utf-8"?><DISP_START_OUT><ResultCode>-1</ResultCode><ResultContent>this is a test</ResultContent></DISP_START_OUT>

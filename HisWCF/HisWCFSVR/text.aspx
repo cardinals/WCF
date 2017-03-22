@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="text.aspx.cs" Inherits="HisWCFSVR.text" %>

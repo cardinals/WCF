@@ -1,0 +1,14 @@
+2015-01-27 15:01:44,893 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '5030095114'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2015-01-27 15:02:31,391 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '5030095114'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+

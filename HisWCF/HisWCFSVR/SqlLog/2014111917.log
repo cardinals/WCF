@@ -1,0 +1,731 @@
+2014-11-19 17:06:27,599 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '1921205798'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:06:31,978 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '1921205798'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:06:37,460 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '111'
+
+
+2014-11-19 17:06:42,690 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-19 17:06:42,697 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-19 17:06:42,882 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:06:42,890 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-19 17:06:45,561 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19')
+  Where ('1' = '0' Or Sjlb = '1')
+  And ('111' = '*' Or Ksdm = '111')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-19 17:06:47,775 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '111'
+   And (nvl(Ysgh,'*') = '*')
+   And (('1' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('1' = '1' And Nvl(Swjsh, 0) < 0) Or ('1' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-19 17:06:48,546 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-19 17:06:48,560 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-19 17:06:48,569 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:06:48,576 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-19 17:06:48,582 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-19 17:06:48,593 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-19 17:06:49,333 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-19','yyyy-mm-dd') and to_date('2014-11-19 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '111'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-19 17:06:54,437 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 234551
+
+
+2014-11-19 17:06:54,448 -
+　update gh_mzpbk set swdqh=swdqh+1 where jlxh = 234551
+
+
+2014-11-19 17:06:54,458 -
+    select swdqh dqh,swjsh sxwjsh,swjsh-swdqh+swths sxwdqh from gh_mzpbk where jlxh=234551
+
+
+2014-11-19 17:06:54,464 -
+Select *
+  From gy_xtcs
+ Where xtxh = '24'
+ and csmc = 'GHXHMS'
+
+
+2014-11-19 17:06:54,472 -
+    select * 
+    FROM GH_MZYYK
+  WHERE to_char(yyrq1,'yyyy-MM-dd') = to_char(sysdate,'yyyy-MM-dd')
+    and nvl(zt,0) <> -1
+    and nvl(ysgh,'*') = '*'
+    and mzlbxh = 1
+    and ('111' = '*' or ksdm = '111')
+    and ghxh = 3
+    
+
+
+2014-11-19 17:06:54,481 -select yydm from gy_hospital_v
+
+2014-11-19 17:06:54,486 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-19 17:06:54,493 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-19 17:06:54,498 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_GHK'
+
+
+2014-11-19 17:06:54,504 -
+ UPDATE GY_xhb SET dqz = dqz + 1  where BM='YJ_YJK1'
+
+
+2014-11-19 17:06:54,511 -
+    Select dqz from GY_xhb where BM='YJ_YJK1'
+
+
+2014-11-19 17:06:54,516 -select yydm from gy_hospital_v
+
+2014-11-19 17:06:54,522 -
+Select *
+  From gy_xtcs
+ Where xtxh = '0'
+ and csmc = 'MZXHB_SEQU'
+
+
+2014-11-19 17:06:54,528 -
+UPDATE GY_xhb SET dqz = dqz + zz 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-19 17:06:54,534 -
+SELECT dqz  FROM GY_xhb 
+	WHERE  bm = 'GH_MZYYK'
+
+
+2014-11-19 17:36:30,727 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '18989475192'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:36:35,125 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '18989475192'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:36:35,175 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '133'
+
+
+2014-11-19 17:36:35,184 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-19 17:36:35,192 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-19 17:36:35,198 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:36:35,203 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-19 17:36:35,209 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19')
+  Where ('2' = '0' Or Sjlb = '2')
+  And ('133' = '*' Or Ksdm = '133')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-19 17:36:35,218 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '133'
+   And (nvl(Ysgh,'*') = '')
+   And (('2' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('2' = '1' And Nvl(Swjsh, 0) < 0) Or ('2' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-19 17:36:35,241 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-19 17:36:35,253 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-19 17:36:35,260 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:36:35,273 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-19 17:36:35,280 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-19 17:36:35,292 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-19 17:36:35,313 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-19','yyyy-mm-dd') and to_date('2014-11-19 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '133'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-19 17:36:35,330 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 234559
+
+
+2014-11-19 17:37:13,543 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '18989475192'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:37:13,565 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '18989475192'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:37:17,682 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '133'
+
+
+2014-11-19 17:37:21,508 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-19 17:37:21,524 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-19 17:37:22,205 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:37:22,214 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-19 17:37:25,347 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19')
+  Where ('2' = '0' Or Sjlb = '2')
+  And ('133' = '*' Or Ksdm = '133')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-19 17:37:28,184 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '133'
+   And (nvl(Ysgh,'*') = '')
+   And (('2' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('2' = '1' And Nvl(Swjsh, 0) < 0) Or ('2' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-19 17:37:29,141 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-19 17:37:29,171 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-19 17:37:29,179 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:37:29,186 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-19 17:37:29,197 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-19 17:37:29,208 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-19 17:37:33,640 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-19','yyyy-mm-dd') and to_date('2014-11-19 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '133'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-19 17:37:35,800 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 234559
+
+
+2014-11-19 17:41:41,279 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '18989475192'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:41:41,397 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '18989475192'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:41:43,418 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '133'
+
+
+2014-11-19 17:41:43,432 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-19 17:41:43,439 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-19 17:41:43,450 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:41:43,463 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-19 17:41:43,475 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19')
+  Where ('2' = '0' Or Sjlb = '2')
+  And ('133' = '*' Or Ksdm = '133')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-19 17:41:43,486 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '133'
+   And (nvl(Ysgh,'*') = '')
+   And (('2' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('2' = '1' And Nvl(Swjsh, 0) < 0) Or ('2' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-19 17:41:43,513 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-19 17:41:43,521 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-19 17:41:43,547 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:41:43,563 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-19 17:41:43,575 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-19 17:41:43,589 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-19 17:41:43,598 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-19','yyyy-mm-dd') and to_date('2014-11-19 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '133'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-19 17:41:43,608 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 234559
+
+
+2014-11-19 17:41:43,617 -
+　　　　UPDATE GY_xhb SET dqz = dqz + zz WHERE bm = 'MZ_MZSFK1'
+
+
+2014-11-19 17:53:14,611 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '18989475192'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:53:14,979 -
+SELECT *  FROM Gy_Brjbxxk
+	WHERE  Jzkh = '18989475192'
+    And  Nvl(zfpb,0) = 0
+    And RowNum = 1
+
+
+2014-11-19 17:53:17,333 -
+SELECT *  FROM Gy_Ksdm
+	WHERE  Ksdm = '133'
+
+
+2014-11-19 17:53:17,363 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-11-19 17:53:17,375 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-11-19 17:53:17,389 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:53:17,399 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PTZJZSJ'
+
+
+2014-11-19 17:53:17,410 -
+  Select Distinct Jlxh, Ksdm, Ysgh, Mzlbxh, Sjlb
+    From (Select Jlxh, 1 Sjlb, Ksdm, Mzlbxh, nvl(Ysgh,'*') ysgh
+            From Gh_Mzpbk
+            Where Nvl(Swjsh, 0) >= 0
+              --And Ysgh Is Not Null
+            And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19'
+          Union All
+          Select Jlxh, 2 Sjlb, Ksdm, Mzlbxh, Ysgh
+          From Gh_Mzpbk
+          Where Nvl(Xwjsh, 0) >= 0
+          --And Ysgh Is Not Null
+          And To_Char(Rq, 'yyyy-mm-dd') = '2014-11-19')
+  Where ('2' = '0' Or Sjlb = '2')
+  And ('133' = '*' Or Ksdm = '133')
+  And ( '*' = '*' and mzlbxh = 1 or ysgh <> '*' and Ysgh = '*')
+  Order By Jlxh
+
+
+2014-11-19 17:53:17,418 -
+  Select Jlxh
+  From Gh_Mbzhgl
+ Where Xq =
+       Decode(To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1,
+              0,
+              7,
+              To_Number(To_Char(To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS'), 'd')) - 1)
+   And To_Date('2014-11-19', 'yyyy-mm-dd HH24:MI:SS') Between Ksrq And Jsrq
+   And Ksdm = '133'
+   And (nvl(Ysgh,'*') = '')
+   And (('2' = '0' And Nvl(Swjsh, 0) < 0 And Nvl(Xwjsh, 0) < 0) Or
+       ('2' = '1' And Nvl(Swjsh, 0) < 0) Or ('2' = '2' And Nvl(Xwjsh, 0) < 0))
+   And Nvl(Zfpb, 0) <> 1
+   
+
+
+2014-11-19 17:53:17,437 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SAT'
+
+
+2014-11-19 17:53:17,447 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SUN'
+
+
+2014-11-19 17:53:17,455 -
+    select count(*) jjr from mz_jjr where to_char(rq,'YYYY-MM-DD') = '2014-11-19'
+
+
+2014-11-19 17:53:17,466 -
+Select *      
+  From Gh_Mzlbk
+ Where Mzlbxh = '1'
+
+
+2014-11-19 17:53:17,476 -
+Select *
+  From Gy_Ylsf
+ Where Ylxh = '36233'
+
+
+2014-11-19 17:53:17,515 -
+    select * from gh_mzlbk where ghf_ylxh='20001'and mzlbxh='1'
+
+
+2014-11-19 17:53:17,527 -
+Select Jlxh
+  From Gh_Mzpbk
+ Where Rq between to_date('2014-11-19','yyyy-mm-dd') and to_date('2014-11-19 23:59:59','yyyy-mm-dd hh24:mi:ss')
+   And Ksdm = '133'
+   And Nvl(Ysgh, '*') = '*'
+   And Mzlbxh = '1'
+   
+
+
+2014-11-19 17:53:17,538 -
+Select *
+  From Gh_Mzpbk
+ Where jlxh = 234559
+
+
+2014-11-19 17:53:17,557 -
+　　　　UPDATE GY_xhb SET dqz = dqz + zz WHERE bm = 'MZ_MZSFK1'
+
+

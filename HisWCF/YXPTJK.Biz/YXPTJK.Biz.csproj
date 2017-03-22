@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35F230C3-1F29-4591-8776-446E9DA7AAF3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YXPTJK.Biz</RootNamespace>
+    <AssemblyName>YXPTJK.Biz</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\HisWCFSVR\bin\YXPTJK\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YAOXIEHQDDMXXX.cs" />
+    <Compile Include="YAOXIEHQJKTYPJ.cs" />
+    <Compile Include="YAOXIEHQPSXX.cs" />
+    <Compile Include="YAOXIEHQQYXX.cs" />
+    <Compile Include="YAOXIEHQSPXX.cs" />
+    <Compile Include="YAOXIEHQTHXX.cs" />
+    <Compile Include="YAOXIEHQZBYPPSGX.cs" />
+    <Compile Include="YAOXIEPDPSQYSFCZ.cs" />
+    <Compile Include="YAOXIEPDYPSFCZ.cs" />
+    <Compile Include="YAOXIESH.cs" />
+    <Compile Include="YAOXIETH.cs" />
+    <Compile Include="YAOXIETJCGDD.cs" />
+    <Compile Include="YAOXIETJCGDDMX.cs" />
+    <Compile Include="YAOXIETJZFDD.cs" />
+    <Compile Include="YAOXIETJZFDDMX.cs" />
+    <Compile Include="YAOXIEXJCGDD.cs" />
+    <Compile Include="YAOXIEXJZFDD.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JYCS.Schemas\JYCS.Schemas.csproj">
+      <Project>{C1D1BB70-4FB0-4104-B1F4-CAE116EBE285}</Project>
+      <Name>JYCS.Schemas</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\YXPTJK.Schemas\YXPTJK.Schemas.csproj">
+      <Project>{18652429-17EB-42F9-8C08-28F0E0B7AE44}</Project>
+      <Name>YXPTJK.Schemas</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

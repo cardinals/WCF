@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;MENZHENJS_IN&gt;
+  &lt;BASEINFO&gt;
+    &lt;CAOZUOYDM&gt;DBA&lt;/CAOZUOYDM&gt;
+    &lt;CAOZUOYXM&gt;管理员&lt;/CAOZUOYXM&gt;
+    &lt;CAOZUORQ&gt;2012-07-07 15:01:51&lt;/CAOZUORQ&gt;
+    &lt;XITONGBS&gt;2&lt;/XITONGBS&gt;
+    &lt;FENYUANDM&gt;0&lt;/FENYUANDM&gt;
+  &lt;/BASEINFO&gt;
+  &lt;JIUZHENKH&gt;T1129114&lt;/JIUZHENKH&gt;
+  &lt;BINGRENLB&gt;55&lt;/BINGRENLB&gt;
+  &lt;BINGRENXZ&gt;&lt;/BINGRENXZ&gt;
+  &lt;YIBAOKLX&gt;&lt;/YIBAOKLX&gt;
+  &lt;YIBAOKMM&gt;&lt;/YIBAOKMM&gt;
+  &lt;YIBAOKXX&gt;&lt;/YIBAOKXX&gt;
+  &lt;YIBAOBRXX&gt;&lt;/YIBAOBRXX&gt;
+  &lt;YILIAOLB&gt;&lt;/YILIAOLB&gt;
+  &lt;JIESUANLB&gt;&lt;/JIESUANLB&gt;
+  &lt;HISBRXX&gt;T1129114%1%0%%%03217247%测试%1%%1992/1/1 0:00:00%1%%%%%%%0%0%%%%%%%&lt;/HISBRXX&gt;
+  &lt;JIBINGMX&gt;
+    &lt;JIBINGXX&gt;
+      &lt;JIBINGDM&gt;4&lt;/JIBINGDM&gt;
+      &lt;JIBINGICD /&gt;
+      &lt;JIBINGMC&gt;立位耐力检查&lt;/JIBINGMC&gt;
+      &lt;JIBINGMS /&gt;
+    &lt;/JIBINGXX&gt;
+  &lt;/JIBINGMX&gt;
+  &lt;FEIYONGMXTS&gt;14&lt;/FEIYONGMXTS&gt;
+  &lt;FEIYONGMX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;1&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;16415344&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;1&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;2&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;8809&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM&gt;822&lt;/XIANGMUCDDM&gt;
+      &lt;XIANGMUMC&gt;地奥司明片(爱脉朗)&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;2&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG&gt;500mg*30片&lt;/XIANGMUGG&gt;
+      &lt;XIANGMUJX&gt;1&lt;/XIANGMUJX&gt;
+      &lt;XIANGMUDW&gt;盒&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC&gt;施维雅（天津）制药有限公司&lt;/XIANGMUCDMC&gt;
+      &lt;BAOZHUANGSL&gt;1&lt;/BAOZHUANGSL&gt;
+      &lt;BAOZHUANGDW&gt;盒&lt;/BAOZHUANGDW&gt;
+      &lt;ZUIXIAOJLDW&gt;片&lt;/ZUIXIAOJLDW&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ /&gt;
+      &lt;ZHONGCAOYTS /&gt;
+      &lt;DANJIA&gt;65&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;65&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL&gt;1&lt;/DANCISL&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM&gt;1120100&lt;/KAIDANKSDM&gt;
+      &lt;KAIDANKSMC&gt;骨伤科&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM&gt;1851&lt;/KAIDANYSDM&gt;
+      &lt;KAIDANYSXM&gt;陈  健1&lt;/KAIDANYSXM&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;1&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;16415344&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;2&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;2&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;10865&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM&gt;458&lt;/XIANGMUCDDM&gt;
+      &lt;XIANGMUMC&gt;厄贝沙坦片(伊达力)&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;2&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG&gt;75mg*12片&lt;/XIANGMUGG&gt;
+      &lt;XIANGMUJX&gt;1&lt;/XIANGMUJX&gt;
+      &lt;XIANGMUDW&gt;盒&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC&gt;浙江海正药业股份有限公司&lt;/XIANGMUCDMC&gt;
+      &lt;BAOZHUANGSL&gt;1&lt;/BAOZHUANGSL&gt;
+      &lt;BAOZHUANGDW&gt;盒&lt;/BAOZHUANGDW&gt;
+      &lt;ZUIXIAOJLDW&gt;片&lt;/ZUIXIAOJLDW&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ /&gt;
+      &lt;ZHONGCAOYTS /&gt;
+      &lt;DANJIA&gt;16&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;16&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL&gt;1&lt;/DANCISL&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM&gt;1120100&lt;/KAIDANKSDM&gt;
+      &lt;KAIDANKSMC&gt;骨伤科&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM&gt;1851&lt;/KAIDANYSDM&gt;
+      &lt;KAIDANYSXM&gt;陈  健1&lt;/KAIDANYSXM&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;1&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;16415345&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;1&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;2&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;2644&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM&gt;401&lt;/XIANGMUCDDM&gt;
+      &lt;XIANGMUMC&gt;呋塞米片&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;2&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG&gt;20mg×100片&lt;/XIANGMUGG&gt;
+      &lt;XIANGMUJX&gt;1&lt;/XIANGMUJX&gt;
+      &lt;XIANGMUDW&gt;瓶&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC&gt;上海朝晖药业有限公司&lt;/XIANGMUCDMC&gt;
+      &lt;BAOZHUANGSL&gt;1&lt;/BAOZHUANGSL&gt;
+      &lt;BAOZHUANGDW&gt;瓶&lt;/BAOZHUANGDW&gt;
+      &lt;ZUIXIAOJLDW&gt;片&lt;/ZUIXIAOJLDW&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ /&gt;
+      &lt;ZHONGCAOYTS /&gt;
+      &lt;DANJIA&gt;5.20&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;5.20&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL&gt;1&lt;/DANCISL&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM&gt;1140800&lt;/KAIDANKSDM&gt;
+      &lt;KAIDANKSMC&gt;肿瘤外科&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM&gt;0390&lt;/KAIDANYSDM&gt;
+      &lt;KAIDANYSXM&gt;丁克峰&lt;/KAIDANYSXM&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;1&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;16415345&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;2&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;2&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;5667&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM&gt;1290&lt;/XIANGMUCDDM&gt;
+      &lt;XIANGMUMC&gt;柳氮磺吡啶栓&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;2&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG&gt;0.5g*6粒&lt;/XIANGMUGG&gt;
+      &lt;XIANGMUJX&gt;11&lt;/XIANGMUJX&gt;
+      &lt;XIANGMUDW&gt;盒&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC&gt;山西三九同达药业有限公司&lt;/XIANGMUCDMC&gt;
+      &lt;BAOZHUANGSL&gt;1&lt;/BAOZHUANGSL&gt;
+      &lt;BAOZHUANGDW&gt;盒&lt;/BAOZHUANGDW&gt;
+      &lt;ZUIXIAOJLDW&gt;粒&lt;/ZUIXIAOJLDW&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ /&gt;
+      &lt;ZHONGCAOYTS /&gt;
+      &lt;DANJIA&gt;21.60&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;21.60&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL&gt;1&lt;/DANCISL&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM&gt;1140800&lt;/KAIDANKSDM&gt;
+      &lt;KAIDANKSMC&gt;肿瘤外科&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM&gt;0390&lt;/KAIDANYSDM&gt;
+      &lt;KAIDANYSXM&gt;丁克峰&lt;/KAIDANYSXM&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;1&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;16415345&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;3&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;2&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;9476&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM&gt;1622&lt;/XIANGMUCDDM&gt;
+      &lt;XIANGMUMC&gt;头孢丙烯片(希能)&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;2&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG&gt;0.25g*4片&lt;/XIANGMUGG&gt;
+      &lt;XIANGMUJX&gt;1&lt;/XIANGMUJX&gt;
+      &lt;XIANGMUDW&gt;盒&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC&gt;南京亿华药业有限公司&lt;/XIANGMUCDMC&gt;
+      &lt;BAOZHUANGSL&gt;1&lt;/BAOZHUANGSL&gt;
+      &lt;BAOZHUANGDW&gt;盒&lt;/BAOZHUANGDW&gt;
+      &lt;ZUIXIAOJLDW&gt;片&lt;/ZUIXIAOJLDW&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ /&gt;
+      &lt;ZHONGCAOYTS /&gt;
+      &lt;DANJIA&gt;19.10&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;19.10&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL&gt;1&lt;/DANCISL&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM&gt;1140800&lt;/KAIDANKSDM&gt;
+      &lt;KAIDANKSMC&gt;肿瘤外科&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM&gt;0390&lt;/KAIDANYSDM&gt;
+      &lt;KAIDANYSXM&gt;丁克峰&lt;/KAIDANYSXM&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;1&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;16415345&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;4&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;2&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;7703&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM&gt;807&lt;/XIANGMUCDDM&gt;
+      &lt;XIANGMUMC&gt;普罗雌烯乳膏(更宝芬)&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;2&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG&gt;1% *15g&lt;/XIANGMUGG&gt;
+      &lt;XIANGMUJX&gt;12&lt;/XIANGMUJX&gt;
+      &lt;XIANGMUDW&gt;支&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC&gt;摩纳哥Laboratoire Theramex&lt;/XIANGMUCDMC&gt;
+      &lt;BAOZHUANGSL&gt;3&lt;/BAOZHUANGSL&gt;
+      &lt;BAOZHUANGDW&gt;支&lt;/BAOZHUANGDW&gt;
+      &lt;ZUIXIAOJLDW&gt;g&lt;/ZUIXIAOJLDW&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ /&gt;
+      &lt;ZHONGCAOYTS /&gt;
+      &lt;DANJIA&gt;61.60&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;3&lt;/SHULIANG&gt;
+      &lt;JINE&gt;184.80&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL&gt;3&lt;/DANCISL&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM&gt;1140800&lt;/KAIDANKSDM&gt;
+      &lt;KAIDANKSMC&gt;肿瘤外科&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM&gt;0390&lt;/KAIDANYSDM&gt;
+      &lt;KAIDANYSXM&gt;丁克峰&lt;/KAIDANYSXM&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;1&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;16415345&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;5&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;2&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;9708&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM&gt;1366&lt;/XIANGMUCDDM&gt;
+      &lt;XIANGMUMC&gt;(益宝疗)聚甲酚磺醛溶液&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;2&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG&gt;9g/25ml*1瓶&lt;/XIANGMUGG&gt;
+      &lt;XIANGMUJX&gt;18&lt;/XIANGMUJX&gt;
+      &lt;XIANGMUDW&gt;瓶&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC&gt;华北制药集团制剂有限公司&lt;/XIANGMUCDMC&gt;
+      &lt;BAOZHUANGSL&gt;1&lt;/BAOZHUANGSL&gt;
+      &lt;BAOZHUANGDW&gt;瓶&lt;/BAOZHUANGDW&gt;
+      &lt;ZUIXIAOJLDW&gt;瓶&lt;/ZUIXIAOJLDW&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ /&gt;
+      &lt;ZHONGCAOYTS /&gt;
+      &lt;DANJIA&gt;47.30&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;47.30&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL&gt;1&lt;/DANCISL&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM&gt;1140800&lt;/KAIDANKSDM&gt;
+      &lt;KAIDANKSMC&gt;肿瘤外科&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM&gt;0390&lt;/KAIDANYSDM&gt;
+      &lt;KAIDANYSXM&gt;丁克峰&lt;/KAIDANYSXM&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;0&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;1&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;8&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;0&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;31999&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM /&gt;
+      &lt;XIANGMUMC&gt;心包剥脱术&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;9&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG /&gt;
+      &lt;XIANGMUJX /&gt;
+      &lt;XIANGMUDW&gt;次&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC /&gt;
+      &lt;BAOZHUANGSL /&gt;
+      &lt;BAOZHUANGDW /&gt;
+      &lt;ZUIXIAOJLDW /&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ&gt;1&lt;/DANFUFBZ&gt;
+      &lt;ZHONGCAOYTS&gt;1&lt;/ZHONGCAOYTS&gt;
+      &lt;DANJIA&gt;1490&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;1490&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL /&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM /&gt;
+      &lt;KAIDANKSMC&gt;省血液内科专家&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM /&gt;
+      &lt;KAIDANYSXM /&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;0&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;1&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;9&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;0&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;35036&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM /&gt;
+      &lt;XIANGMUMC&gt;甘氨酰脯氨酸二肽氨基肽酶测定&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;10&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG /&gt;
+      &lt;XIANGMUJX /&gt;
+      &lt;XIANGMUDW&gt;项&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC /&gt;
+      &lt;BAOZHUANGSL /&gt;
+      &lt;BAOZHUANGDW /&gt;
+      &lt;ZUIXIAOJLDW /&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ&gt;1&lt;/DANFUFBZ&gt;
+      &lt;ZHONGCAOYTS&gt;1&lt;/ZHONGCAOYTS&gt;
+      &lt;DANJIA&gt;10&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;10&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL /&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM /&gt;
+      &lt;KAIDANKSMC&gt;省血液内科专家&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM /&gt;
+      &lt;KAIDANYSXM /&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;0&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;1&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;10&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;0&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;42991&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM /&gt;
+      &lt;XIANGMUMC&gt;起搏电极（圣犹达）1056T&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;38&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG /&gt;
+      &lt;XIANGMUJX /&gt;
+      &lt;XIANGMUDW&gt;根&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC /&gt;
+      &lt;BAOZHUANGSL /&gt;
+      &lt;BAOZHUANGDW /&gt;
+      &lt;ZUIXIAOJLDW /&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ&gt;1&lt;/DANFUFBZ&gt;
+      &lt;ZHONGCAOYTS&gt;1&lt;/ZHONGCAOYTS&gt;
+      &lt;DANJIA&gt;11755&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;11755&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL /&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM /&gt;
+      &lt;KAIDANKSMC&gt;省血液内科专家&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM /&gt;
+      &lt;KAIDANYSXM /&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;0&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;1&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;11&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;0&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;32468&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM /&gt;
+      &lt;XIANGMUMC&gt;包皮环切术&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;9&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG /&gt;
+      &lt;XIANGMUJX /&gt;
+      &lt;XIANGMUDW&gt;次&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC /&gt;
+      &lt;BAOZHUANGSL /&gt;
+      &lt;BAOZHUANGDW /&gt;
+      &lt;ZUIXIAOJLDW /&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ&gt;1&lt;/DANFUFBZ&gt;
+      &lt;ZHONGCAOYTS&gt;1&lt;/ZHONGCAOYTS&gt;
+      &lt;DANJIA&gt;210&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;210&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL /&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM /&gt;
+      &lt;KAIDANKSMC&gt;省血液内科专家&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM /&gt;
+      &lt;KAIDANYSXM /&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;0&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;1&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;12&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;0&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;43078&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM /&gt;
+      &lt;XIANGMUMC&gt;除颤器（美敦力）D164VWC&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;38&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG /&gt;
+      &lt;XIANGMUJX /&gt;
+      &lt;XIANGMUDW&gt;台&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC /&gt;
+      &lt;BAOZHUANGSL /&gt;
+      &lt;BAOZHUANGDW /&gt;
+      &lt;ZUIXIAOJLDW /&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ&gt;1&lt;/DANFUFBZ&gt;
+      &lt;ZHONGCAOYTS&gt;1&lt;/ZHONGCAOYTS&gt;
+      &lt;DANJIA&gt;120100&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;120100&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL /&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM /&gt;
+      &lt;KAIDANKSMC&gt;省血液内科专家&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM /&gt;
+      &lt;KAIDANYSXM /&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;0&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;1&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;13&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;0&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;30874&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM /&gt;
+      &lt;XIANGMUMC&gt;外阴活检术&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;7&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG /&gt;
+      &lt;XIANGMUJX /&gt;
+      &lt;XIANGMUDW&gt;次&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC /&gt;
+      &lt;BAOZHUANGSL /&gt;
+      &lt;BAOZHUANGDW /&gt;
+      &lt;ZUIXIAOJLDW /&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ&gt;1&lt;/DANFUFBZ&gt;
+      &lt;ZHONGCAOYTS&gt;1&lt;/ZHONGCAOYTS&gt;
+      &lt;DANJIA&gt;20&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;20&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL /&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM /&gt;
+      &lt;KAIDANKSMC&gt;妇科&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM /&gt;
+      &lt;KAIDANYSXM /&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+    &lt;MENZHENFYXX&gt;
+      &lt;CHUFANGLX&gt;0&lt;/CHUFANGLX&gt;
+      &lt;CHUFANGXH&gt;1&lt;/CHUFANGXH&gt;
+      &lt;MINGXIXH&gt;14&lt;/MINGXIXH&gt;
+      &lt;FEIYONGLX&gt;0&lt;/FEIYONGLX&gt;
+      &lt;XIANGMUXH&gt;41822&lt;/XIANGMUXH&gt;
+      &lt;XIANGMUCDDM /&gt;
+      &lt;XIANGMUMC&gt;一次性阴道扩张器&lt;/XIANGMUMC&gt;
+      &lt;XIANGMUGL&gt;38&lt;/XIANGMUGL&gt;
+      &lt;XIANGMUGG /&gt;
+      &lt;XIANGMUJX /&gt;
+      &lt;XIANGMUDW&gt;只&lt;/XIANGMUDW&gt;
+      &lt;XIANGMUCDMC /&gt;
+      &lt;BAOZHUANGSL /&gt;
+      &lt;BAOZHUANGDW /&gt;
+      &lt;ZUIXIAOJLDW /&gt;
+      &lt;DANCIYL /&gt;
+      &lt;YONGLIANGDW /&gt;
+      &lt;MEITIANCS /&gt;
+      &lt;YONGYAOTS /&gt;
+      &lt;DANFUFBZ&gt;1&lt;/DANFUFBZ&gt;
+      &lt;ZHONGCAOYTS&gt;1&lt;/ZHONGCAOYTS&gt;
+      &lt;DANJIA&gt;1.20&lt;/DANJIA&gt;
+      &lt;SHULIANG&gt;1&lt;/SHULIANG&gt;
+      &lt;JINE&gt;1.20&lt;/JINE&gt;
+      &lt;ZIFEIJE /&gt;
+      &lt;ZILIJE /&gt;
+      &lt;SHENGPIBH /&gt;
+      &lt;ZIFEIBZ&gt;0&lt;/ZIFEIBZ&gt;
+      &lt;TESHUYYBZ&gt;0&lt;/TESHUYYBZ&gt;
+      &lt;DANCISL /&gt;
+      &lt;PINLVSZ /&gt;
+      &lt;KAIDANKSDM /&gt;
+      &lt;KAIDANKSMC&gt;妇科&lt;/KAIDANKSMC&gt;
+      &lt;KAIDANYSDM /&gt;
+      &lt;KAIDANYSXM /&gt;
+      &lt;ZIFUBL&gt;1&lt;/ZIFUBL&gt;
+    &lt;/MENZHENFYXX&gt;
+  &lt;/FEIYONGMX&gt;
+&lt;/MENZHENJS_IN&gt;</value>
+  </data>
+</root>

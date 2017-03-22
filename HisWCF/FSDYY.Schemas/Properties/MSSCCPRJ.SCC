@@ -1,0 +1,118 @@
+SCC = This is a Source Code Control file.
+
+[MediTrade.sln]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade
+
+[Mediinfo.Frame.IService.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/Mediinfo.Frame.IService
+
+[Mediinfo.Frame.Service.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/Mediinfo.Frame.Service
+
+[MediTrade.BaseEntity.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.BaseEntity
+
+[MediTrade.BLL.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.BLL
+
+[MediTrade.Common.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.Common
+
+[MediTrade.DataBase.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.DataBase
+
+[MediTrade.Entity.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.Entity
+
+[MediTrade.IBLL.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.IBLL
+
+[MediTrade.IServer.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.IServer
+
+[MediTrade.Resources.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.Resources
+
+[MediTrade.WCFClient.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WCFClient
+
+[MediTrade.WCFHost.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WCFHost
+
+[MediTrade.WCFHostLC.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WCFHost1
+
+[MediTrade.WCFHostDR.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WCFHostDR
+
+[MediTrade.WCFHostGGJK.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WCFHostGGJK
+
+[MediTrade.WCFHostKS.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WCFHostKS
+
+[MediTrade.WCFHostNT.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WCFHostNT
+
+[MediTrade.WCFHostYH.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WCFHostYH
+
+[MediTrade.WinForm.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WinForm
+
+[MediTrade.WinForms.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/MediTrade/MediTrade.WinForms
+
+[HisWCF.sln]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/服务平台/HisWCF
+
+[桐庐转诊客户端.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/服务平台/HisWCF
+
+[AUTOSERVICES.Biz.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/服务平台/HisWCF/AUTOSERVICES.Biz
+
+[BASE.Biz.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/服务平台/HisWCF/BASE.Biz
+
+[BASE.Schemas.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/服务平台/HisWCF/BASE.Schemas
+
+[Common.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/服务平台/HisWCF/Common
+
+[FSDYY.Biz.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/服务平台/HisWCF/FSDYY.Biz
+
+[FSDYY.Schemas.csproj]
+SCC_Aux_Path = 122.224.75.132:8888:杭嘉湖区域
+SCC_Project_Name = $/5.服务平台/3.HIS4.0/服务平台/HisWCF/FSDYY.Schemas
+

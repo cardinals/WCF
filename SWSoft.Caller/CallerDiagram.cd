@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SWSoft.Reflector.Iphlpapi" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>API\Iphlpapi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Reflector.Api.Kernel32" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQ4ABBABAEAAEACkAAwCAAQZAAAWogwwAgwAAyAAA=</HashCode>
+      <FileName>API\Kernel32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Api.User32" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAIAAEAAASAADAAAAAAAACAACCAAAgQgACA=</HashCode>
+      <FileName>API\User32.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Util" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAACAABAAkAFAA=</HashCode>
+      <FileName>Util.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.GZip" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABIAAAAABAAAAAAAACAAQAAAAAAAAAAAAAECACAAAA=</HashCode>
+      <FileName>Reflector\Compress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.GZipFileInfo" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAABQAiBAAAAAAAEAAAgBBAA=</HashCode>
+      <FileName>Reflector\Compress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.GZipResult" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAgAQAAAAAgAAABAAAAQAAQAAAAAIAAAIA=</HashCode>
+      <FileName>Reflector\Compress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Forms.HexEditor" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgiIQCHlxaBYCoCCWgQAQBCD0BIMQogCqCAISdYCWwA=</HashCode>
+      <FileName>Forms\HexEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Forms.ListViewBuffer" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\ListViewBuffer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.Connection" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABIAAgQCQACIEMIkgCAwASgCCCiGAAgAQAIAB5AgCA=</HashCode>
+      <FileName>Net\Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.DNSHeader" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAARAAhEAAIAgIQAAAAAAAAAAAAAAIABAAAAAIAAAA=</HashCode>
+      <FileName>Net\DNSHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.IPHeader" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgCAAAABAQAIAAAEAAAAAgBAAAAIABAAAAAgAAAAAAQ=</HashCode>
+      <FileName>Net\IPHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.MySocket" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABECAQAEQAAIAACAAAsBAAARAQIAAAAAAAAAA=</HashCode>
+      <FileName>Net\MySocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.SocketFilter" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAEAAQAAAAAAAAAAAAAABAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Net\MySocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.Pack" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAAAAAIAAAAAAABAABAAABAAIAAgAAAACAA=</HashCode>
+      <FileName>Net\Pack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.Tcp" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAIAAAAAEAAAAAAIAAAAAAAEAAAIAAgBAAAAAA=</HashCode>
+      <FileName>Net\Tcp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.Udp" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\Tcp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.TCPHeader" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAEAAAAAAAEAAgAAgDAAAAAABAAIAAEIAAAAAA=</HashCode>
+      <FileName>Net\TCPHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.UDPHeader" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAgBAAAAAABAAIAAAAAAAAAA=</HashCode>
+      <FileName>Net\UDPHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Net.WinSocket" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\WinSocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Reflector.Binarying&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reflector\Binarying.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Reflector.Code" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAQAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reflector\Code.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Reflector.CodeFile" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAgAAAAIAAAAAAABAAgAAAAAAAAICAABACQA=</HashCode>
+      <FileName>Reflector\CodeFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Reflector.DBHelp" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAAQBAAAAAAAGBABAAIAAEAAAAAAAAAQAAAgAgAAA=</HashCode>
+      <FileName>Reflector\DB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Reflector.Options" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Reflector\Options.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sw.AutoCode.Bll.WordDoc" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reflector\WordDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Framework.Procedure&lt;TModel&gt;" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAEEAAAAAIAAAAACAAAAAACAA=</HashCode>
+      <FileName>Framework\Procedure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Framework.DBVisitor&lt;TModel&gt;" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAIACAAiMAAJABBEAAAAAEAAAJCCAAAQAAAAA=</HashCode>
+      <FileName>Framework\DBVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SWSoft.Framework.Entry" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACABECAAAAAACAABAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Framework\Entry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="System.Net.WSABuffer" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\WSABuffer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="System.Net.WSAData" Collapsed="true">
+    <Position X="6.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgACAAAIAAAAAAAAAAAAAAAAgAQAEBAA=</HashCode>
+      <FileName>Net\WSAData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="SWSoft.Net.SocketConstructorFlags" Collapsed="true">
+    <Position X="6.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Net\WinSocket.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SWSoft.Reflector.CodeType" Collapsed="true">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Reflector\Code.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SWSoft.Reflector.SqlVersion" Collapsed="true">
+    <Position X="8.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAEBAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reflector\Options.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="SWSoft.Net.WSAStartup" Collapsed="true">
+    <Position X="8.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Net\WinSocket.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SWSoft.Net.WSARecv" Collapsed="true">
+    <Position X="6.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAgAAAEEIAAAAAAAAAA=</HashCode>
+      <FileName>Net\WinSocket.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="SWSoft.Net.Bind" Collapsed="true">
+    <Position X="5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAA=</HashCode>
+      <FileName>Net\WinSocket.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

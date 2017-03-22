@@ -1,0 +1,160 @@
+2014-12-19 08:43:36,501 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'ZZGHJYCKS'
+
+
+2014-12-19 08:44:41,748 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'ZZGHJYCKS'
+
+
+2014-12-19 08:44:42,532 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-12-19 08:44:42,602 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-12-19 08:44:42,636 -
+Select Ksdm, Ksmc, Nvl(Wz, Lc) Kswz, '' Ksjs
+  From Gy_Ksdm
+ Where Ksdm In (Select Distinct Ksdm
+                  From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Mzpbk
+                         Where Nvl(Swjsh, 0) >= 0
+                           And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-19'
+                        Union All
+                        Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Mzpbk
+                         Where Nvl(Xwjsh, 0) >= 0
+                           And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-19'
+                        Union All
+                        Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Yzpbk
+                         Where Nvl(Swjsh, 0) >= 0
+                           And Xq = decode(to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1)
+                        Union All
+                        Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Yzpbk
+                         Where Nvl(Xwjsh, 0) >= 0
+                           And Xq = decode(to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1))
+                 Where ('1' = '0' Or Yypb = '1')
+                   And ('2' = '0' Or Sjlb = '2')
+                    and mzlbxh in (1) ) 
+                   --And (' and mzlbxh in (1)' = '0' Or Mzlbxh >= ' and mzlbxh in (1)')) 
+Order By Ksdm
+
+
+2014-12-19 08:44:43,283 -
+Select Ksdm, Ksmc, Nvl(Wz, Lc) Kswz, '' Ksjs
+  From Gy_Ksdm
+ Where Ksdm In (Select Distinct Ksdm
+                  From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Mzpbk
+                         Where Nvl(Swjsh, 0) >= 0
+                           And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-19'
+                        Union All
+                        Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Mzpbk
+                         Where Nvl(Xwjsh, 0) >= 0
+                           And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-19'
+                        Union All
+                        Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Yzpbk
+                         Where Nvl(Swjsh, 0) >= 0
+                           And Xq = decode(to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1)
+                        Union All
+                        Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Yzpbk
+                         Where Nvl(Xwjsh, 0) >= 0
+                           And Xq = decode(to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1))
+                 Where ('1' = '0' Or Yypb = '1')
+                   And ('2' = '0' Or Sjlb = '2')
+                    and mzlbxh in (3)and yypb=1  ) 
+                   --And (' and mzlbxh in (3)and yypb=1 ' = '0' Or Mzlbxh >= ' and mzlbxh in (3)and yypb=1 ')) 
+Order By Ksdm
+
+
+2014-12-19 08:44:43,347 -
+Select Ksdm, Ksmc, Nvl(Wz, Lc) Kswz, '' Ksjs
+  From Gy_Ksdm
+ Where Ksdm In (Select Distinct Ksdm
+                  From (Select 1 Yypb, 1 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Mzpbk
+                         Where Nvl(Swjsh, 0) >= 0
+                           And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-19'
+                        Union All
+                        Select 1 Yypb, 2 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Mzpbk
+                         Where Nvl(Xwjsh, 0) >= 0
+                           And To_Char(Rq, 'yyyy-mm-dd') = '2014-12-19'
+                        Union All
+                        Select 2 Yylb, 1 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Yzpbk
+                         Where Nvl(Swjsh, 0) >= 0
+                           And Xq = decode(to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1)
+                        Union All
+                        Select 2 Yylb, 2 Sjlb, Ksdm, Mzlbxh
+                          From Gh_Yzpbk
+                         Where Nvl(Xwjsh, 0) >= 0
+                           And Xq = decode(to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1,0,7,to_number(to_char(to_date('2014-12-19','yyyy-mm-dd'),'d')) - 1))
+                 Where ('1' = '0' Or Yypb = '1')
+                   And ('2' = '0' Or Sjlb = '2')
+                    and mzlbxh in (4,5)and yypb=1  ) 
+                   --And (' and mzlbxh in (4,5)and yypb=1 ' = '0' Or Mzlbxh >= ' and mzlbxh in (4,5)and yypb=1 ')) 
+Order By Ksdm
+
+
+2014-12-19 08:45:17,842 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'ZZGHJYCKS'
+
+
+2014-12-19 08:45:18,273 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-12-19 08:45:18,344 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+
+2014-12-19 08:45:32,652 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'ZZGHJYCKS'
+
+
+2014-12-19 08:45:32,700 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'SXWSJ'
+
+
+2014-12-19 08:45:32,739 -
+Select *
+  From gy_xtcs
+ Where xtxh = '23'
+ and csmc = 'PBSJ'
+
+

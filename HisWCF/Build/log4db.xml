@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log4db>
+  <!-- 1启用 0 禁用 -->
+  <enable>1</enable>
+  <!-- 对应connectionStrings 的数据库配置名  -->
+  <connect>sqlite</connect>
+  <!-- 保存错误信息的SQL语句 -->
+  <insql>insert into [loginfo] values('{5}',datetime('now','localtime'),{0},'{1}','{2}','{3}','{4}')</insql>
+  <!-- 1 调试 2 试运行 3 正式运行 -->
+  <runlevel>1</runlevel>
+</log4db>

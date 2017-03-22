@@ -1,0 +1,5 @@
+﻿enabledymc 启用动态更新Sqlite日志的异常将不能定位到源代码位置
+xmlovveride xml重写文件位置
+sqlite 异常日志数据库文件位置
+yinyipt 银医平台地址
+SIIMURL 医保平台地址

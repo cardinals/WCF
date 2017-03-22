@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="http://166.1.2.59:8080/HkcZnpf/services/IHkcInterface" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://166.1.2.59:8080/HkcZnpf/services/IHkcInterface" targetNamespace="http://166.1.2.59:8080/HkcZnpf/services/IHkcInterface" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://166.1.2.59:8080/HkcZnpf/services/IHkcInterface">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:complexType name="ArrayOf_xsd_string">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="xsd:string[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="mainRequest">
+    <wsdl:part name="args" type="impl:ArrayOf_xsd_string" />
+  </wsdl:message>
+  <wsdl:message name="sendToHkcResponse">
+    <wsdl:part name="sendToHkcReturn" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="sendToHkcRequest">
+    <wsdl:part name="code" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="mainResponse" />
+  <wsdl:portType name="IHkcInterface">
+    <wsdl:operation name="main" parameterOrder="args">
+      <wsdl:input name="mainRequest" message="impl:mainRequest" />
+      <wsdl:output name="mainResponse" message="impl:mainResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="sendToHkc" parameterOrder="code">
+      <wsdl:input name="sendToHkcRequest" message="impl:sendToHkcRequest" />
+      <wsdl:output name="sendToHkcResponse" message="impl:sendToHkcResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IHkcInterfaceSoapBinding" type="impl:IHkcInterface">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="main">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="mainRequest">
+        <wsdlsoap:body use="encoded" namespace="http://XInterface.hkcsoft.hkc.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="mainResponse">
+        <wsdlsoap:body use="encoded" namespace="http://166.1.2.59:8080/HkcZnpf/services/IHkcInterface" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sendToHkc">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="sendToHkcRequest">
+        <wsdlsoap:body use="encoded" namespace="http://XInterface.hkcsoft.hkc.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="sendToHkcResponse">
+        <wsdlsoap:body use="encoded" namespace="http://166.1.2.59:8080/HkcZnpf/services/IHkcInterface" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IHkcInterfaceService">
+    <wsdl:port name="IHkcInterface" binding="impl:IHkcInterfaceSoapBinding">
+      <wsdlsoap:address location="http://166.1.2.59:8080/HkcZnpf/services/IHkcInterface" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

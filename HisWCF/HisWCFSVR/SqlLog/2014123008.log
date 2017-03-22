@@ -1,0 +1,31 @@
+2014-12-30 08:47:05,805 -
+    Select Jzkh,
+    Brlb,
+    Brxzdm,
+    Ybkh,
+    Zh,
+    Bah,
+    Xm,
+    Xb,
+    Mz,
+    Csrq,
+    '1' ZHENGJIANLX,
+    Sfzh,
+    '' DANWEILX,
+    Dwbh,
+    Dwmc,
+    Jtzz,
+    Ybryxz,
+    lxdh,
+    yinhangkh,
+    qianyuebz,
+    khbz,
+    ybryxx,
+    ybkxx,
+    v_accno,
+    bright,
+    empiid
+    From gy_brjbxxk ¡¡¡¡
+    Where Jzkh = 'A13270213' or Sfzh='A13270213'
+  
+

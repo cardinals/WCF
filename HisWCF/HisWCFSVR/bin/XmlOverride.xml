@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <!--人员信息入参-->
+  <item class="JYCS.Schemas.RENYUANXX_IN">
+    <property type="JYCS.Schemas.BASEINFO" name="ZHONGDUANJBH" overname="termno"></property>
+    <property type="JYCS.Schemas.BASEINFO" name="ZHONGDUANLSH" overname="jdseq"></property>
+    <property type="JYCS.Schemas.BASEINFO" name="MSGNO" overname="TRCODE"></property>
+    <property name="JIUZHENKLX" overname="acttype"></property>
+    <property name="JIUZHENKH" overname="actno"></property>
+    <property name="BINGRENLB" overname="brlb"></property>
+  </item>
+  <!--人员信息出参-->
+  <item class="JYCS.Schemas.RENYUANXX_OUT">
+    <property type="JYCS.Schemas.OUTMSG" name="ZHONGDUANJBH" overname="termno"></property>
+    <property type="JYCS.Schemas.OUTMSG" name="ZHONGDUANLSH" overname="jdseq"></property>
+    <property type="JYCS.Schemas.OUTMSG" name="MSGNO" overname="TRCODE"></property>
+    <property name="JIUZHENKH" overname="actno"></property>
+    <property name="BINGRENLB" overname="brlb"></property>
+    <property name="BINGRENXZ" overname="brtype"></property>
+    <property name="YIBAOKH" overname="medcardno"></property>
+    <property name="CHUSHENGRQ" overname="birthday"></property>
+    <property name="ZHENGJIANHM" overname="idno"></property>
+    <property name="JIATINGZZ" overname="addr"></property>
+    <property name="DANNIANZHYE" overname="sibalancenow"></property>
+    <property name="LINIANZHYE" overname="sibalancepast"></property>
+  </item>
+  <!--费用信息入参-->
+  <item class="JYCS.Schemas.MENZHENFYMX_IN">
+    <property type="JYCS.Schemas.BASEINFO" name="ZHONGDUANJBH" overname="termno"></property>
+    <property type="JYCS.Schemas.BASEINFO" name="ZHONGDUANLSH" overname="jdseq"></property>
+    <property type="JYCS.Schemas.BASEINFO" name="MSGNO" overname="TRCODE"></property>
+    <property name="JIUZHENKLX" overname="acttype"></property>
+    <property name="JIUZHENKH" overname="actno"></property>
+    <property name="BINGRENLB" overname="brlb"></property>
+    <property name="BINGRENXZ" overname="brtype"></property>
+  </item>
+  <!--费用信息出参-->
+  <item class="JYCS.Schemas.MENZHENFYMX_OUT">
+    <property type="JYCS.Schemas.OUTMSG" name="ZHONGDUANJBH" overname="termno"></property>
+    <property type="JYCS.Schemas.OUTMSG" name="ZHONGDUANLSH" overname="jdseq"></property>
+    <property type="JYCS.Schemas.OUTMSG" name="MSGNO" overname="TRCODE"></property>
+  </item>
+  <!--预结算入参-->
+  <item class="JYCS.Schemas.MENZHENYJS_IN">
+    <property type="JYCS.Schemas.BASEINFO" name="ZHONGDUANJBH" overname="termno"></property>
+    <property type="JYCS.Schemas.BASEINFO" name="ZHONGDUANLSH" overname="jdseq"></property>
+    <property type="JYCS.Schemas.BASEINFO" name="MSGNO" overname="TRCODE"></property>
+    <property name="JIUZHENKLX" overname="acttype"></property>
+    <property name="JIUZHENKH" overname="actno"></property>
+    <property name="BINGRENLB" overname="brlb"></property>
+    <property name="BINGRENXZ" overname="brtype"></property>
+  </item>
+  <!--预结算出参-->
+  <item class="JYCS.Schemas.MENZHENYJS_OUT">
+    <property type="JYCS.Schemas.OUTMSG" name="ZHONGDUANJBH" overname="termno"></property>
+    <property type="JYCS.Schemas.OUTMSG" name="ZHONGDUANLSH" overname="jdseq"></property>
+    <property type="JYCS.Schemas.OUTMSG" name="MSGNO" overname="TRCODE"></property>
+  </item>
+  <!--结算入参-->
+  <item class="JYCS.Schemas.MENZHENJS_IN">
+    <property type="JYCS.Schemas.BASEINFO" name="ZHONGDUANJBH" overname="termno"></property>
+    <property type="JYCS.Schemas.BASEINFO" name="ZHONGDUANLSH" overname="jdseq"></property>
+    <property type="JYCS.Schemas.BASEINFO" name="MSGNO" overname="TRCODE"></property>
+    <property name="JIUZHENKLX" overname="acttype"></property>
+    <property name="JIUZHENKH" overname="actno"></property>
+    <property name="BINGRENLB" overname="brlb"></property>
+    <property name="BINGRENXZ" overname="brtype"></property>
+    <property type="JYCS.Schemas.YINHANGJYXX" name="YINHANGKH" overname="bankno"></property>
+    <property type="JYCS.Schemas.YINHANGJYXX" name="YINHANGMM" overname="bankpwd"></property>
+    <property type="JYCS.Schemas.YINHANGJYXX" name="SHANGHUH" overname="mchntno"></property>
+    <property type="JYCS.Schemas.YINHANGJYXX" name="YINHANGKXX" overname="track3"></property>
+  </item>
+  <!--结算出参-->
+  <item class="JYCS.Schemas.MENZHENJS_OUT">
+    <property type="JYCS.Schemas.OUTMSG" name="ZHONGDUANJBH" overname="termno"></property>
+    <property type="JYCS.Schemas.OUTMSG" name="ZHONGDUANLSH" overname="jdseq"></property>
+    <property type="JYCS.Schemas.OUTMSG" name="MSGNO" overname="TRCODE"></property>
+  </item>
+
+<!--挂号号源入参-->
+  <item class="JYCS.Schemas.GUAHAOHYXX_IN">
+    <property name="YISHENGDM" overname="YISHENDM"></property>
+  </item>
+<!--挂号号源出参-->
+  <item class="JYCS.Schemas.GUAHAOHYXX_OUT">
+    <property type="JYCS.Schemas.HAOYUANXX" name="YISHENGDM" overname="YISHENDM"></property>
+  </item>
+
+<!--挂号处理入参-->
+  <item class="JYCS.Schemas.GUAHAOCL_IN">
+    <property name="YISHENGDM" overname="YISHENDM"></property>
+  </item>
+<!--挂号处理出参-->
+  <item class="JYCS.Schemas.GUAHAOCL_OUT">
+    <property name="YISHENGDM" overname="YISHENDM"></property>
+  </item>
+<!--挂号信息查询入参-->
+  <item class="JYCS.Schemas.GUAHAOXXCX_IN">
+    <property name="YISHENGDM" overname="YISHENDM"></property>
+  </item>
+<!--挂号信息查询出参-->
+  <item class="JYCS.Schemas.GUAHAOXXCX_OUT">
+    <property type="JYCS.Schemas.GUAHAOXX" name="YISHENGDM" overname="YISHENDM"></property>
+    <property type="JYCS.Schemas.GUAHAOXX" name="YISHENGXM" overname="YISHENXM"></property>
+  </item>
+<!--预约取号出参-->
+  <item class="JYCS.Schemas.GUAHAOYYQH_OUT">
+    <property name="YISHENGDM" overname="YISHENDM"></property>
+    <property name="YISHENGXM" overname="YISHENXM"></property>
+  </item>
+<!--查询诊室状态出参-->
+  <item class="JYCS.Schemas.CHAXUNZSZT_OUT">
+    <property type="JYCS.Schemas.ZHENSHIZTXX" name="YISHENGDM" overname="YISHENDM"></property>
+    <property type="JYCS.Schemas.ZHENSHIZTXX" name="YISHENGXM" overname="YISHENXM"></property>
+  </item>
+<!--挂号预约入参-->
+  <item class="JYCS.Schemas.GUAHAOYY_IN">
+    <property name="YISHENGDM" overname="YISHENDM"></property>
+  </item>
+</configuration>
